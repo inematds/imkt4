@@ -2,7 +2,7 @@
 
 **imkt4** — Fork independente do `timesmkt3 v4.5.4`. Cockpit web para o pipeline INEMA de geração de conteúdo social.
 
-Repositório: https://github.com/inematds/imkt4 (a pasta local segue `/home/nmaldaner/projetos/imkt3/` por inércia — só o nome do projeto/repo é `imkt4`).
+Repositório: https://github.com/inematds/imkt4. Pasta local: `/home/nmaldaner/projetos/imkt4/`.
 
 A interface principal é o **cockpit web** (`ui/`), não há bot Telegram ativo nesse fork. O pipeline subjacente (agentes, skills, knowledge) é herdado mas evolui de forma autônoma.
 
@@ -62,7 +62,7 @@ Detalhes por stage: `doc/manual-stage{1..5}-*.md`. Aprovações: `doc/pipeline-a
 
 **Worker próprio do imkt4 ainda não existe no PM2.** Sem ele, jobs ficam em "Aguardando" indefinidamente. Para iniciar:
 ```bash
-cd /home/nmaldaner/projetos/imkt3
+cd /home/nmaldaner/projetos/imkt4
 npx pm2 start pipeline/worker.js --name imkt4-worker --time && npx pm2 save
 ```
 
