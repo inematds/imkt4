@@ -1,8 +1,8 @@
 // ── Versão do cockpit: v3.RECURSO.BUG
 // RECURSO: incrementa a cada nova feature; BUG: incrementa a cada fix, NUNCA zera ao mudar RECURSO.
 // Só zera BUG quando MAJOR (3) muda. Atualizar aqui e em index.html (.brand-version) a cada mudança.
-const UI_VERSION = 'v3.8.0';
-document.title = `iMKT3 ${UI_VERSION}`;
+const UI_VERSION = 'v3.9.0';
+document.title = `iMKT4 ${UI_VERSION}`;
 
 const PLATFORM_OPTIONS = ['instagram', 'youtube', 'tiktok', 'facebook', 'threads', 'linkedin'];
 
@@ -1808,7 +1808,7 @@ function paintQueue() {
         </div>
         <div class="queue-meta-item">
           <span class="queue-meta-label">Worker</span>
-          <span class="queue-ok" title="Fila isolada — só consumida por worker do imkt3">isolada (imkt3)</span>
+          <span class="queue-ok" title="Fila isolada — só consumida por worker do imkt4">isolada (imkt4)</span>
         </div>
       </div>
       <div class="queue-counts">

@@ -259,7 +259,7 @@ function getQueue() {
   if (queueRef) return queueRef;
   try {
     const { Queue } = require('bullmq');
-    queueRef = new Queue('ai-content-pipeline-imkt3', {
+    queueRef = new Queue('ai-content-pipeline-imkt4', {
       connection: {
         host: process.env.UPSTASH_REDIS_ENDPOINT || 'localhost',
         port: 6379,
@@ -301,7 +301,7 @@ async function getQueueSnapshot(limit = 20) {
   });
   return {
     ok: true,
-    queueName: 'ai-content-pipeline-imkt3',
+    queueName: 'ai-content-pipeline-imkt4',
     redisHost: redisStatus.host,
     counts,
     jobs: {

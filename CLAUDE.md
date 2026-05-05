@@ -1,10 +1,12 @@
 ## Project Overview
 
-**imkt3** — Fork independente do `timesmkt3 v4.5.4`. Cockpit web para o pipeline INEMA de geração de conteúdo social.
+**imkt4** — Fork independente do `timesmkt3 v4.5.4`. Cockpit web para o pipeline INEMA de geração de conteúdo social.
+
+Repositório: https://github.com/inematds/imkt4 (a pasta local segue `/home/nmaldaner/projetos/imkt3/` por inércia — só o nome do projeto/repo é `imkt4`).
 
 A interface principal é o **cockpit web** (`ui/`), não há bot Telegram ativo nesse fork. O pipeline subjacente (agentes, skills, knowledge) é herdado mas evolui de forma autônoma.
 
-> ⚠️ **NUNCA tocar em `/home/nmaldaner/projetos/timesmkt3/`** — é o sistema legado em produção, com PM2 próprio. Qualquer arquivo dentro de `/imkt3/` é editável.
+> ⚠️ **NUNCA tocar em `/home/nmaldaner/projetos/timesmkt3/`** — é o sistema legado em produção, com PM2 próprio. Qualquer arquivo dentro desta pasta é editável.
 
 ---
 
@@ -25,7 +27,7 @@ Dois esquemas convivem:
 
 - **Stack:** Node `http` nativo (sem Express), frontend vanilla JS monolítico (`ui/public/app.js` ~2500 linhas)
 - **Porta:** 5177 (override via `TIMESMKT_UI_PORT`)
-- **PM2:** processo `ui`, `cwd=/imkt3/`, `script=ui/server.js`. Subir: `npx pm2 start ui/server.js --name ui --time && npx pm2 save`
+- **PM2:** processo `ui`, `cwd=` raiz do repo, `script=ui/server.js`. Subir: `npx pm2 start ui/server.js --name ui --time && npx pm2 save`
 
 ---
 
@@ -54,14 +56,14 @@ Detalhes por stage: `doc/manual-stage{1..5}-*.md`. Aprovações: `doc/pipeline-a
 
 ## Fila e runtime
 
-**BullMQ isolada:** `ai-content-pipeline-imkt3` (em `pipeline/queues.js:4`). **Nunca renomear para `ai-content-pipeline`** — esse é o do timesmkt3, e colidir faz outputs irem parar em `/timesmkt3/prj/`.
+**BullMQ isolada:** `ai-content-pipeline-imkt4` (em `pipeline/queues.js:4`). **Nunca renomear para `ai-content-pipeline`** — esse é o do timesmkt3, e colidir faz outputs irem parar em `/timesmkt3/prj/`.
 
 **Redis:** container Docker `redis` (alpine, porta 6379). Compartilhado com timesmkt3, segregação por nome de fila. Se `ECONNREFUSED 6379`: `docker start redis`.
 
-**Worker próprio do imkt3 ainda não existe no PM2.** Sem ele, jobs ficam em "Aguardando" indefinidamente. Para iniciar:
+**Worker próprio do imkt4 ainda não existe no PM2.** Sem ele, jobs ficam em "Aguardando" indefinidamente. Para iniciar:
 ```bash
 cd /home/nmaldaner/projetos/imkt3
-npx pm2 start pipeline/worker.js --name imkt3-worker --time && npx pm2 save
+npx pm2 start pipeline/worker.js --name imkt4-worker --time && npx pm2 save
 ```
 
 Nunca deixar 2 instâncias do mesmo processo PM2 — antes de `start`, conferir `npx pm2 list` e usar `restart` se já existe.
