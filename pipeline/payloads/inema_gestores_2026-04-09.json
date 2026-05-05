@@ -1,0 +1,73 @@
+{
+  "task_name": "gestores",
+  "task_date": "2026-04-09",
+  "business": "INEMA — Ecossistema de IA e Transformação Digital",
+  "description": "Campanha para gestores, empresários e profissionais sênior que sentem que estão correndo o tempo todo e ficando para trás. Problema: mercado mudou com IA, mas não têm tempo para cursos longos e técnicos. Solução: INEMA — cursos diretos, imersões presenciais e comunidade inema.vip para quem precisa se atualizar sem parar a vida.",
+
+  "script_content": "Hoje, muita gente sente que está correndo o tempo todo e, mesmo assim, ficando para trás. São gestores, empresários e profissionais que têm responsabilidade, pressão por resultado, família, compromissos e quase nenhum tempo sobrando. Ao mesmo tempo, o mercado mudou. A inteligência artificial, a automação e a nova dinâmica dos negócios estão mudando as regras do jogo.\n\nO problema é que essa pessoa sabe que precisa se atualizar, mas não consegue parar a vida para fazer cursos longos, técnicos e cansativos. Ela não quer teoria demais. Ela quer entender o que está acontecendo, o que isso muda no trabalho dela e como continuar sendo relevante.\n\nMuitos profissionais têm muito valor: conhecem o negócio, sabem decidir, têm atitude, experiência e visão. Mas a rotina antiga já não será a mesma. Parte do trabalho será automatizada, estruturas vão mudar e quem antes gerenciava pessoas também vai precisar aprender a lidar com tecnologia, inteligência artificial e agentes.\n\nÉ nesse ponto que o INEMA entra. O INEMA foi pensado para quem não tem tempo a perder e precisa aprender de forma simples, rápida e aplicável. No inema.club, os cursos online são diretos, resumidos e fáceis de entender, com visão de negócios e conhecimento técnico, tanto para quem não sabe nada quanto para quem já sabe muito e quer acelerar.\n\nAlém disso, o INEMA oferece imersões presenciais para uma transformação mais profunda e a comunidade inema.vip, onde o aprendizado continua com troca, atualização e conexão com outras pessoas que também estão vivendo essa mudança.\n\nO INEMA não é só conteúdo. É um caminho para ajudar as pessoas a não ficarem para trás.",
+
+  "simulate_uploads": false,
+  "dry_run": false,
+
+  "project_dir": "prj/inema",
+  "output_dir": "prj/inema/outputs/gestores_2026-04-09",
+
+  "platform_targets": ["instagram", "linkedin"],
+
+  "narrator": "bella",
+  "video_quick": false,
+  "video_pro": true,
+  "image_source": "api",
+
+  "video_template": "narrativo",
+
+  "skip_research": true,
+  "skip_image": true,
+  "skip_video": false,
+
+  "knowledge_files": [
+    "prj/inema/knowledge/brand_identity.md",
+    "prj/inema/knowledge/product_campaign.md",
+    "prj/inema/knowledge/platform_guidelines.md"
+  ],
+
+  "pipeline": {
+    "research": {
+      "enabled": false
+    },
+    "static_ad": {
+      "enabled": false
+    },
+    "carousel": {
+      "enabled": false
+    },
+    "video_ad": {
+      "enabled": true,
+      "mode": "pro",
+      "narrator": "bella",
+      "image_source": "api",
+      "script_source": "script_content",
+      "pro": {
+        "duration": "45-60s",
+        "style": "cinematic",
+        "framework": "PAS",
+        "focus": "problema (correndo o tempo todo, ficando para trás) → agitação (mercado mudou, IA chegou, não há tempo para cursos longos) → solução (INEMA: direto, simples, aplicável — inema.club, imersões, comunidade inema.vip)"
+      }
+    },
+    "copywriting": {
+      "enabled": true,
+      "inputs": {
+        "campaign_angle": "Gestores e profissionais sênior que precisam se atualizar em IA sem parar a vida",
+        "topic": "transformação digital para líderes — IA, automação e o novo papel do gestor",
+        "key_benefit": "aprender de forma simples, rápida e aplicável — sem parar a vida",
+        "platforms": ["instagram", "linkedin"],
+        "cta_primary": "inema.club — o próximo passo",
+        "tone": "empático, urgente mas acolhedor, focado na dor do gestor sobrecarregado",
+        "language": "pt-BR"
+      }
+    },
+    "distribution": {
+      "enabled": false
+    }
+  }
+}

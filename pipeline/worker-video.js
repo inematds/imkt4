@@ -153,17 +153,27 @@ function createWorkerVideoHandlers({
       image_source: rawImageSource = 'brand',
       image_background_color = null,
     } = job.data;
+    const quickNarrator = job.data.quick_narrator || job.data.narrator || 'rachel';
+    const quickTtsProvider = job.data.quick_tts_provider || tts_provider;
+    const quickVideoAudio = job.data.quick_video_audio || video_audio;
+    const quickExistingNarrationFile = job.data.quick_existing_narration_file || existing_narration_file;
+    const quickDuration = Math.max(10, Math.min(60, Number(job.data.quick_duration || 18)));
+    const quickHoldSeconds = Math.max(0, Math.min(10, Number(job.data.quick_hold_seconds || 3)));
+    const quickNarrationSeconds = Math.max(5, Math.min(quickDuration, Number(job.data.quick_narration_seconds || Math.max(quickDuration - quickHoldSeconds, 10))));
+    const quickNarrationWords = Math.max(10, Number(job.data.quick_narration_words || Math.round(quickNarrationSeconds * 2.8)));
+    const quickSceneCount = Math.max(3, Math.min(12, Number(job.data.quick_scene_count || 6)));
+    const quickNarrationSource = job.data.quick_narration_source || 'narrative_short';
     const quickModel = quick_mode === 'enxuto' ? 'haiku' : 'sonnet';
     const solidBackgroundColor = rawImageSource === 'solid' ? (image_background_color || '#0D0D0D') : null;
     const image_source = rawImageSource;
-    const selectedTtsProvider = normalizeTtsProvider(tts_provider);
+    const selectedTtsProvider = normalizeTtsProvider(quickTtsProvider);
     const hasNarrationProvider = selectedTtsProvider
       ? hasConfiguredTtsProvider(selectedTtsProvider)
       : hasAnyTtsProvider();
     const ttsProviderLabel = selectedTtsProvider || 'auto-fallback';
     const absVideoDir = path.resolve(projectRoot, output_dir, 'video');
     fs.mkdirSync(absVideoDir, { recursive: true });
-    log(output_dir, 'video_quick', `Quick mode: ${quick_mode} | Claude model: ${quickModel} | TTS: ${ttsProviderLabel}`);
+    log(output_dir, 'video_quick', `Quick mode: ${quick_mode} | duration: ${quickDuration}s | voice: ${quickNarrator} | TTS: ${ttsProviderLabel}`);
 
     if (job.data.skip_completed) {
       const videoDir = path.resolve(projectRoot, output_dir, 'video');
@@ -207,16 +217,23 @@ function createWorkerVideoHandlers({
       }
     }
 
+    const quickSourceInstruction = {
+      narrative_short: 'Read narrative.json, then rewrite video_narration into a short punchy Quick script.',
+      copywriter_video_narration: 'Use narrative.json -> video_narration as the base, but compress it for Quick.',
+      creative_brief: 'Use creative_brief.json + brand_identity.md as the base for a fresh short Quick script.',
+      manual_existing: 'Prefer the existing narration file when provided; otherwise create a short Quick script.',
+    }[quickNarrationSource] || 'Read narrative.json, then rewrite video_narration into a short punchy Quick script.';
+
     const audioInstructions = hasNarrationProvider ? `
 NARRATION (optional — TTS available via ${ttsProviderLabel}):
-- Read narrative.json → video_narration field
-- Write a SHORT narration script — MAXIMUM 15-20 SECONDS of speech (~40-50 words for pt-BR)
-- This is a QUICK video (10-20s total) — the narration must be brief, punchy, and fit within the video duration
-- Do NOT reuse the pro narration script (it's 60s) — write a NEW shorter script
-- Generate audio: node pipeline/generate-audio.js ${output_dir}/audio/${task_name}_quick_narration.mp3 "<short_script>" ${job.data.narrator || 'rachel'}${selectedTtsProvider ? ` --provider ${selectedTtsProvider}` : ''}
-- IMPORTANT: Use the SAME voice as the pro video (${job.data.narrator || 'rachel'}) — consistency matters
+- Source rule: ${quickSourceInstruction}
+- Write a SHORT narration script — target ${quickNarrationSeconds} seconds of speech (~${quickNarrationWords} words for pt-BR)
+- This is a QUICK video (${quickDuration}s total) — the narration must be brief, punchy, and fit within the video duration
+- Do NOT reuse the pro narration script as-is — create a short Quick version
+- Generate audio: node pipeline/generate-audio.js ${output_dir}/audio/${task_name}_quick_narration.mp3 "<short_script>" ${quickNarrator}${selectedTtsProvider ? ` --provider ${selectedTtsProvider}` : ''}
+- Voice: ${quickNarrator} — use this EXACT Quick voice
 - Set "narration_file" in the scene plan to the generated path
-- The video_length MUST match the narration duration (10-20s)` : `
+- The video_length MUST be ${quickDuration}s, including ${quickHoldSeconds}s final silent hold` : `
 NARRATION: no TTS provider configured. Generate silent video — text overlays only.`;
 
     const musicInstructions = musicFiles.length > 0 ? `
@@ -249,11 +266,11 @@ ${musicInstructions}
 STEP 3 — Create scene plan for EACH video. Save to ${output_dir}/video/${task_name}_video_0N_scene_plan.json:
 {
   "titulo": "short title",
-  "video_length": 15,
+  "video_length": ${quickDuration},
   "format": "9:16",
   "width": 1080,
   "height": 1920,
-  "voice": "${job.data.narrator || 'rachel'}",
+  "voice": "${quickNarrator}",
   "narration_file": "path or null",
   "narration_volume": 1,
   "music": "path or null",
@@ -281,8 +298,8 @@ STEP 3 — Create scene plan for EACH video. Save to ${output_dir}/video/${task_
 
 RULES:
 - Use ONLY images from ads/ listed above — never generate or download new images
-- 5-7 scenes. Narration scenes total 10-17 seconds + FINAL 3s SILENT HOLD = 13-20s total
-- video_length MUST be 13-20 seconds (includes the silent hold)
+- ${quickSceneCount} scenes. Narration scenes total about ${quickNarrationSeconds}s + FINAL ${quickHoldSeconds}s SILENT HOLD = ${quickDuration}s total
+- video_length MUST be exactly ${quickDuration} seconds (includes the silent hold)
 - These carousel/ad images may have text in the center/body area
 - Each scene uses a DIFFERENT image
 - Motion: alternate between push-in, ken-burns-in, drift, breathe (never same 2x in a row)
@@ -293,10 +310,10 @@ CTA + HOLD — MANDATORY CLOSING (read brand_identity.md for brand URL):
 - SECOND-TO-LAST scene: the CTA scene — MUST include the brand URL in text_overlay
   Example for INEMA: text_overlay "INEMA.CLUB" or "ACESSE INEMA.CLUB"
   Duration: 3 seconds, narration must end with "Acesse [URL]"
-- LAST scene: SILENT HOLD — 3 seconds, narration: "" (empty), same CTA image
+- LAST scene: SILENT HOLD — ${quickHoldSeconds} seconds, narration: "" (empty), same CTA image
   text_overlay: brand URL again (e.g. "INEMA.CLUB"), big and centered
   This gives viewers time to absorb the brand name
-- Total structure: hook → content → proof → CTA (3s with narration) → HOLD (3s silent)
+- Total structure: hook → content → proof → CTA (with narration) → HOLD (${quickHoldSeconds}s silent)
 
 TYPOGRAPHY — MAGAZINE HEADLINE AT TOP (CRITICAL):
 - text_position: "top" default. Use "center" only when image has face at top. NEVER "bottom"
@@ -336,7 +353,7 @@ After saving scene plans, print exactly: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
 
     log(output_dir, 'video_quick', 'Rendering video(s)...');
 
-    if (video_audio !== 'none' && !existing_narration_file && !canProduceNarration(tts_provider)) {
+    if (quickVideoAudio !== 'none' && !quickExistingNarrationFile && !canProduceNarration(quickTtsProvider)) {
       log(output_dir, 'video_quick', `Audio required but no TTS provider is available for stage 3 (provider=${ttsProviderLabel}).`);
       markAudioMissing(projectRoot, output_dir, 'no_tts_provider');
       process.stdout.write(`[STAGE3_AUDIO_REQUIRED] ${output_dir} quick provider=${ttsProviderLabel}\n`);
@@ -345,8 +362,8 @@ After saving scene plans, print exactly: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
 
     for (let i = 1; i <= video_count; i++) {
       const idx = String(i).padStart(2, '0');
-      const explicitNarration = existing_narration_file
-        ? path.resolve(projectRoot, existing_narration_file)
+      const explicitNarration = quickExistingNarrationFile
+        ? path.resolve(projectRoot, quickExistingNarrationFile)
         : null;
       const planPath = path.resolve(projectRoot, output_dir, 'video', `${task_name}_video_${idx}_scene_plan.json`);
       if (explicitNarration && fs.existsSync(planPath) && fs.existsSync(explicitNarration)) {
@@ -359,15 +376,15 @@ After saving scene plans, print exactly: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
           log(output_dir, 'video_quick', `Could not attach existing narration for video ${idx}: ${err.message}`);
         }
       }
-      const narrationStatus = video_audio === 'none'
+      const narrationStatus = quickVideoAudio === 'none'
         ? { ok: true, reason: 'silent_mode', planPath: explicitNarration ? planPath : null }
         : ensureQuickNarration({
           projectRoot,
           output_dir,
           task_name,
           idx,
-          narrator: job.data.narrator || 'rachel',
-          ttsProvider: tts_provider,
+          narrator: quickNarrator,
+          ttsProvider: quickTtsProvider,
           log,
         });
       const effectivePlanPath = narrationStatus.planPath || planPath;
@@ -383,7 +400,7 @@ After saving scene plans, print exactly: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
         process.stdout.write(`[VIDEO_QUICK_AUDIO_MISSING] ${output_dir} video_${idx}\n`);
         return { status: 'failed', reason: `missing narration for quick video ${idx}: ${narrationStatus.reason}` };
       }
-      if (video_audio === 'none') {
+      if (quickVideoAudio === 'none') {
         log(output_dir, 'video_quick', `Silent quick mode enabled for video ${idx}.`);
       }
 
@@ -512,7 +529,7 @@ STEP 2 — Image source: ${providerNameVideo} API (images will be generated AFTE
 - The pipeline will generate one image per scene using your image_prompt + brand colors
 - Do NOT use generic descriptions — each image_prompt must match what is being said/shown in that scene`;
     } else if (image_source === 'free') {
-      const freeProvider = getFreeImageProvider();
+      const freeProvider = getFreeImageProvider(job.data.free_image_provider);
       if (freeProvider) {
         const authNote = freeProvider.authHeader
           ? `Header: ${freeProvider.authHeader}: ${freeProvider.key}`

@@ -140,9 +140,21 @@ async function getHealth() {
   });
 }
 
-async function generateImage(outputPath, prompt, model = DEFAULT_MODEL, aspectRatio = '1:1') {
+async function generateImage(outputPath, prompt, model = DEFAULT_MODEL, aspectRatio = '1:1', referenceImages = []) {
   const size = ASPECT_RATIO_SIZES[aspectRatio] || ASPECT_RATIO_SIZES['1:1'];
   const defaults = MODEL_DEFAULTS[model] || {};
+
+  // Encode reference images as base64 (flux2-klein accepts up to 3)
+  const images = [];
+  for (const refPath of (referenceImages || []).slice(0, 3)) {
+    if (!refPath) continue;
+    const abs = path.isAbsolute(refPath) ? refPath : path.resolve(refPath);
+    if (fs.existsSync(abs)) {
+      images.push(fs.readFileSync(abs).toString('base64'));
+    } else {
+      console.log(`[inemaimg] warning: reference image not found: ${abs}`);
+    }
+  }
 
   const body = {
     model,
@@ -151,9 +163,11 @@ async function generateImage(outputPath, prompt, model = DEFAULT_MODEL, aspectRa
     height: size.height,
     seed: Math.floor(Math.random() * 9999999),
     ...defaults,
+    ...(images.length > 0 ? { images } : {}),
   };
 
-  console.log(`[inemaimg] model=${model} quality=${FAST ? 'fast' : 'high'} ratio=${aspectRatio} (${size.width}x${size.height}) steps=${body.steps}`);
+  const refLabel = images.length > 0 ? ` refs=${images.length}` : '';
+  console.log(`[inemaimg] model=${model} quality=${FAST ? 'fast' : 'high'} ratio=${aspectRatio} (${size.width}x${size.height}) steps=${body.steps}${refLabel}`);
   console.log(`[inemaimg] prompt: ${prompt.slice(0, 120)}...`);
 
   const t0 = Date.now();

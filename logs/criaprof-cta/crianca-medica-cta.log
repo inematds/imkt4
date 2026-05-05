@@ -1,0 +1,1144 @@
+
+=== 2026-05-03T19:03:04.375Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3 A medicina mudou. E agora? Você foi a criança do kit médico. Estudou o corpo inteiro, virou médica, examinou milhares. Viu o filme virar raio-X digital, a ficha virar prontuário, a distância virar telemedicina. Agora a IA sugere diagnósticos. Você continua sendo a que cura com presença. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3 (voice rachel, 328 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3
+Provider: chatterbox-vc
+
+=== 2026-05-03T19:03:10.023Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3 /tmp/narr/whisper-criaprof-cta-prof-crianca-medica.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2352 [00:00<?, ?frames/s]100%|██████████| 2352/2352 [00:05<00:00, 453.58frames/s]100%|██████████| 2352/2352 [00:05<00:00, 453.56frames/s]
+[whisper] 54 palavras -> 14 chunks -> /tmp/narr/whisper-criaprof-cta-prof-crianca-medica.json
+
+=== 2026-05-03T19:03:25.581Z node render-criaprof-cta-916.js crianca-medica prof ===
+[criaprof-cta-916 crianca-medica/prof] hook="MEDICINA" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-prof-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/outputs/c0075-contadores_ia_automacao/audio/freesound_569920_Atmospheric_Ambient_Pad_128bpm_mp3.mp3':
+  Duration: 00:01:07.58, start: 0.025057, bitrate: 182 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 182 kb/s
+    Metadata:
+      encoder         : LAME3.99r
+    Side data:
+      replaygain: track gain - -6.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.57, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xb643533e3ea0] using SAR=1/1
+[libx264 @ 0xb643533e3ea0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xb643533e3ea0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xb643533e3ea0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-prof-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   61 fps= 51 q=26.0 size=       0kB time=00:00:04.38 bitrate=   0.1kbits/s speed=3.69x    frame=  183 fps=108 q=26.0 size=    1280kB time=00:00:08.49 bitrate=1233.9kbits/s speed=5.03x    frame=  331 fps=151 q=26.0 size=    2816kB time=00:00:13.42 bitrate=1718.9kbits/s speed=6.12x    frame=  486 fps=180 q=26.0 size=    4096kB time=00:00:18.59 bitrate=1804.1kbits/s speed=6.91x    frame=  621 fps=194 q=26.0 size=    5120kB time=00:00:23.05 bitrate=1819.1kbits/s speed=7.21x    frame=  761 fps=206 q=26.0 size=    6144kB time=00:00:27.74 bitrate=1813.9kbits/s speed= 7.5x    frame=  908 fps=215 q=23.0 size=    7168kB time=00:00:32.64 bitrate=1798.6kbits/s speed=7.74x    [mp4 @ 0xb643533e2ea0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb643533e2d30] video:7052kB audio:882kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.511976%
+frame= 1110 fps=231 q=-1.0 Lsize=    7975kB time=00:00:36.98 bitrate=1766.1kbits/s speed=7.71x    
+[libx264 @ 0xb643533e3ea0] frame I:6     Avg QP:12.04  size:102781
+[libx264 @ 0xb643533e3ea0] frame P:280   Avg QP:15.23  size: 16963
+[libx264 @ 0xb643533e3ea0] frame B:824   Avg QP:19.21  size:  2250
+[libx264 @ 0xb643533e3ea0] consecutive B-frames:  0.9%  0.2%  0.5% 98.4%
+[libx264 @ 0xb643533e3ea0] mb I  I16..4: 45.6% 45.0%  9.4%
+[libx264 @ 0xb643533e3ea0] mb P  I16..4:  1.8%  7.2%  1.3%  P16..4: 14.9%  3.2%  1.9%  0.0%  0.0%    skip:69.7%
+[libx264 @ 0xb643533e3ea0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.1%  0.4%  0.0%  direct: 0.3%  skip:81.2%  L0:53.4% L1:46.3% BI: 0.4%
+[libx264 @ 0xb643533e3ea0] 8x8 transform intra:65.1% inter:95.8%
+[libx264 @ 0xb643533e3ea0] coded y,uvDC,uvAC intra: 63.6% 63.1% 39.7% inter: 1.6% 4.0% 0.2%
+[libx264 @ 0xb643533e3ea0] i16 v,h,dc,p: 55% 21%  2% 21%
+[libx264 @ 0xb643533e3ea0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 20% 15%  5%  6%  7%  7%  7%  8%
+[libx264 @ 0xb643533e3ea0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 24% 14%  5%  8%  7%  7%  5%  4%
+[libx264 @ 0xb643533e3ea0] i8c dc,h,v,p: 47% 25% 21%  7%
+[libx264 @ 0xb643533e3ea0] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xb643533e3ea0] ref P L0: 80.4%  7.3%  8.0%  4.3%
+[libx264 @ 0xb643533e3ea0] ref B L0: 91.5%  7.2%  1.3%
+[libx264 @ 0xb643533e3ea0] ref B L1: 96.1%  3.9%
+[libx264 @ 0xb643533e3ea0] kb/s:1561.19
+[aac @ 0xb643533e5810] Qavg: 744.116
+[criaprof-cta-916 crianca-medica/prof] ✅ 7.8 MB em 5.3s
+
+=== 2026-05-03T19:03:30.953Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3 A sua profissão mudou. E agora? Você foi a criança do kit médico. Estudou o corpo inteiro, virou médica, examinou milhares. Viu o filme virar raio-X digital, a ficha virar prontuário, a distância virar telemedicina. Agora a IA sugere diagnósticos. Você continua sendo a que cura com presença. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3 (voice rachel, 333 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3
+Provider: chatterbox-vc
+
+=== 2026-05-03T19:03:35.578Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3 /tmp/narr/whisper-criaprof-cta-generic-crianca-medica.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2368 [00:00<?, ?frames/s]100%|██████████| 2368/2368 [00:05<00:00, 441.80frames/s]100%|██████████| 2368/2368 [00:05<00:00, 441.79frames/s]
+[whisper] 55 palavras -> 14 chunks -> /tmp/narr/whisper-criaprof-cta-generic-crianca-medica.json
+
+=== 2026-05-03T19:03:51.441Z node render-criaprof-cta-916.js crianca-medica generic ===
+[criaprof-cta-916 crianca-medica/generic] hook="SUA PROFISSÃO" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-generic-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/outputs/c0075-contadores_ia_automacao/audio/freesound_569920_Atmospheric_Ambient_Pad_128bpm_mp3.mp3':
+  Duration: 00:01:07.58, start: 0.025057, bitrate: 182 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 182 kb/s
+    Metadata:
+      encoder         : LAME3.99r
+    Side data:
+      replaygain: track gain - -6.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.74, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc8f137e5b160] using SAR=1/1
+[libx264 @ 0xc8f137e5b160] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc8f137e5b160] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xc8f137e5b160] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-generic-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   54 fps= 45 q=26.0 size=       0kB time=00:00:04.17 bitrate=   0.1kbits/s speed=3.45x    frame=  180 fps=105 q=26.0 size=    1280kB time=00:00:08.40 bitrate=1247.5kbits/s speed=4.91x    frame=  328 fps=148 q=26.0 size=    2816kB time=00:00:13.30 bitrate=1733.9kbits/s speed=6.01x    frame=  471 fps=174 q=26.0 size=    4096kB time=00:00:18.06 bitrate=1857.4kbits/s speed=6.66x    frame=  625 fps=194 q=26.0 size=    5120kB time=00:00:23.21 bitrate=1806.4kbits/s speed=7.22x    frame=  763 fps=205 q=26.0 size=    6144kB time=00:00:27.81 bitrate=1809.4kbits/s speed=7.49x    frame=  916 fps=217 q=26.0 size=    7168kB time=00:00:32.92 bitrate=1783.4kbits/s speed=7.81x    [mp4 @ 0xc8f137e5a160] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc8f137e59ff0] video:7048kB audio:881kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.512205%
+frame= 1110 fps=231 q=-1.0 Lsize=    7970kB time=00:00:36.98 bitrate=1765.0kbits/s speed= 7.7x    
+[libx264 @ 0xc8f137e5b160] frame I:6     Avg QP:11.59  size: 84795
+[libx264 @ 0xc8f137e5b160] frame P:280   Avg QP:14.99  size: 17338
+[libx264 @ 0xc8f137e5b160] frame B:824   Avg QP:18.93  size:  2249
+[libx264 @ 0xc8f137e5b160] consecutive B-frames:  1.0%  0.0%  0.3% 98.7%
+[libx264 @ 0xc8f137e5b160] mb I  I16..4: 50.2% 40.8%  9.0%
+[libx264 @ 0xc8f137e5b160] mb P  I16..4:  1.7%  7.2%  1.3%  P16..4: 15.0%  3.2%  1.9%  0.0%  0.0%    skip:69.8%
+[libx264 @ 0xc8f137e5b160] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.0%  0.4%  0.0%  direct: 0.3%  skip:81.3%  L0:53.4% L1:46.2% BI: 0.4%
+[libx264 @ 0xc8f137e5b160] 8x8 transform intra:65.3% inter:95.7%
+[libx264 @ 0xc8f137e5b160] coded y,uvDC,uvAC intra: 63.9% 63.6% 39.9% inter: 1.6% 4.0% 0.2%
+[libx264 @ 0xc8f137e5b160] i16 v,h,dc,p: 53% 22%  2% 23%
+[libx264 @ 0xc8f137e5b160] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 21% 15%  5%  6%  7%  7%  7%  8%
+[libx264 @ 0xc8f137e5b160] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 24% 14%  5%  8%  7%  7%  5%  4%
+[libx264 @ 0xc8f137e5b160] i8c dc,h,v,p: 47% 25% 21%  7%
+[libx264 @ 0xc8f137e5b160] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xc8f137e5b160] ref P L0: 80.3%  7.3%  8.2%  4.3%
+[libx264 @ 0xc8f137e5b160] ref B L0: 91.9%  6.9%  1.2%
+[libx264 @ 0xc8f137e5b160] ref B L1: 96.0%  4.0%
+[libx264 @ 0xc8f137e5b160] kb/s:1560.36
+[aac @ 0xc8f137e5cad0] Qavg: 746.913
+[criaprof-cta-916 crianca-medica/generic] ✅ 7.8 MB em 5.3s
+
+=== 2026-05-03T19:50:36.847Z node render-criaprof-cta-916.js crianca-medica prof ===
+[criaprof-cta-916 crianca-medica/prof] hook="MEDICINA" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-prof-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/outputs/c0075-contadores_ia_automacao/audio/freesound_569920_Atmospheric_Ambient_Pad_128bpm_mp3.mp3':
+  Duration: 00:01:07.58, start: 0.025057, bitrate: 182 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 182 kb/s
+    Metadata:
+      encoder         : LAME3.99r
+    Side data:
+      replaygain: track gain - -6.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-prof-crianca-medica.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.57, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc024b972a9a0] using SAR=1/1
+[libx264 @ 0xc024b972a9a0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc024b972a9a0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xc024b972a9a0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-prof-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   70 fps= 59 q=26.0 size=       0kB time=00:00:04.69 bitrate=   0.1kbits/s speed=3.94x    frame=  188 fps=111 q=26.0 size=    1280kB time=00:00:08.63 bitrate=1214.0kbits/s speed=5.11x    frame=  325 fps=148 q=26.0 size=    2816kB time=00:00:13.23 bitrate=1743.0kbits/s speed=6.04x    frame=  481 fps=179 q=26.0 size=    4096kB time=00:00:18.39 bitrate=1824.6kbits/s speed=6.83x    frame=  605 fps=190 q=26.0 size=    4864kB time=00:00:22.56 bitrate=1765.5kbits/s speed=7.07x    frame=  751 fps=203 q=26.0 size=    5888kB time=00:00:27.42 bitrate=1758.9kbits/s speed=7.43x    frame=  907 fps=216 q=26.0 size=    7168kB time=00:00:32.62 bitrate=1799.9kbits/s speed=7.78x    [mp4 @ 0xc024b97299a0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc024b9729830] video:7052kB audio:885kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.511748%
+frame= 1110 fps=230 q=-1.0 Lsize=    7978kB time=00:00:36.98 bitrate=1766.9kbits/s speed=7.67x    
+[libx264 @ 0xc024b972a9a0] frame I:6     Avg QP:12.05  size:102510
+[libx264 @ 0xc024b972a9a0] frame P:280   Avg QP:16.79  size: 16963
+[libx264 @ 0xc024b972a9a0] frame B:824   Avg QP:19.56  size:  2253
+[libx264 @ 0xc024b972a9a0] consecutive B-frames:  0.9%  0.2%  0.5% 98.4%
+[libx264 @ 0xc024b972a9a0] mb I  I16..4: 45.8% 45.0%  9.3%
+[libx264 @ 0xc024b972a9a0] mb P  I16..4:  1.9%  7.1%  1.3%  P16..4: 14.9%  3.2%  1.9%  0.0%  0.0%    skip:69.7%
+[libx264 @ 0xc024b972a9a0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.0%  0.4%  0.0%  direct: 0.3%  skip:81.3%  L0:53.4% L1:46.2% BI: 0.4%
+[libx264 @ 0xc024b972a9a0] 8x8 transform intra:64.8% inter:95.8%
+[libx264 @ 0xc024b972a9a0] coded y,uvDC,uvAC intra: 63.6% 63.0% 39.6% inter: 1.6% 4.0% 0.2%
+[libx264 @ 0xc024b972a9a0] i16 v,h,dc,p: 57% 20%  2% 21%
+[libx264 @ 0xc024b972a9a0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 20% 16%  5%  6%  7%  7%  7%  8%
+[libx264 @ 0xc024b972a9a0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 24% 14%  5%  8%  7%  7%  5%  4%
+[libx264 @ 0xc024b972a9a0] i8c dc,h,v,p: 47% 25% 21%  7%
+[libx264 @ 0xc024b972a9a0] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xc024b972a9a0] ref P L0: 80.4%  7.2%  8.0%  4.4%
+[libx264 @ 0xc024b972a9a0] ref B L0: 91.2%  7.4%  1.3%
+[libx264 @ 0xc024b972a9a0] ref B L1: 95.9%  4.1%
+[libx264 @ 0xc024b972a9a0] kb/s:1561.30
+[aac @ 0xc024b972c310] Qavg: 653.404
+[criaprof-cta-916 crianca-medica/prof] ✅ 7.8 MB em 5.3s
+
+=== 2026-05-03T19:50:42.185Z node render-criaprof-cta-916.js crianca-medica generic ===
+[criaprof-cta-916 crianca-medica/generic] hook="SUA PROFISSÃO" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-generic-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/crianca-medica_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/remotion-ad/public/audio/bgm_v1.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:22.05, start: 0.025057, bitrate: 128 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavf
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-generic-crianca-medica.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.74, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc45d37f0fd90] using SAR=1/1
+[libx264 @ 0xc45d37f0fd90] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc45d37f0fd90] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xc45d37f0fd90] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/crianca-medica_2026-05-03/video/crianca-medica-cta-generic-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   51 fps= 42 q=26.0 size=       0kB time=00:00:04.10 bitrate=   0.1kbits/s speed=3.42x    frame=  177 fps=104 q=26.0 size=    1024kB time=00:00:08.28 bitrate=1012.0kbits/s speed=4.87x    frame=  314 fps=142 q=26.0 size=    2560kB time=00:00:12.84 bitrate=1633.2kbits/s speed=5.82x    frame=  457 fps=169 q=26.0 size=    3840kB time=00:00:17.60 bitrate=1787.3kbits/s speed=6.51x    frame=  611 fps=191 q=26.0 size=    4864kB time=00:00:22.75 bitrate=1751.1kbits/s speed= 7.1x    frame=  756 fps=204 q=26.0 size=    5888kB time=00:00:27.58 bitrate=1748.6kbits/s speed=7.44x    frame=  901 fps=214 q=26.0 size=    7168kB time=00:00:32.41 bitrate=1811.5kbits/s speed= 7.7x    [mp4 @ 0xc45d37f0ed90] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc45d37f0ec20] video:7045kB audio:880kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.512457%
+frame= 1110 fps=229 q=-1.0 Lsize=    7966kB time=00:00:36.98 bitrate=1764.1kbits/s speed=7.64x    
+[libx264 @ 0xc45d37f0fd90] frame I:6     Avg QP:12.38  size: 84609
+[libx264 @ 0xc45d37f0fd90] frame P:280   Avg QP:16.32  size: 17344
+[libx264 @ 0xc45d37f0fd90] frame B:824   Avg QP:19.15  size:  2244
+[libx264 @ 0xc45d37f0fd90] consecutive B-frames:  1.0%  0.0%  0.3% 98.7%
+[libx264 @ 0xc45d37f0fd90] mb I  I16..4: 47.2% 43.6%  9.2%
+[libx264 @ 0xc45d37f0fd90] mb P  I16..4:  1.7%  7.1%  1.3%  P16..4: 15.0%  3.2%  1.9%  0.0%  0.0%    skip:69.7%
+[libx264 @ 0xc45d37f0fd90] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.0%  0.4%  0.0%  direct: 0.3%  skip:81.3%  L0:53.3% L1:46.3% BI: 0.4%
+[libx264 @ 0xc45d37f0fd90] 8x8 transform intra:65.2% inter:95.7%
+[libx264 @ 0xc45d37f0fd90] coded y,uvDC,uvAC intra: 63.9% 63.5% 39.7% inter: 1.6% 4.0% 0.2%
+[libx264 @ 0xc45d37f0fd90] i16 v,h,dc,p: 54% 22%  2% 22%
+[libx264 @ 0xc45d37f0fd90] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 21% 15%  5%  6%  7%  7%  7%  8%
+[libx264 @ 0xc45d37f0fd90] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 24% 14%  5%  8%  7%  7%  5%  4%
+[libx264 @ 0xc45d37f0fd90] i8c dc,h,v,p: 46% 25% 21%  7%
+[libx264 @ 0xc45d37f0fd90] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xc45d37f0fd90] ref P L0: 80.4%  7.3%  8.0%  4.3%
+[libx264 @ 0xc45d37f0fd90] ref B L0: 91.9%  6.9%  1.2%
+[libx264 @ 0xc45d37f0fd90] ref B L1: 95.7%  4.3%
+[libx264 @ 0xc45d37f0fd90] kb/s:1559.66
+[aac @ 0xc45d37f11700] Qavg: 932.073
+[criaprof-cta-916 crianca-medica/generic] ✅ 7.8 MB em 5.4s

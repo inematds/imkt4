@@ -1,0 +1,36 @@
+
+=============================================
+=== [cardiologista] começa em 2026-04-23T07:16:38.337Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/cardiologista-batch.log
+=============================================
+
+▶ [cardiologista:gen-criaprof] node gen-criaprof.js cardiologista
+✅ [cardiologista:gen-criaprof] ok
+
+▶ [cardiologista:gen-nostalgia] node gen-gertran-nostalgia.js cardiologista
+✅ [cardiologista:gen-nostalgia] ok
+
+▶ [cardiologista:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cardiologista.mp3 Você foi a criança que ouvia o coração da vó encostando no peito. Estudou cada batida, virou cardiologista, salvou milhares. Viu o eletro de papel virar digital, o exame virar remoto, o holter virar smartwatch. Agora a IA detecta arritmia antes do sintoma. Você continua sendo o que escuta com calma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [cardiologista:tts-criaprof] ok
+
+▶ [cardiologista:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-cardiologista.mp3 Você viu o eletro de papel virar digital, o holter virar smartwatch, o diagnóstico virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [cardiologista:tts-gertran] ok
+
+▶ [cardiologista:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cardiologista.mp3 /tmp/narr/whisper-criaprof-cardiologista.json && python3 transcribe-words.py /tmp/narr/narr-gertran-cardiologista.mp3 /tmp/narr/whisper-gertran-cardiologista.json
+✅ [cardiologista:whisper] ok
+
+▶ [cardiologista:render-criaprof] node render-criaprof.js cardiologista
+✅ [cardiologista:render-criaprof] ok
+
+▶ [cardiologista:render-gertran] node render-gertran.js cardiologista
+✅ [cardiologista:render-gertran] ok
+
+✅ [cardiologista] COMPLETO em 3.4 min
+
+
+================= BATCH RESUMO =================
+total: 1
+sucessos: 1
+skips: 0
+falhas: 0
+tempo total: 3.4 min

@@ -56,6 +56,7 @@ function createWorkerVideoProHandler({
   readBrandContext,
   videoTimestamp,
   backupIfExists,
+  resolveImageReference,
 }) {
   return async function handleVideoPro(job) {
     const {
@@ -69,7 +70,21 @@ function createWorkerVideoProHandler({
       image_folder = null,
       image_background_color = null,
     } = job.data;
-    const selectedTtsProvider = normalizeTtsProvider(tts_provider);
+    const proNarrator = job.data.pro_narrator || job.data.narrator || 'rachel';
+    const proTtsProvider = job.data.pro_tts_provider || tts_provider;
+    const proVideoAudio = job.data.pro_video_audio || job.data.video_audio || 'narration';
+    const proDuration = Math.max(10, Number(job.data.pro_duration || job.data.video_duration || 60));
+    const proWordsPerSecond = Math.max(1, Number(job.data.pro_words_per_second || 2.5));
+    const proNarrationWords = Math.max(30, Number(job.data.pro_narration_words || Math.round(proDuration * proWordsPerSecond)));
+    const proNarrationSource = job.data.pro_narration_source || 'creative_brief';
+    const proExistingNarrationFile = job.data.pro_existing_narration_file || job.data.existing_narration_file || '';
+    const proSourceInstruction = {
+      creative_brief: 'Use creative_brief.json + brand_identity.md as the primary source for the Pro script.',
+      copywriter_video_narration: 'Use narrative.json -> video_narration as the base and expand/refine it for the Pro duration.',
+      research_brief: 'Use research_results.json/research_brief.md + creative_brief.json as the source for the Pro script.',
+      manual_existing: 'Prefer the existing narration file when provided; otherwise create a Pro script from the campaign context.',
+    }[proNarrationSource] || 'Use creative_brief.json + brand_identity.md as the primary source for the Pro script.';
+    const selectedTtsProvider = normalizeTtsProvider(proTtsProvider);
     const hasNarrationProvider = selectedTtsProvider
       ? hasConfiguredTtsProvider(selectedTtsProvider)
       : hasAnyTtsProvider();
@@ -88,9 +103,9 @@ function createWorkerVideoProHandler({
         const result = await generateReport({
           projectRoot, outputDir: output_dir, projectDir: project_dir,
           taskName: task_name, stylePreset: job.data.style_preset || 'inema_hightech',
-          videoAudio: job.data.video_audio || 'narration',
-          narrator: job.data.narrator || 'rachel',
-          ttsProvider: job.data.tts_provider || 'auto',
+          videoAudio: proVideoAudio,
+          narrator: proNarrator,
+          ttsProvider: proTtsProvider,
           log,
         });
         log(output_dir, 'video_pro', `Report complete: ${result.carousels} carousels, video: ${result.video ? 'yes' : 'no'}`);
@@ -120,9 +135,9 @@ function createWorkerVideoProHandler({
         const result = await generateGatilhos({
           projectRoot, outputDir: output_dir, projectDir: project_dir,
           taskName: task_name, stylePreset: job.data.style_preset || 'inema_hightech',
-          videoAudio: job.data.video_audio || 'narration',
-          narrator: job.data.narrator || 'rachel',
-          ttsProvider: job.data.tts_provider || 'auto',
+          videoAudio: proVideoAudio,
+          narrator: proNarrator,
+          ttsProvider: proTtsProvider,
           ctaBrand,
           ctaAction: 'Acesse grátis',
           log,
@@ -181,8 +196,8 @@ function createWorkerVideoProHandler({
       const fallbackAssets = collectFallbackVisualAssets();
       const maxAudioDuration = narrationTimings.length > 0
         ? Math.max(...narrationTimings.map((timing) => timing.audioDuration || 0))
-        : (job.data.video_duration || 60);
-      const totalDuration = Math.max(Math.ceil(maxAudioDuration) + 3, job.data.video_duration || 60);
+        : proDuration;
+      const totalDuration = Math.max(Math.ceil(maxAudioDuration) + 3, proDuration);
       const shots = [];
       const shotCount = Math.max(video_count * 6, 8);
       const baseDuration = Math.max(3, parseFloat((totalDuration / shotCount).toFixed(1)));
@@ -330,7 +345,8 @@ BACKGROUND MUSIC: No music files found. Set "music": null in the scene plan.
 
     const audioInstructions = hasNarrationProvider ? `
 AUDIO NARRATION (${ttsProviderLabel} available):
-- Write a narration script (${Math.round((job.data.video_duration || 60) * 0.85)}-${Math.round((job.data.video_duration || 60) * 0.95)} seconds of natural speech for ${job.data.video_duration || 60}s video)
+- Source rule: ${proSourceInstruction}
+- Write a narration script (${Math.round(proDuration * 0.85)}-${Math.round(proDuration * 0.95)} seconds of natural speech for ${proDuration}s video, about ${proNarrationWords} words)
 - Generate narration: node pipeline/generate-audio.js <output.mp3> "<script>" [rachel|bella|domi|antoni|josh|arnold]${selectedTtsProvider ? ` --provider ${selectedTtsProvider}` : ''}
 - Save as: ${output_dir}/audio/${task_name}_video_0N_narration.mp3
 - Recommended voices: rachel (warm/emotional), bella (clear/friendly), domi (confident), antoni (professional), josh (deep/warm), arnold (bold/energetic)
@@ -356,7 +372,7 @@ IMAGE SOURCE: ${providerNameEditor} API (images will be generated AFTER you writ
 - Output a "unique_images" field listing distinct prompts (max 15)
 - Multiple cuts can share the same generated image with different crop_focus and motion`;
     } else if (image_source === 'free') {
-      const freeProvider = getFreeImageProvider();
+      const freeProvider = getFreeImageProvider(job.data.free_image_provider);
       if (freeProvider) {
         const authNote = freeProvider.authHeader
           ? `Header: ${freeProvider.authHeader}: ${freeProvider.key}`
@@ -444,6 +460,21 @@ REUSE STRATEGY (with ${brandAssets.length} images for 30-50 cuts):
 
     const absAudioDir = path.resolve(projectRoot, output_dir, 'audio');
     fs.mkdirSync(absAudioDir, { recursive: true });
+    if (proVideoAudio !== 'none' && proExistingNarrationFile) {
+      const absExistingNarration = path.resolve(projectRoot, proExistingNarrationFile);
+      if (fs.existsSync(absExistingNarration)) {
+        for (let i = 1; i <= video_count; i++) {
+          const idx = String(i).padStart(2, '0');
+          const targetPath = path.resolve(absAudioDir, `${task_name}_video_${idx}_narration.mp3`);
+          if (path.resolve(absExistingNarration) !== path.resolve(targetPath) && !fs.existsSync(targetPath)) {
+            fs.copyFileSync(absExistingNarration, targetPath);
+          }
+        }
+        log(output_dir, 'video_pro', `Using existing Pro narration: ${proExistingNarrationFile}`);
+      } else {
+        log(output_dir, 'video_pro', `Configured Pro narration not found: ${proExistingNarrationFile}`);
+      }
+    }
     let narrationExists = false;
     for (let i = 1; i <= video_count; i++) {
       const idx = String(i).padStart(2, '0');
@@ -451,7 +482,7 @@ REUSE STRATEGY (with ${brandAssets.length} images for 30-50 cuts):
       if (fs.existsSync(narPath)) { narrationExists = true; break; }
     }
 
-    if ((job.data.video_audio || 'narration') !== 'none' && !narrationExists && !hasNarrationProvider) {
+    if (proVideoAudio !== 'none' && !narrationExists && !hasNarrationProvider) {
       log(output_dir, 'video_pro', `Audio required but no TTS provider is available for stage 3 (provider=${ttsProviderLabel}).`);
       markAudioMissing(projectRoot, output_dir, 'no_tts_provider');
       process.stdout.write(`[STAGE3_AUDIO_REQUIRED] ${output_dir} pro provider=${ttsProviderLabel}\n`);
@@ -468,10 +499,11 @@ Read these files to understand the campaign:
 ${langInstruction}${briefInstruction}
 
 For each of the ${video_count} video(s), write a narration script.
-Target duration: ${job.data.video_duration || 60} seconds (${Math.round((job.data.video_duration || 60) * 2.5)} words for pt-BR at ~2.5 words/sec).
-Then generate the audio using: node pipeline/generate-audio.js <output.mp3> "<script>" ${job.data.narrator || 'rachel'}${selectedTtsProvider ? ` --provider ${selectedTtsProvider}` : ''}
+Source rule: ${proSourceInstruction}
+Target duration: ${proDuration} seconds (${proNarrationWords} words for pt-BR at ~${proWordsPerSecond} words/sec).
+Then generate the audio using: node pipeline/generate-audio.js <output.mp3> "<script>" ${proNarrator}${selectedTtsProvider ? ` --provider ${selectedTtsProvider}` : ''}
 Save narration to: ${output_dir}/audio/${task_name}_video_0N_narration.mp3
-Voice: ${job.data.narrator || 'rachel'} — use this EXACT voice (must match quick video for consistency)
+Voice: ${proNarrator} — use this EXACT Pro voice
 Preferred TTS provider: ${ttsProviderLabel}
 
 IMPORTANT: ONLY generate narration audio files. Do NOT create scene plans or any other files.
@@ -483,7 +515,7 @@ After generating all narrations, print: [NARRATION_DONE]`;
       log(output_dir, 'video_pro', 'Narration already exists, skipping.');
     }
 
-    if ((job.data.video_audio || 'narration') !== 'none') {
+    if (proVideoAudio !== 'none') {
       for (let i = 1; i <= video_count; i++) {
         const idx = String(i).padStart(2, '0');
         const narPath = path.resolve(absAudioDir, `${task_name}_video_${idx}_narration.mp3`);
@@ -804,7 +836,7 @@ Read the full photography_plan.json for all shots.`;
         const compact = {
           style_preset: fullPlan.style_preset,
           color_palette: fullPlan.color_palette,
-          video_length: fullPlan.video_length || job.data.video_duration || 60,
+          video_length: fullPlan.video_length || proDuration,
           typography: fullPlan.typography,
           shots: (fullPlan.shots || fullPlan.scenes || []).map(s => ({
             timing: s.timing || `${s.start_s || s.start_time || 0}s`,
@@ -827,7 +859,7 @@ Read the full photography_plan.json for all shots.`;
       }
     }
 
-    let videoDur = job.data.video_duration || 60;
+    let videoDur = proDuration;
     if (narrationTimings.length > 0 && narrationTimings[0].audioDuration) {
       const audioDur = narrationTimings[0].audioDuration;
       const audioBasedDur = Math.ceil(audioDur) + 3;
@@ -1040,7 +1072,7 @@ JSON structure:
 {
   "titulo": "...", "video_length": ${videoDur}, "format": "9:16",
   "width": 1080, "height": 1920,
-  "voice": "${job.data.narrator || 'rachel'}",
+  "voice": "${proNarrator}",
   "narration_file": "${narrationTimings[0]?.file || 'null'}", "music": null, "music_volume": 0.15,
   "scenes": [
     { "id": "hook_01", "type": "hook", "visual_type": "photo",
@@ -1183,6 +1215,10 @@ Then print: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
       const brand = useBrand ? readBrandContext(project_dir) : null;
       if (brand) log(output_dir, 'video_pro', `Brand context: ${brand.brandName} | provider: ${jobProvider}`);
 
+      // Resolve reference images
+      const refImages = resolveImageReference ? resolveImageReference(project_dir, job.data.image_reference) : [];
+      if (refImages.length > 0) log(output_dir, 'video_pro', `Reference images: ${refImages.map((r) => path.basename(r)).join(', ')}`);
+
       for (let i = 1; i <= video_count; i++) {
         const idx = String(i).padStart(2, '0');
         const planPath = vfFind(idx, '_scene_plan_motion.json');
@@ -1220,12 +1256,14 @@ Then print: [VIDEO_APPROVAL_NEEDED] ${output_dir}`;
             cta: 'optimistic, inviting, forward momentum',
           };
           const mood = moodMap[sceneType] || moodMap.solution;
-          const rawPrompt = `${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} Cinematic lighting, photorealistic. No text, no words, no watermark.`;
+          const refGuide = refImages.length > 0 ? 'Based on the reference image, transform and adapt: ' : '';
+          const refSuffix = refImages.length > 0 ? ' Maintain core visual elements and color palette from reference.' : '';
+          const rawPrompt = `${refGuide}${scene.image_prompt}. ${mood}. vertical 9:16.${colorHint} Cinematic lighting, photorealistic.${refSuffix} No text, no words, no watermark.`;
           const finalPrompt = rawPrompt.length > 490 ? rawPrompt.slice(0, 487) + '...' : rawPrompt;
 
           log(output_dir, 'video_pro', `Generating image ${promptMap.size + 1} for video_${idx}: ${scene.image_prompt.slice(0, 80)}`);
           try {
-            await genImage(outputPath, finalPrompt, model, '9:16');
+            await genImage(outputPath, finalPrompt, model, '9:16', refImages);
             scene.image = outputPath;
             promptMap.set(scene.image_prompt, outputPath);
             planChanged = true;

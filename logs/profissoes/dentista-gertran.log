@@ -1,0 +1,85 @@
+
+[gertran-nostalgia:dentista] 20 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs
+
+── 1/20 ── nost01.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a 1980s dental chair with a classic metal lamp and tray of instruments, shot on 35mm film, cinematic grading...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost01.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 2/20 ── nost02.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage hand-held dental drill on a metal tray, sterile cotton balls next to it, shot on 35mm film, cinematic grading, w...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost02.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 3/20 ── nost03.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Old dental x-ray film clipped to a backlit viewer, 1980s clinic feel, shot on 35mm film, cinematic grading, warm tungste...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost03.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 4/20 ── nost04.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a 1980s plaster dental mold with wax details on a workbench, shot on 35mm film, cinematic grading, warm tung...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost04.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 5/20 ── nost05.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian dental clinic waiting room with formica chairs and educational posters, shot on 35mm film, cinematic gra...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost05.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 6/20 ── nost06.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s dental clinic with a desktop computer running practice management software, cinematic, shallow depth of fiel...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost06.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 7/20 ── nost07.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a tray of sterilized modern dental instruments on a surgical wrap, cinematic, shallow depth of field, natura...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost07.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 8/20 ── nost08.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 2000s digital x-ray sensor connected to a small monitor in a dental operatory, cinematic, shallow depth of field, natura...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost08.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 9/20 ── nost09.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a composite resin curing light on a tooth with blue glow, cinematic, shallow depth of field, natural light, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost09.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 10/20 ── nost10.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A smartphone on a counter running a dental appointment reminder app, cinematic, shallow depth of field, natural light, e...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost10.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 11/20 ── nost11.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a dental hygienist using an ultrasonic scaler with water spray, cinematic, shallow depth of field, natural l...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost11.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 12/20 ── nost12.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a dental tele-consultation with a patient mouth visible, cinematic, shallow depth of field, natural lig...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost12.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 13/20 ── nost13.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a digital impression wand held over a patient's teeth with live 3D on a screen, cinematic, shallow depth of ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost13.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 14/20 ── nost14.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: High-resolution monitor showing a full 3D panoramic dental scan with color-coded areas, neo-noir clinical lighting, soft...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost14.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/20 ── nost15.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of an AI caries-detection overlay highlighting cavities on an x-ray, neo-noir clinical lighting, soft glassmorp...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost15.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 16/20 ── nost16.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern dental operatory with soft teal ambient light and integrated chairside monitor, neo-noir clinical lighting, soft ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost16.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 17/20 ── nost17.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a 3D-printed dental crown being lifted from a compact chairside printer, neo-noir clinical lighting, soft gl...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost17.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 18/20 ── nost18.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Dentist's hand swiping an AI-assisted treatment-plan view on a tablet, neo-noir clinical lighting, soft glassmorphism, t...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost18.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/20 ── nost19.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A dentist gently working on a patient while an AI dashboard glows in the background, neo-noir clinical lighting, soft gl...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost19.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 20/20 ── nost20.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern bright dental clinic integrating care and technology, neo-noir clinical lighting, soft g...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/dentista_2026-04-23/imgs/nost20.png  (server=2.13s wall=2.2s vram=32.3GB)
+
+[gertran-nostalgia:dentista] ✅ 20/20 em 44.2s (fails=0)

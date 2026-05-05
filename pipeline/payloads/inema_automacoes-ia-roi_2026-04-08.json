@@ -1,0 +1,188 @@
+{
+  "task_name": "automacoes-ia-roi",
+  "task_date": "2026-04-08",
+  "business": "INEMA — Ecossistema de IA e Transformação Digital",
+  "description": "Campanha sobre as 5 automações de IA com maior ROI comercial. Ângulo: empresas pagam mais por automações simples e diretamente ligadas a resultado financeiro. As 5 automações: resposta rápida a leads, processamento de documentos, sequências de follow-up, reativação de base, relatórios internos e notificações. Mensagem central: vender resultado, não tecnologia.",
+
+  "script_content": "O texto defende que as empresas pagam mais por automações de IA simples, práticas e diretamente ligadas a resultado financeiro do que por soluções impressionantes.\n\nAs cinco automações com maior apelo comercial são:\n1. Resposta rápida a leads: automatizar o contato imediato com novos interessados para aumentar conversão.\n2. Processamento de documentos: extrair e organizar dados de faturas, formulários e PDFs, reduzindo trabalho manual, erros e custo operacional.\n3. Sequências de follow-up: manter contato automático com leads que ainda não responderam, evitando perda de oportunidades.\n4. Reativação de base: voltar a abordar contatos antigos ou inativos com mensagens personalizadas para recuperar receita.\n5. Relatórios internos e notificações: consolidar dados de várias ferramentas e entregar atualizações prontas para a equipe, sem exigir novos dashboards ou mudanças de hábito.\n\nA ideia central é que essas automações resolvem gargalos recorrentes em quase qualquer setor: demora no atendimento, tarefas administrativas repetitivas, falhas no acompanhamento comercial, desperdício de contatos antigos e falta de visibilidade operacional.\n\nComo vender: vender resultado, não tecnologia; falar em tempo economizado, erros evitados e receita gerada; começar dominando um único fluxo antes de expandir; descobrir o maior gargalo do negócio perguntando: 'Se 500 novos clientes aparecessem amanhã, o que quebraria primeiro?'",
+
+  "simulate_uploads": false,
+  "dry_run": false,
+
+  "project_dir": "prj/inema",
+  "output_dir": "prj/inema/outputs/automacoes-ia-roi_2026-04-08",
+
+  "platform_targets": ["instagram", "linkedin"],
+
+  "narrator": "bella",
+  "video_quick": true,
+  "video_pro": true,
+  "image_source": "api",
+
+  "video_template": "explainer",
+
+  "skip_research": false,
+  "skip_image": false,
+  "skip_video": false,
+
+  "knowledge_files": [
+    "prj/inema/knowledge/brand_identity.md",
+    "prj/inema/knowledge/product_campaign.md",
+    "prj/inema/knowledge/platform_guidelines.md"
+  ],
+
+  "pipeline": {
+    "research": {
+      "enabled": true,
+      "inputs": {
+        "niche": "automação de IA com ROI para empresas — B2B, agências, consultores de IA",
+        "target_audience": "empreendedores, donos de agência, consultores e profissionais que vendem ou implementam automações de IA",
+        "campaign_goal": "educação + posicionamento: mostrar quais automações de IA têm maior apelo comercial e como vendê-las focando em resultado financeiro",
+        "script_summary": "5 automações de IA com maior ROI: resposta a leads, processamento de documentos, follow-up, reativação de base, relatórios internos. Mensagem: vender resultado, não tecnologia."
+      }
+    },
+    "static_ad": {
+      "enabled": true,
+      "inputs": {
+        "product": "INEMA — Automações de IA com ROI",
+        "campaign_goal": "educação B2B + geração de leads para serviços de automação de IA",
+        "platform": "instagram",
+        "format": "square",
+        "dimensions": "1080x1080",
+        "layout_type": "bold",
+        "image_source": "api",
+        "brand_colors": {
+          "primary": "#0099FF",
+          "dark": "#0D0D0D",
+          "accent": "#00FF88",
+          "white": "#FFFFFF"
+        },
+        "copy": {
+          "headline": "5 automações que vendem",
+          "subtext": "Empresas pagam mais por IA simples com resultado claro",
+          "cta": "Aprenda em inema.club"
+        },
+        "design_notes": "Dark-first. Tipografia bold. Números em destaque (1-5). Identidade tecnológica mas direta. Sem floreios — impacto visual imediato."
+      }
+    },
+
+    "carousel": {
+      "enabled": true,
+      "platform": "instagram",
+      "format": "square",
+      "dimensions": "1080x1080",
+      "image_source": "api",
+      "slide_count": 7,
+      "design_notes": "Dark-first. Identidade INEMA: fundo #0D0D0D, azul #0099FF, verde neon #00FF88. Tipografia bold (Montserrat/Space Grotesk). Numeração de slide visível. Linha de acento lateral. Handle @inema.tds no rodapé. Cada slide tem imagem gerada via API limpa de texto — copy sobreposto via HTML/CSS.",
+      "slides": [
+        {
+          "id": 1,
+          "concept": "hook",
+          "headline": "Empresas pagam mais por IA simples",
+          "subtext": "Do que por soluções impressionantes",
+          "badge": "ROI de IA",
+          "image_prompt": "modern business office, productivity, technology, dark atmosphere, no text"
+        },
+        {
+          "id": 2,
+          "concept": "automação 1 — resposta a leads",
+          "number": "01",
+          "headline": "Resposta rápida a leads",
+          "subtext": "Contato imediato = mais conversão",
+          "image_prompt": "smartphone notification, instant message, fast response, dark tech aesthetic, no text"
+        },
+        {
+          "id": 3,
+          "concept": "automação 2 — processamento de documentos",
+          "number": "02",
+          "headline": "Processamento de documentos",
+          "subtext": "Faturas, PDFs e formulários sem trabalho manual",
+          "image_prompt": "documents, files, automation, digital processing, dark background, no text"
+        },
+        {
+          "id": 4,
+          "concept": "automação 3 — follow-up",
+          "number": "03",
+          "headline": "Sequências de follow-up",
+          "subtext": "Zero leads perdidos por falta de contato",
+          "image_prompt": "email sequence, follow-up, sales funnel, dark tech background, no text"
+        },
+        {
+          "id": 5,
+          "concept": "automação 4 — reativação de base",
+          "number": "04",
+          "headline": "Reativação de base",
+          "subtext": "Receita dormindo nos seus contatos antigos",
+          "image_prompt": "database, contacts, reactivation, growth chart, dark atmosphere, no text"
+        },
+        {
+          "id": 6,
+          "concept": "automação 5 — relatórios",
+          "number": "05",
+          "headline": "Relatórios e notificações",
+          "subtext": "Dados consolidados sem novos dashboards",
+          "image_prompt": "data dashboard, reports, analytics, team notification, dark tech, no text"
+        },
+        {
+          "id": 7,
+          "concept": "cta",
+          "headline": "Venda resultado, não tecnologia",
+          "subtext": "Se 500 clientes aparecessem amanhã — o que quebraria?",
+          "cta": "inema.club",
+          "image_prompt": "business growth, success, ROI, professional, dark background with blue light, no text"
+        }
+      ]
+    },
+    "video_ad": {
+      "enabled": true,
+      "mode": "both",
+      "narrator": "bella",
+      "image_source": "api",
+      "script_source": "script_content",
+      "quick": {
+        "duration": "15-30s",
+        "style": "bold-slides",
+        "focus": "listar as 5 automações com copy direto e impacto visual"
+      },
+      "pro": {
+        "duration": "45-60s",
+        "style": "cinematic",
+        "framework": "PAS",
+        "focus": "problema (gargalos operacionais) → agitação (perda de receita) → solução (5 automações com ROI claro)"
+      }
+    },
+    "copywriting": {
+      "enabled": true,
+      "inputs": {
+        "campaign_angle": "5 automações de IA que as empresas realmente pagam para ter",
+        "topic": "automações de IA com ROI direto — resposta a leads, documentos, follow-up, reativação, relatórios",
+        "key_benefit": "resultado financeiro mensurável, não tecnologia impressionante",
+        "platforms": ["instagram", "linkedin"],
+        "cta_primary": "inema.club — aprenda a implementar",
+        "tone": "direto, técnico-educativo, sem hype, focado em resultado",
+        "language": "pt-BR"
+      }
+    },
+    "distribution": {
+      "enabled": true,
+      "inputs": {
+        "simulate_uploads": false,
+        "publish_immediately": false,
+        "media_sources": {
+          "instagram_image": "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/instagram_ad.png",
+          "instagram_carousel": [
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_01.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_02.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_03.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_04.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_05.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_06.png",
+            "prj/inema/outputs/automacoes-ia-roi_2026-04-08/ads/carousel_07.png"
+          ],
+          "video_quick": "prj/inema/outputs/automacoes-ia-roi_2026-04-08/video/ad.mp4",
+          "video_pro": "prj/inema/outputs/automacoes-ia-roi_2026-04-08/video/ad_pro.mp4"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1439 @@
+
+=============================================
+=== [fisioterapeuta] cta começa em 2026-05-03T19:50:36.846Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/fisioterapeuta-cta.log
+=============================================
+⏭ [fisioterapeuta/prof] vídeo já existe
+⏭ [fisioterapeuta/generic] vídeo já existe
+
+✅ [fisioterapeuta] CTA COMPLETO (2 variantes) em 0.0 min
+
+=============================================
+=== [crianca-medica] cta começa em 2026-05-03T19:50:36.846Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/crianca-medica-cta.log
+=============================================
+⏭ [crianca-medica/prof] tts já existe
+⏭ [crianca-medica/prof] whisper já existe
+
+▶ [crianca-medica/prof:render] node render-criaprof-cta-916.js crianca-medica prof...
+✅ [crianca-medica/prof:render] ok
+⏭ [crianca-medica/generic] tts já existe
+⏭ [crianca-medica/generic] whisper já existe
+
+▶ [crianca-medica/generic:render] node render-criaprof-cta-916.js crianca-medica generic...
+✅ [crianca-medica/generic:render] ok
+
+✅ [crianca-medica] CTA COMPLETO (2 variantes) em 0.2 min
+
+=============================================
+=== [enfermeira] cta começa em 2026-05-03T19:50:47.565Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/enfermeira-cta.log
+=============================================
+⏭ [enfermeira/prof] tts já existe
+⏭ [enfermeira/prof] whisper já existe
+
+▶ [enfermeira/prof:render] node render-criaprof-cta-916.js enfermeira prof...
+✅ [enfermeira/prof:render] ok
+⏭ [enfermeira/generic] tts já existe
+⏭ [enfermeira/generic] whisper já existe
+
+▶ [enfermeira/generic:render] node render-criaprof-cta-916.js enfermeira generic...
+✅ [enfermeira/generic:render] ok
+
+✅ [enfermeira] CTA COMPLETO (2 variantes) em 0.2 min
+
+=============================================
+=== [psicologa] cta começa em 2026-05-03T19:50:58.232Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/psicologa-cta.log
+=============================================
+⏭ [psicologa/prof] tts já existe
+⏭ [psicologa/prof] whisper já existe
+
+▶ [psicologa/prof:render] node render-criaprof-cta-916.js psicologa prof...
+✅ [psicologa/prof:render] ok
+⏭ [psicologa/generic] tts já existe
+⏭ [psicologa/generic] whisper já existe
+
+▶ [psicologa/generic:render] node render-criaprof-cta-916.js psicologa generic...
+✅ [psicologa/generic:render] ok
+
+✅ [psicologa] CTA COMPLETO (2 variantes) em 0.2 min
+
+=============================================
+=== [dentista] cta começa em 2026-05-03T19:51:08.866Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/dentista-cta.log
+=============================================
+⏭ [dentista/prof] tts já existe
+⏭ [dentista/prof] whisper já existe
+
+▶ [dentista/prof:render] node render-criaprof-cta-916.js dentista prof...
+✅ [dentista/prof:render] ok
+⏭ [dentista/generic] tts já existe
+⏭ [dentista/generic] whisper já existe
+
+▶ [dentista/generic:render] node render-criaprof-cta-916.js dentista generic...
+✅ [dentista/generic:render] ok
+
+✅ [dentista] CTA COMPLETO (2 variantes) em 0.2 min
+
+=============================================
+=== [farmaceutica] cta começa em 2026-05-03T19:51:19.545Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/farmaceutica-cta.log
+=============================================
+⏭ [farmaceutica/prof] tts já existe
+⏭ [farmaceutica/prof] whisper já existe
+
+▶ [farmaceutica/prof:render] node render-criaprof-cta-916.js farmaceutica prof...
+✅ [farmaceutica/prof:render] ok
+
+▶ [farmaceutica/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-farmaceutica.mp3 A sua profissão mudou. E agora? Você foi a criança que organizava o armário de remédios. Estudou química, conheceu moléculas, virou farmacêutica. Atendeu no balcão, viu a prescrição virar digital, o atendimento virar remoto. Agora a IA alerta interações em tempo real. Você continua sendo a que cuida do paciente depois da consulta. Continue aprendendo no Inema ponto CLUB....
+✅ [farmaceutica/generic:tts] ok
+
+▶ [farmaceutica/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [farmaceutica/generic:whisper] ok
+
+▶ [farmaceutica/generic:render] node render-criaprof-cta-916.js farmaceutica generic...
+✅ [farmaceutica/generic:render] ok
+
+✅ [farmaceutica] CTA COMPLETO (2 variantes) em 0.6 min
+
+=============================================
+=== [nutricionista] cta começa em 2026-05-03T19:51:55.867Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/nutricionista-cta.log
+=============================================
+
+▶ [nutricionista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-nutricionista.mp3 A nutrição mudou. E agora? Você foi a criança que lia rótulos no mercado. Aprendeu cada nutriente, virou nutricionista. Calculou calorias à mão, viu o papel virar planilha, a planilha virar app. Agora a IA monta planos personalizados. Você continua sendo a que escuta a relação da pessoa com a comida. Continue aprendendo no Inema ponto CLUB....
+✅ [nutricionista/prof:tts] ok
+
+▶ [nutricionista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [nutricionista/prof:whisper] ok
+
+▶ [nutricionista/prof:render] node render-criaprof-cta-916.js nutricionista prof...
+✅ [nutricionista/prof:render] ok
+
+▶ [nutricionista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-nutricionista.mp3 A sua profissão mudou. E agora? Você foi a criança que lia rótulos no mercado. Aprendeu cada nutriente, virou nutricionista. Calculou calorias à mão, viu o papel virar planilha, a planilha virar app. Agora a IA monta planos personalizados. Você continua sendo a que escuta a relação da pessoa com a comida. Continue aprendendo no Inema ponto CLUB....
+✅ [nutricionista/generic:tts] ok
+
+▶ [nutricionista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [nutricionista/generic:whisper] ok
+
+▶ [nutricionista/generic:render] node render-criaprof-cta-916.js nutricionista generic...
+✅ [nutricionista/generic:render] ok
+
+✅ [nutricionista] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [fonoaudiologa] cta começa em 2026-05-03T19:52:48.516Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/fonoaudiologa-cta.log
+=============================================
+
+▶ [fonoaudiologa/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-fonoaudiologa.mp3 A fonoaudiologia mudou. E agora? Você foi a criança que ensinava a bonequinha a falar. Virou fonoaudióloga, treinou cada fonema. Viu o gravador analógico virar digital, o consultório virar videochamada. Agora a IA analisa cada pronúncia. Você continua sendo a que tem a paciência infinita. Continue aprendendo no Inema ponto CLUB....
+✅ [fonoaudiologa/prof:tts] ok
+
+▶ [fonoaudiologa/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [fonoaudiologa/prof:whisper] ok
+
+▶ [fonoaudiologa/prof:render] node render-criaprof-cta-916.js fonoaudiologa prof...
+✅ [fonoaudiologa/prof:render] ok
+
+▶ [fonoaudiologa/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-fonoaudiologa.mp3 A sua profissão mudou. E agora? Você foi a criança que ensinava a bonequinha a falar. Virou fonoaudióloga, treinou cada fonema. Viu o gravador analógico virar digital, o consultório virar videochamada. Agora a IA analisa cada pronúncia. Você continua sendo a que tem a paciência infinita. Continue aprendendo no Inema ponto CLUB....
+✅ [fonoaudiologa/generic:tts] ok
+
+▶ [fonoaudiologa/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [fonoaudiologa/generic:whisper] ok
+
+▶ [fonoaudiologa/generic:render] node render-criaprof-cta-916.js fonoaudiologa generic...
+✅ [fonoaudiologa/generic:render] ok
+
+✅ [fonoaudiologa] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [terapeuta-ocupacional] cta começa em 2026-05-03T19:53:39.990Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/terapeuta-ocupacional-cta.log
+=============================================
+
+▶ [terapeuta-ocupacional/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-terapeuta-ocupacional.mp3 A terapia ocupacional mudou. E agora? Você foi a criança que adaptava tudo pros vovôs. Estudou ocupação humana, virou TO, devolveu autonomia pra milhares. Viu a massinha virar jogo digital, o atendimento virar remoto. Agora a IA mede cada ganho de movimento. Você continua sendo a que devolve o "eu consigo". Continue aprendendo no Inema ponto CLUB....
+✅ [terapeuta-ocupacional/prof:tts] ok
+
+▶ [terapeuta-ocupacional/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [terapeuta-ocupacional/prof:whisper] ok
+
+▶ [terapeuta-ocupacional/prof:render] node render-criaprof-cta-916.js terapeuta-ocupacional prof...
+✅ [terapeuta-ocupacional/prof:render] ok
+
+▶ [terapeuta-ocupacional/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-terapeuta-ocupacional.mp3 A sua profissão mudou. E agora? Você foi a criança que adaptava tudo pros vovôs. Estudou ocupação humana, virou TO, devolveu autonomia pra milhares. Viu a massinha virar jogo digital, o atendimento virar remoto. Agora a IA mede cada ganho de movimento. Você continua sendo a que devolve o "eu consigo". Continue aprendendo no Inema ponto CLUB....
+✅ [terapeuta-ocupacional/generic:tts] ok
+
+▶ [terapeuta-ocupacional/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [terapeuta-ocupacional/generic:whisper] ok
+
+▶ [terapeuta-ocupacional/generic:render] node render-criaprof-cta-916.js terapeuta-ocupacional generic...
+✅ [terapeuta-ocupacional/generic:render] ok
+
+✅ [terapeuta-ocupacional] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [biomedica] cta começa em 2026-05-03T19:54:33.571Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/biomedica-cta.log
+=============================================
+
+▶ [biomedica/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-biomedica.mp3 A biomedicina mudou. E agora? Você foi a criança do microscópio de brinquedo. Estudou célula por célula, virou biomédica, descobriu o invisível. Viu a lâmina virar imagem digital, o gráfico virar tempo real. Agora a IA detecta anomalias antes do olho humano. Você continua sendo a que dá o diagnóstico de verdade. Continue aprendendo no Inema ponto CLUB....
+✅ [biomedica/prof:tts] ok
+
+▶ [biomedica/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [biomedica/prof:whisper] ok
+
+▶ [biomedica/prof:render] node render-criaprof-cta-916.js biomedica prof...
+✅ [biomedica/prof:render] ok
+
+▶ [biomedica/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-biomedica.mp3 A sua profissão mudou. E agora? Você foi a criança do microscópio de brinquedo. Estudou célula por célula, virou biomédica, descobriu o invisível. Viu a lâmina virar imagem digital, o gráfico virar tempo real. Agora a IA detecta anomalias antes do olho humano. Você continua sendo a que dá o diagnóstico de verdade. Continue aprendendo no Inema ponto CLUB....
+✅ [biomedica/generic:tts] ok
+
+▶ [biomedica/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [biomedica/generic:whisper] ok
+
+▶ [biomedica/generic:render] node render-criaprof-cta-916.js biomedica generic...
+✅ [biomedica/generic:render] ok
+
+✅ [biomedica] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [professora-fundamental] cta começa em 2026-05-03T19:55:26.199Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/professora-fundamental-cta.log
+=============================================
+
+▶ [professora-fundamental/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-professora-fundamental.mp3 Educar mudou. E agora? Você foi a criança que ensinava as bonecas a ler. Deu aula no quintal, escolheu pedagogia, alfabetizou milhares. Viu o caderno virar tablet, a sala virar online durante a pandemia. Agora a IA personaliza o aprendizado de cada aluno. Você continua sendo a que enxerga cada criança. Continue aprendendo no Inema ponto CLUB....
+✅ [professora-fundamental/prof:tts] ok
+
+▶ [professora-fundamental/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professora-fundamental/prof:whisper] ok
+
+▶ [professora-fundamental/prof:render] node render-criaprof-cta-916.js professora-fundamental prof...
+✅ [professora-fundamental/prof:render] ok
+
+▶ [professora-fundamental/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-professora-fundamental.mp3 A sua profissão mudou. E agora? Você foi a criança que ensinava as bonecas a ler. Deu aula no quintal, escolheu pedagogia, alfabetizou milhares. Viu o caderno virar tablet, a sala virar online durante a pandemia. Agora a IA personaliza o aprendizado de cada aluno. Você continua sendo a que enxerga cada criança. Continue aprendendo no Inema ponto CLUB....
+✅ [professora-fundamental/generic:tts] ok
+
+▶ [professora-fundamental/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professora-fundamental/generic:whisper] ok
+
+▶ [professora-fundamental/generic:render] node render-criaprof-cta-916.js professora-fundamental generic...
+✅ [professora-fundamental/generic:render] ok
+
+✅ [professora-fundamental] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [professora-medio] cta começa em 2026-05-03T19:56:18.092Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/professora-medio-cta.log
+=============================================
+
+▶ [professora-medio/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-professora-medio.mp3 Ensinar mudou. E agora? Você foi a criança que amava a disciplina difícil. Escolheu licenciatura, abriu mentes adolescentes. Viu o quadro verde virar branco, virar digital, virar remoto. Agora a IA corrige redações. Você continua sendo a que faz a aula acontecer. Continue aprendendo no Inema ponto CLUB....
+✅ [professora-medio/prof:tts] ok
+
+▶ [professora-medio/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professora-medio/prof:whisper] ok
+
+▶ [professora-medio/prof:render] node render-criaprof-cta-916.js professora-medio prof...
+✅ [professora-medio/prof:render] ok
+
+▶ [professora-medio/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-professora-medio.mp3 A sua profissão mudou. E agora? Você foi a criança que amava a disciplina difícil. Escolheu licenciatura, abriu mentes adolescentes. Viu o quadro verde virar branco, virar digital, virar remoto. Agora a IA corrige redações. Você continua sendo a que faz a aula acontecer. Continue aprendendo no Inema ponto CLUB....
+✅ [professora-medio/generic:tts] ok
+
+▶ [professora-medio/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professora-medio/generic:whisper] ok
+
+▶ [professora-medio/generic:render] node render-criaprof-cta-916.js professora-medio generic...
+✅ [professora-medio/generic:render] ok
+
+✅ [professora-medio] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [pedagoga] cta começa em 2026-05-03T19:57:10.611Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/pedagoga-cta.log
+=============================================
+
+▶ [pedagoga/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-pedagoga.mp3 A pedagogia mudou. E agora? Você foi a criança que organizava aulinhas no quintal. Estudou Paulo Freire, virou pedagoga, enxergou cada aluno que ninguém via. Viu a ficha virar sistema, o diagnóstico virar dado. Agora a IA identifica padrões de aprendizagem. Você continua sendo a que defende quem ninguém defende. Continue aprendendo no Inema ponto CLUB....
+✅ [pedagoga/prof:tts] ok
+
+▶ [pedagoga/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pedagoga/prof:whisper] ok
+
+▶ [pedagoga/prof:render] node render-criaprof-cta-916.js pedagoga prof...
+✅ [pedagoga/prof:render] ok
+
+▶ [pedagoga/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-pedagoga.mp3 A sua profissão mudou. E agora? Você foi a criança que organizava aulinhas no quintal. Estudou Paulo Freire, virou pedagoga, enxergou cada aluno que ninguém via. Viu a ficha virar sistema, o diagnóstico virar dado. Agora a IA identifica padrões de aprendizagem. Você continua sendo a que defende quem ninguém defende. Continue aprendendo no Inema ponto CLUB....
+✅ [pedagoga/generic:tts] ok
+
+▶ [pedagoga/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pedagoga/generic:whisper] ok
+
+▶ [pedagoga/generic:render] node render-criaprof-cta-916.js pedagoga generic...
+✅ [pedagoga/generic:render] ok
+
+✅ [pedagoga] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [educacao-infantil] cta começa em 2026-05-03T19:58:02.469Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/educacao-infantil-cta.log
+=============================================
+
+▶ [educacao-infantil/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-educacao-infantil.mp3 A educação infantil mudou. E agora? Você foi a criança que cuidava dos menores no recreio. Cantou, contou histórias, virou educadora infantil. Viu a foto polaroid virar celular, o recadinho virar mensagem. Agora a IA ajuda a detectar marcos do desenvolvimento. Você continua sendo o colo. Continue aprendendo no Inema ponto CLUB....
+✅ [educacao-infantil/prof:tts] ok
+
+▶ [educacao-infantil/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [educacao-infantil/prof:whisper] ok
+
+▶ [educacao-infantil/prof:render] node render-criaprof-cta-916.js educacao-infantil prof...
+✅ [educacao-infantil/prof:render] ok
+
+▶ [educacao-infantil/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-educacao-infantil.mp3 A sua profissão mudou. E agora? Você foi a criança que cuidava dos menores no recreio. Cantou, contou histórias, virou educadora infantil. Viu a foto polaroid virar celular, o recadinho virar mensagem. Agora a IA ajuda a detectar marcos do desenvolvimento. Você continua sendo o colo. Continue aprendendo no Inema ponto CLUB....
+✅ [educacao-infantil/generic:tts] ok
+
+▶ [educacao-infantil/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [educacao-infantil/generic:whisper] ok
+
+▶ [educacao-infantil/generic:render] node render-criaprof-cta-916.js educacao-infantil generic...
+✅ [educacao-infantil/generic:render] ok
+
+✅ [educacao-infantil] CTA COMPLETO (2 variantes) em 0.8 min
+
+=============================================
+=== [psicopedagoga] cta começa em 2026-05-03T19:58:53.183Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/psicopedagoga-cta.log
+=============================================
+
+▶ [psicopedagoga/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-psicopedagoga.mp3 A psicopedagogia mudou. E agora? Você foi a criança que inventava joguinhos pra ensinar. Viu cada aluno que ninguém entendia, virou psicopedagoga. Viu o teste virar digital, o diagnóstico virar preciso. Agora a IA identifica padrões sutis de aprendizagem. Você continua sendo a que descobre o potencial escondido. Continue aprendendo no Inema ponto CLUB....
+✅ [psicopedagoga/prof:tts] ok
+
+▶ [psicopedagoga/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [psicopedagoga/prof:whisper] ok
+
+▶ [psicopedagoga/prof:render] node render-criaprof-cta-916.js psicopedagoga prof...
+✅ [psicopedagoga/prof:render] ok
+
+▶ [psicopedagoga/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-psicopedagoga.mp3 A sua profissão mudou. E agora? Você foi a criança que inventava joguinhos pra ensinar. Viu cada aluno que ninguém entendia, virou psicopedagoga. Viu o teste virar digital, o diagnóstico virar preciso. Agora a IA identifica padrões sutis de aprendizagem. Você continua sendo a que descobre o potencial escondido. Continue aprendendo no Inema ponto CLUB....
+✅ [psicopedagoga/generic:tts] ok
+
+▶ [psicopedagoga/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [psicopedagoga/generic:whisper] ok
+
+▶ [psicopedagoga/generic:render] node render-criaprof-cta-916.js psicopedagoga generic...
+✅ [psicopedagoga/generic:render] ok
+
+✅ [psicopedagoga] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [contador] cta começa em 2026-05-03T19:59:44.664Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/contador-cta.log
+=============================================
+
+▶ [contador/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-contador.mp3 A contabilidade mudou. E agora? Você foi a criança que contava o troco direitinho. Estudou números, abriu escritório, apurou milhares de impostos. Viu a planilha de papel virar Excel, a declaração virar digital. Agora a IA processa mil notas em segundos. Você continua sendo o que traz confiança ao cliente. Continue aprendendo no Inema ponto CLUB....
+✅ [contador/prof:tts] ok
+
+▶ [contador/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [contador/prof:whisper] ok
+
+▶ [contador/prof:render] node render-criaprof-cta-916.js contador prof...
+✅ [contador/prof:render] ok
+
+▶ [contador/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-contador.mp3 A sua profissão mudou. E agora? Você foi a criança que contava o troco direitinho. Estudou números, abriu escritório, apurou milhares de impostos. Viu a planilha de papel virar Excel, a declaração virar digital. Agora a IA processa mil notas em segundos. Você continua sendo o que traz confiança ao cliente. Continue aprendendo no Inema ponto CLUB....
+✅ [contador/generic:tts] ok
+
+▶ [contador/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [contador/generic:whisper] ok
+
+▶ [contador/generic:render] node render-criaprof-cta-916.js contador generic...
+✅ [contador/generic:render] ok
+
+✅ [contador] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [advogada] cta começa em 2026-05-03T20:00:38.162Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/advogada-cta.log
+=============================================
+
+▶ [advogada/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-advogada.mp3 A advocacia mudou. E agora? Você foi a criança que queria justiça até em briga de bolinha de gude. Estudou a constituição, abriu escritório, defendeu milhares. Viu o papel carimbado virar processo eletrônico, a audiência virar vídeo. Agora a IA pesquisa jurisprudência em segundos. Você continua sendo a que argumenta. Continue aprendendo no Inema ponto CLUB....
+✅ [advogada/prof:tts] ok
+
+▶ [advogada/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [advogada/prof:whisper] ok
+
+▶ [advogada/prof:render] node render-criaprof-cta-916.js advogada prof...
+✅ [advogada/prof:render] ok
+
+▶ [advogada/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-advogada.mp3 A sua profissão mudou. E agora? Você foi a criança que queria justiça até em briga de bolinha de gude. Estudou a constituição, abriu escritório, defendeu milhares. Viu o papel carimbado virar processo eletrônico, a audiência virar vídeo. Agora a IA pesquisa jurisprudência em segundos. Você continua sendo a que argumenta. Continue aprendendo no Inema ponto CLUB....
+✅ [advogada/generic:tts] ok
+
+▶ [advogada/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [advogada/generic:whisper] ok
+
+▶ [advogada/generic:render] node render-criaprof-cta-916.js advogada generic...
+✅ [advogada/generic:render] ok
+
+✅ [advogada] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [secretaria] cta começa em 2026-05-03T20:01:29.483Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/secretaria-cta.log
+=============================================
+
+▶ [secretaria/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-secretaria.mp3 O secretariado mudou. E agora? Você foi a criança que organizava a mochila dos irmãos. Virou a secretária que segurava o escritório inteiro. Viu a máquina de escrever virar Word, a agenda de papel virar digital. Agora a IA agenda reuniões, resume atas. Você continua sendo a que faz o escritório acontecer. Continue aprendendo no Inema ponto CLUB....
+✅ [secretaria/prof:tts] ok
+
+▶ [secretaria/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [secretaria/prof:whisper] ok
+
+▶ [secretaria/prof:render] node render-criaprof-cta-916.js secretaria prof...
+✅ [secretaria/prof:render] ok
+
+▶ [secretaria/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-secretaria.mp3 A sua profissão mudou. E agora? Você foi a criança que organizava a mochila dos irmãos. Virou a secretária que segurava o escritório inteiro. Viu a máquina de escrever virar Word, a agenda de papel virar digital. Agora a IA agenda reuniões, resume atas. Você continua sendo a que faz o escritório acontecer. Continue aprendendo no Inema ponto CLUB....
+✅ [secretaria/generic:tts] ok
+
+▶ [secretaria/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [secretaria/generic:whisper] ok
+
+▶ [secretaria/generic:render] node render-criaprof-cta-916.js secretaria generic...
+✅ [secretaria/generic:render] ok
+
+✅ [secretaria] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [administrador] cta começa em 2026-05-03T20:02:20.827Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/administrador-cta.log
+=============================================
+
+▶ [administrador/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-administrador.mp3 A administração mudou. E agora? Você foi a criança que ajudava a gerenciar a loja da família. Estudou administração, virou gestor, liderou times. Viu a planilha de papel virar Excel, o relatório virar dashboard. Agora a IA faz forecast em segundos. Você continua sendo o que lê gente e decide o caminho. Continue aprendendo no Inema ponto CLUB....
+✅ [administrador/prof:tts] ok
+
+▶ [administrador/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [administrador/prof:whisper] ok
+
+▶ [administrador/prof:render] node render-criaprof-cta-916.js administrador prof...
+✅ [administrador/prof:render] ok
+
+▶ [administrador/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-administrador.mp3 A sua profissão mudou. E agora? Você foi a criança que ajudava a gerenciar a loja da família. Estudou administração, virou gestor, liderou times. Viu a planilha de papel virar Excel, o relatório virar dashboard. Agora a IA faz forecast em segundos. Você continua sendo o que lê gente e decide o caminho. Continue aprendendo no Inema ponto CLUB....
+✅ [administrador/generic:tts] ok
+
+▶ [administrador/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [administrador/generic:whisper] ok
+
+▶ [administrador/generic:render] node render-criaprof-cta-916.js administrador generic...
+✅ [administrador/generic:render] ok
+
+✅ [administrador] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [analista-rh] cta começa em 2026-05-03T20:03:14.266Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/analista-rh-cta.log
+=============================================
+
+▶ [analista-rh/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-analista-rh.mp3 O RH mudou. E agora? Você foi a criança que já entendia de gente. Estudou comportamento, virou RH, contratou milhares. Viu o currículo de papel virar LinkedIn, a entrevista virar vídeo. Agora a IA filtra candidatos em segundos. Você continua sendo a que enxerga o humano por trás do CV. Continue aprendendo no Inema ponto CLUB....
+✅ [analista-rh/prof:tts] ok
+
+▶ [analista-rh/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [analista-rh/prof:whisper] ok
+
+▶ [analista-rh/prof:render] node render-criaprof-cta-916.js analista-rh prof...
+✅ [analista-rh/prof:render] ok
+
+▶ [analista-rh/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-analista-rh.mp3 A sua profissão mudou. E agora? Você foi a criança que já entendia de gente. Estudou comportamento, virou RH, contratou milhares. Viu o currículo de papel virar LinkedIn, a entrevista virar vídeo. Agora a IA filtra candidatos em segundos. Você continua sendo a que enxerga o humano por trás do CV. Continue aprendendo no Inema ponto CLUB....
+✅ [analista-rh/generic:tts] ok
+
+▶ [analista-rh/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [analista-rh/generic:whisper] ok
+
+▶ [analista-rh/generic:render] node render-criaprof-cta-916.js analista-rh generic...
+✅ [analista-rh/generic:render] ok
+
+✅ [analista-rh] CTA COMPLETO (2 variantes) em 0.8 min
+
+=============================================
+=== [eletricista] cta começa em 2026-05-03T20:04:04.765Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/eletricista-cta.log
+=============================================
+
+▶ [eletricista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-eletricista.mp3 Ser eletricista mudou. E agora? Você foi a criança que desmontava rádios pra entender. Aprendeu circuito, virou eletricista, iluminou milhares de casas. Viu o disjuntor virar inteligente, a lâmpada virar IoT. Agora a IA diagnostica falhas pela câmera. Você continua sendo o que resolve no silêncio do breaker. Continue aprendendo no Inema ponto CLUB....
+✅ [eletricista/prof:tts] ok
+
+▶ [eletricista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [eletricista/prof:whisper] ok
+
+▶ [eletricista/prof:render] node render-criaprof-cta-916.js eletricista prof...
+✅ [eletricista/prof:render] ok
+
+▶ [eletricista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-eletricista.mp3 A sua profissão mudou. E agora? Você foi a criança que desmontava rádios pra entender. Aprendeu circuito, virou eletricista, iluminou milhares de casas. Viu o disjuntor virar inteligente, a lâmpada virar IoT. Agora a IA diagnostica falhas pela câmera. Você continua sendo o que resolve no silêncio do breaker. Continue aprendendo no Inema ponto CLUB....
+✅ [eletricista/generic:tts] ok
+
+▶ [eletricista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [eletricista/generic:whisper] ok
+
+▶ [eletricista/generic:render] node render-criaprof-cta-916.js eletricista generic...
+✅ [eletricista/generic:render] ok
+
+✅ [eletricista] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [encanador] cta começa em 2026-05-03T20:04:56.780Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/encanador-cta.log
+=============================================
+
+▶ [encanador/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-encanador.mp3 Ser encanador mudou. E agora? Você foi a criança que seguia o pai nas obras. Aprendeu cano, porca, rosca, virou encanador, salvou milhares de casas. Viu o serviço virar app, o cano virar smart, a câmera virar ferramenta. Agora a IA detecta vazamento pelo som. Você continua sendo o que aparece e resolve. Continue aprendendo no Inema ponto CLUB....
+✅ [encanador/prof:tts] ok
+
+▶ [encanador/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [encanador/prof:whisper] ok
+
+▶ [encanador/prof:render] node render-criaprof-cta-916.js encanador prof...
+✅ [encanador/prof:render] ok
+
+▶ [encanador/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-encanador.mp3 A sua profissão mudou. E agora? Você foi a criança que seguia o pai nas obras. Aprendeu cano, porca, rosca, virou encanador, salvou milhares de casas. Viu o serviço virar app, o cano virar smart, a câmera virar ferramenta. Agora a IA detecta vazamento pelo som. Você continua sendo o que aparece e resolve. Continue aprendendo no Inema ponto CLUB....
+✅ [encanador/generic:tts] ok
+
+▶ [encanador/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [encanador/generic:whisper] ok
+
+▶ [encanador/generic:render] node render-criaprof-cta-916.js encanador generic...
+✅ [encanador/generic:render] ok
+
+✅ [encanador] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [mecanico] cta começa em 2026-05-03T20:05:50.630Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/mecanico-cta.log
+=============================================
+
+▶ [mecanico/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-mecanico.mp3 A mecânica mudou. E agora? Você foi a criança que desmontava tudo pra saber como funcionava. Aprendeu cada motor, virou mecânico, colocou milhares de volta na estrada. Viu o carburador virar injeção, o manual virar scanner, o código virar Bluetooth. Agora a IA diagnostica pelo som do motor. Você continua sendo o que conhece pelo barulho. Continue aprendendo no Inema ponto CLUB....
+✅ [mecanico/prof:tts] ok
+
+▶ [mecanico/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [mecanico/prof:whisper] ok
+
+▶ [mecanico/prof:render] node render-criaprof-cta-916.js mecanico prof...
+✅ [mecanico/prof:render] ok
+
+▶ [mecanico/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-mecanico.mp3 A sua profissão mudou. E agora? Você foi a criança que desmontava tudo pra saber como funcionava. Aprendeu cada motor, virou mecânico, colocou milhares de volta na estrada. Viu o carburador virar injeção, o manual virar scanner, o código virar Bluetooth. Agora a IA diagnostica pelo som do motor. Você continua sendo o que conhece pelo barulho. Continue aprendendo no Inema ponto CLUB....
+✅ [mecanico/generic:tts] ok
+
+▶ [mecanico/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [mecanico/generic:whisper] ok
+
+▶ [mecanico/generic:render] node render-criaprof-cta-916.js mecanico generic...
+✅ [mecanico/generic:render] ok
+
+✅ [mecanico] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [marceneiro] cta começa em 2026-05-03T20:06:44.404Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/marceneiro-cta.log
+=============================================
+
+▶ [marceneiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-marceneiro.mp3 A marcenaria mudou. E agora? Você foi a criança que construía casinha com sobras de madeira. Aprendeu encaixe, serra, formão, virou marceneiro. Viu o papel milimetrado virar CAD, a prancheta virar tablet, o projeto virar 3D. Agora a IA gera design em segundos. Você continua sendo o que sabe a madeira no tato. Continue aprendendo no Inema ponto CLUB....
+✅ [marceneiro/prof:tts] ok
+
+▶ [marceneiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [marceneiro/prof:whisper] ok
+
+▶ [marceneiro/prof:render] node render-criaprof-cta-916.js marceneiro prof...
+✅ [marceneiro/prof:render] ok
+
+▶ [marceneiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-marceneiro.mp3 A sua profissão mudou. E agora? Você foi a criança que construía casinha com sobras de madeira. Aprendeu encaixe, serra, formão, virou marceneiro. Viu o papel milimetrado virar CAD, a prancheta virar tablet, o projeto virar 3D. Agora a IA gera design em segundos. Você continua sendo o que sabe a madeira no tato. Continue aprendendo no Inema ponto CLUB....
+✅ [marceneiro/generic:tts] ok
+
+▶ [marceneiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [marceneiro/generic:whisper] ok
+
+▶ [marceneiro/generic:render] node render-criaprof-cta-916.js marceneiro generic...
+✅ [marceneiro/generic:render] ok
+
+✅ [marceneiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [costureira] cta começa em 2026-05-03T20:07:37.388Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/costureira-cta.log
+=============================================
+
+▶ [costureira/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-costureira.mp3 A costura mudou. E agora? Você foi a criança que costurava vestido pra boneca. Aprendeu cada ponto, cada molde, virou costureira, fez milhares de peças únicas. Viu o molde de papel virar CAD, a cliente virar online, o atendimento virar vídeo. Agora a IA gera molde a partir de foto. Você continua sendo a que sente a fazenda no dedo. Continue aprendendo no Inema ponto CLUB....
+✅ [costureira/prof:tts] ok
+
+▶ [costureira/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [costureira/prof:whisper] ok
+
+▶ [costureira/prof:render] node render-criaprof-cta-916.js costureira prof...
+✅ [costureira/prof:render] ok
+
+▶ [costureira/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-costureira.mp3 A sua profissão mudou. E agora? Você foi a criança que costurava vestido pra boneca. Aprendeu cada ponto, cada molde, virou costureira, fez milhares de peças únicas. Viu o molde de papel virar CAD, a cliente virar online, o atendimento virar vídeo. Agora a IA gera molde a partir de foto. Você continua sendo a que sente a fazenda no dedo. Continue aprendendo no Inema ponto CLUB....
+✅ [costureira/generic:tts] ok
+
+▶ [costureira/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [costureira/generic:whisper] ok
+
+▶ [costureira/generic:render] node render-criaprof-cta-916.js costureira generic...
+✅ [costureira/generic:render] ok
+
+✅ [costureira] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [cabeleireira] cta começa em 2026-05-03T20:08:29.799Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/cabeleireira-cta.log
+=============================================
+
+▶ [cabeleireira/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-cabeleireira.mp3 Ser cabeleireira mudou. E agora? Você foi a criança que mudava o cabelo da boneca todo dia. Aprendeu cada tesoura, cada cor, virou cabeleireira. Viu a revista virar Instagram, o corte virar tutorial. Agora a IA simula a cor antes de pintar. Você continua sendo a que escuta o que a cliente realmente quer. Continue aprendendo no Inema ponto CLUB....
+✅ [cabeleireira/prof:tts] ok
+
+▶ [cabeleireira/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [cabeleireira/prof:whisper] ok
+
+▶ [cabeleireira/prof:render] node render-criaprof-cta-916.js cabeleireira prof...
+✅ [cabeleireira/prof:render] ok
+
+▶ [cabeleireira/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-cabeleireira.mp3 A sua profissão mudou. E agora? Você foi a criança que mudava o cabelo da boneca todo dia. Aprendeu cada tesoura, cada cor, virou cabeleireira. Viu a revista virar Instagram, o corte virar tutorial. Agora a IA simula a cor antes de pintar. Você continua sendo a que escuta o que a cliente realmente quer. Continue aprendendo no Inema ponto CLUB....
+✅ [cabeleireira/generic:tts] ok
+
+▶ [cabeleireira/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [cabeleireira/generic:whisper] ok
+
+▶ [cabeleireira/generic:render] node render-criaprof-cta-916.js cabeleireira generic...
+✅ [cabeleireira/generic:render] ok
+
+✅ [cabeleireira] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [chef] cta começa em 2026-05-03T20:09:22.461Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/chef-cta.log
+=============================================
+
+▶ [chef/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-chef.mp3 A gastronomia mudou. E agora? Você foi a criança que lambia a colher da vó. Aprendeu tempero, técnica, virou chef. Viu o caderno de receita virar app, o salão virar delivery, a aula virar online. Agora a IA sugere menu sazonal. Você continua sendo o que coloca alma no prato. Continue aprendendo no Inema ponto CLUB....
+✅ [chef/prof:tts] ok
+
+▶ [chef/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [chef/prof:whisper] ok
+
+▶ [chef/prof:render] node render-criaprof-cta-916.js chef prof...
+✅ [chef/prof:render] ok
+
+▶ [chef/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-chef.mp3 A sua profissão mudou. E agora? Você foi a criança que lambia a colher da vó. Aprendeu tempero, técnica, virou chef. Viu o caderno de receita virar app, o salão virar delivery, a aula virar online. Agora a IA sugere menu sazonal. Você continua sendo o que coloca alma no prato. Continue aprendendo no Inema ponto CLUB....
+✅ [chef/generic:tts] ok
+
+▶ [chef/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [chef/generic:whisper] ok
+
+▶ [chef/generic:render] node render-criaprof-cta-916.js chef generic...
+✅ [chef/generic:render] ok
+
+✅ [chef] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [fotografo] cta começa em 2026-05-03T20:10:15.692Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/fotografo-cta.log
+=============================================
+
+▶ [fotografo/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-fotografo.mp3 A fotografia mudou. E agora? Você foi a criança que tirava 36 fotos e torcia pra dar certo. Aprendeu luz, sombra, composição, virou fotógrafo. Viu o filme virar digital, o álbum virar Instagram, a entrega virar app. Agora a IA edita em segundos. Você continua sendo o que enxerga o momento antes de clicar. Continue aprendendo no Inema ponto CLUB....
+✅ [fotografo/prof:tts] ok
+
+▶ [fotografo/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [fotografo/prof:whisper] ok
+
+▶ [fotografo/prof:render] node render-criaprof-cta-916.js fotografo prof...
+✅ [fotografo/prof:render] ok
+
+▶ [fotografo/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-fotografo.mp3 A sua profissão mudou. E agora? Você foi a criança que tirava 36 fotos e torcia pra dar certo. Aprendeu luz, sombra, composição, virou fotógrafo. Viu o filme virar digital, o álbum virar Instagram, a entrega virar app. Agora a IA edita em segundos. Você continua sendo o que enxerga o momento antes de clicar. Continue aprendendo no Inema ponto CLUB....
+✅ [fotografo/generic:tts] ok
+
+▶ [fotografo/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [fotografo/generic:whisper] ok
+
+▶ [fotografo/generic:render] node render-criaprof-cta-916.js fotografo generic...
+✅ [fotografo/generic:render] ok
+
+✅ [fotografo] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [jornalista] cta começa em 2026-05-03T20:11:08.399Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/jornalista-cta.log
+=============================================
+
+▶ [jornalista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-jornalista.mp3 O jornalismo mudou. E agora? Você foi a criança que fazia jornalzinho do bairro. Aprendeu a escutar, a apurar, virou jornalista. Viu o fax virar e-mail, o jornal virar portal, a entrevista virar podcast. Agora a IA checa fato em segundos. Você continua sendo a que faz a pergunta que ninguém faz. Continue aprendendo no Inema ponto CLUB....
+✅ [jornalista/prof:tts] ok
+
+▶ [jornalista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [jornalista/prof:whisper] ok
+
+▶ [jornalista/prof:render] node render-criaprof-cta-916.js jornalista prof...
+✅ [jornalista/prof:render] ok
+
+▶ [jornalista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-jornalista.mp3 A sua profissão mudou. E agora? Você foi a criança que fazia jornalzinho do bairro. Aprendeu a escutar, a apurar, virou jornalista. Viu o fax virar e-mail, o jornal virar portal, a entrevista virar podcast. Agora a IA checa fato em segundos. Você continua sendo a que faz a pergunta que ninguém faz. Continue aprendendo no Inema ponto CLUB....
+✅ [jornalista/generic:tts] ok
+
+▶ [jornalista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [jornalista/generic:whisper] ok
+
+▶ [jornalista/generic:render] node render-criaprof-cta-916.js jornalista generic...
+✅ [jornalista/generic:render] ok
+
+✅ [jornalista] CTA COMPLETO (2 variantes) em 0.8 min
+
+=============================================
+=== [arquiteta] cta começa em 2026-05-03T20:11:58.726Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/arquiteta-cta.log
+=============================================
+
+▶ [arquiteta/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-arquiteta.mp3 A arquitetura mudou. E agora? Você foi a criança que construía cidades com blocos. Aprendeu cada linha, cada planta, virou arquiteta. Viu a prancheta virar AutoCAD, a maquete virar render, a obra virar BIM. Agora a IA gera planta em segundos. Você continua sendo a que lê o jeito que a família vive a casa. Continue aprendendo no Inema ponto CLUB....
+✅ [arquiteta/prof:tts] ok
+
+▶ [arquiteta/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [arquiteta/prof:whisper] ok
+
+▶ [arquiteta/prof:render] node render-criaprof-cta-916.js arquiteta prof...
+✅ [arquiteta/prof:render] ok
+
+▶ [arquiteta/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-arquiteta.mp3 A sua profissão mudou. E agora? Você foi a criança que construía cidades com blocos. Aprendeu cada linha, cada planta, virou arquiteta. Viu a prancheta virar AutoCAD, a maquete virar render, a obra virar BIM. Agora a IA gera planta em segundos. Você continua sendo a que lê o jeito que a família vive a casa. Continue aprendendo no Inema ponto CLUB....
+✅ [arquiteta/generic:tts] ok
+
+▶ [arquiteta/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [arquiteta/generic:whisper] ok
+
+▶ [arquiteta/generic:render] node render-criaprof-cta-916.js arquiteta generic...
+✅ [arquiteta/generic:render] ok
+
+✅ [arquiteta] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [cardiologista] cta começa em 2026-05-03T20:12:51.395Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/cardiologista-cta.log
+=============================================
+
+▶ [cardiologista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-cardiologista.mp3 A cardiologia mudou. E agora? Você foi a criança que ouvia o coração da vó encostando no peito. Estudou cada batida, virou cardiologista, salvou milhares. Viu o eletro de papel virar digital, o exame virar remoto, o holter virar smartwatch. Agora a IA detecta arritmia antes do sintoma. Você continua sendo o que escuta com calma. Continue aprendendo no Inema ponto CLUB....
+✅ [cardiologista/prof:tts] ok
+
+▶ [cardiologista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [cardiologista/prof:whisper] ok
+
+▶ [cardiologista/prof:render] node render-criaprof-cta-916.js cardiologista prof...
+✅ [cardiologista/prof:render] ok
+
+▶ [cardiologista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-cardiologista.mp3 A sua profissão mudou. E agora? Você foi a criança que ouvia o coração da vó encostando no peito. Estudou cada batida, virou cardiologista, salvou milhares. Viu o eletro de papel virar digital, o exame virar remoto, o holter virar smartwatch. Agora a IA detecta arritmia antes do sintoma. Você continua sendo o que escuta com calma. Continue aprendendo no Inema ponto CLUB....
+✅ [cardiologista/generic:tts] ok
+
+▶ [cardiologista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [cardiologista/generic:whisper] ok
+
+▶ [cardiologista/generic:render] node render-criaprof-cta-916.js cardiologista generic...
+✅ [cardiologista/generic:render] ok
+
+✅ [cardiologista] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [pediatra] cta começa em 2026-05-03T20:13:46.049Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/pediatra-cta.log
+=============================================
+
+▶ [pediatra/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-pediatra.mp3 A pediatria mudou. E agora? Você foi a criança que cuidava dos menores no recreio. Estudou cada fase, virou pediatra, acompanhou milhares crescerem. Viu a caderneta de vacina virar app, a curva virar dashboard, a consulta virar videochamada. Agora a IA rastreia marcos do desenvolvimento. Você continua sendo a que tranquiliza a mãe. Continue aprendendo no Inema ponto CLUB....
+✅ [pediatra/prof:tts] ok
+
+▶ [pediatra/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pediatra/prof:whisper] ok
+
+▶ [pediatra/prof:render] node render-criaprof-cta-916.js pediatra prof...
+✅ [pediatra/prof:render] ok
+
+▶ [pediatra/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-pediatra.mp3 A sua profissão mudou. E agora? Você foi a criança que cuidava dos menores no recreio. Estudou cada fase, virou pediatra, acompanhou milhares crescerem. Viu a caderneta de vacina virar app, a curva virar dashboard, a consulta virar videochamada. Agora a IA rastreia marcos do desenvolvimento. Você continua sendo a que tranquiliza a mãe. Continue aprendendo no Inema ponto CLUB....
+✅ [pediatra/generic:tts] ok
+
+▶ [pediatra/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pediatra/generic:whisper] ok
+
+▶ [pediatra/generic:render] node render-criaprof-cta-916.js pediatra generic...
+✅ [pediatra/generic:render] ok
+
+✅ [pediatra] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [ginecologista] cta começa em 2026-05-03T20:14:40.290Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/ginecologista-cta.log
+=============================================
+
+▶ [ginecologista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-ginecologista.mp3 A ginecologia mudou. E agora? Você foi a criança que já acolhia as primas mais novas. Estudou o corpo feminino inteiro, virou ginecologista. Viu o ultrassom virar 3D, a ficha virar digital, a consulta virar remota. Agora a IA ajuda a ler imagens em segundos. Você continua sendo a que escuta sem julgar. Continue aprendendo no Inema ponto CLUB....
+✅ [ginecologista/prof:tts] ok
+
+▶ [ginecologista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [ginecologista/prof:whisper] ok
+
+▶ [ginecologista/prof:render] node render-criaprof-cta-916.js ginecologista prof...
+✅ [ginecologista/prof:render] ok
+
+▶ [ginecologista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-ginecologista.mp3 A sua profissão mudou. E agora? Você foi a criança que já acolhia as primas mais novas. Estudou o corpo feminino inteiro, virou ginecologista. Viu o ultrassom virar 3D, a ficha virar digital, a consulta virar remota. Agora a IA ajuda a ler imagens em segundos. Você continua sendo a que escuta sem julgar. Continue aprendendo no Inema ponto CLUB....
+✅ [ginecologista/generic:tts] ok
+
+▶ [ginecologista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [ginecologista/generic:whisper] ok
+
+▶ [ginecologista/generic:render] node render-criaprof-cta-916.js ginecologista generic...
+✅ [ginecologista/generic:render] ok
+
+✅ [ginecologista] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [veterinario] cta começa em 2026-05-03T20:15:32.194Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/veterinario-cta.log
+=============================================
+
+▶ [veterinario/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-veterinario.mp3 A veterinária mudou. E agora? Você foi a criança que salvou o cachorro de rua. Estudou cada espécie, virou veterinário, cuidou de milhares. Viu a ficha virar app, o raio-X virar digital, o atendimento virar remoto. Agora a IA lê exame em segundos. Você continua sendo o que acalma o animal com as mãos. Continue aprendendo no Inema ponto CLUB....
+✅ [veterinario/prof:tts] ok
+
+▶ [veterinario/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [veterinario/prof:whisper] ok
+
+▶ [veterinario/prof:render] node render-criaprof-cta-916.js veterinario prof...
+✅ [veterinario/prof:render] ok
+
+▶ [veterinario/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-veterinario.mp3 A sua profissão mudou. E agora? Você foi a criança que salvou o cachorro de rua. Estudou cada espécie, virou veterinário, cuidou de milhares. Viu a ficha virar app, o raio-X virar digital, o atendimento virar remoto. Agora a IA lê exame em segundos. Você continua sendo o que acalma o animal com as mãos. Continue aprendendo no Inema ponto CLUB....
+✅ [veterinario/generic:tts] ok
+
+▶ [veterinario/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [veterinario/generic:whisper] ok
+
+▶ [veterinario/generic:render] node render-criaprof-cta-916.js veterinario generic...
+✅ [veterinario/generic:render] ok
+
+✅ [veterinario] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [massoterapeuta] cta começa em 2026-05-03T20:16:24.969Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/massoterapeuta-cta.log
+=============================================
+
+▶ [massoterapeuta/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-massoterapeuta.mp3 A massoterapia mudou. E agora? Você foi a criança que já sabia relaxar quem estava tenso. Estudou cada músculo, virou massoterapeuta, aliviou milhares. Viu o agendamento virar app, o cliente virar Instagram, o tutorial virar vídeo. Agora a IA mapeia tensão pelo corpo. Você continua sendo a que cura pelo toque. Continue aprendendo no Inema ponto CLUB....
+✅ [massoterapeuta/prof:tts] ok
+
+▶ [massoterapeuta/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [massoterapeuta/prof:whisper] ok
+
+▶ [massoterapeuta/prof:render] node render-criaprof-cta-916.js massoterapeuta prof...
+✅ [massoterapeuta/prof:render] ok
+
+▶ [massoterapeuta/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-massoterapeuta.mp3 A sua profissão mudou. E agora? Você foi a criança que já sabia relaxar quem estava tenso. Estudou cada músculo, virou massoterapeuta, aliviou milhares. Viu o agendamento virar app, o cliente virar Instagram, o tutorial virar vídeo. Agora a IA mapeia tensão pelo corpo. Você continua sendo a que cura pelo toque. Continue aprendendo no Inema ponto CLUB....
+✅ [massoterapeuta/generic:tts] ok
+
+▶ [massoterapeuta/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [massoterapeuta/generic:whisper] ok
+
+▶ [massoterapeuta/generic:render] node render-criaprof-cta-916.js massoterapeuta generic...
+✅ [massoterapeuta/generic:render] ok
+
+✅ [massoterapeuta] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [parteira] cta começa em 2026-05-03T20:17:20.223Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/parteira-cta.log
+=============================================
+
+▶ [parteira/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-parteira.mp3 A obstetrícia mudou. E agora? Você foi a criança que ajudava a avó no parto da tia. Aprendeu cada respiração, virou parteira. Viu o parto virar hospital, o hospital virar humanizado, a consulta virar vídeo. Agora a IA monitora mãe e bebê em tempo real. Você continua sendo a mão que traz a vida. Continue aprendendo no Inema ponto CLUB....
+✅ [parteira/prof:tts] ok
+
+▶ [parteira/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [parteira/prof:whisper] ok
+
+▶ [parteira/prof:render] node render-criaprof-cta-916.js parteira prof...
+✅ [parteira/prof:render] ok
+
+▶ [parteira/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-parteira.mp3 A sua profissão mudou. E agora? Você foi a criança que ajudava a avó no parto da tia. Aprendeu cada respiração, virou parteira. Viu o parto virar hospital, o hospital virar humanizado, a consulta virar vídeo. Agora a IA monitora mãe e bebê em tempo real. Você continua sendo a mão que traz a vida. Continue aprendendo no Inema ponto CLUB....
+✅ [parteira/generic:tts] ok
+
+▶ [parteira/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [parteira/generic:whisper] ok
+
+▶ [parteira/generic:render] node render-criaprof-cta-916.js parteira generic...
+✅ [parteira/generic:render] ok
+
+✅ [parteira] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [professor-universitario] cta começa em 2026-05-03T20:18:11.915Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/professor-universitario-cta.log
+=============================================
+
+▶ [professor-universitario/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-professor-universitario.mp3 A docência mudou. E agora? Você foi a criança que dava aula pra enciclopédia. Estudou pra caramba, virou professor universitário, formou milhares. Viu o slide virar PowerPoint, a revista virar JSTOR, a sala virar Zoom. Agora a IA resume papers em segundos. Você continua sendo o que transforma conhecimento em cabeça pensante. Continue aprendendo no Inema ponto CLUB....
+✅ [professor-universitario/prof:tts] ok
+
+▶ [professor-universitario/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professor-universitario/prof:whisper] ok
+
+▶ [professor-universitario/prof:render] node render-criaprof-cta-916.js professor-universitario prof...
+✅ [professor-universitario/prof:render] ok
+
+▶ [professor-universitario/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-professor-universitario.mp3 A sua profissão mudou. E agora? Você foi a criança que dava aula pra enciclopédia. Estudou pra caramba, virou professor universitário, formou milhares. Viu o slide virar PowerPoint, a revista virar JSTOR, a sala virar Zoom. Agora a IA resume papers em segundos. Você continua sendo o que transforma conhecimento em cabeça pensante. Continue aprendendo no Inema ponto CLUB....
+✅ [professor-universitario/generic:tts] ok
+
+▶ [professor-universitario/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professor-universitario/generic:whisper] ok
+
+▶ [professor-universitario/generic:render] node render-criaprof-cta-916.js professor-universitario generic...
+✅ [professor-universitario/generic:render] ok
+
+✅ [professor-universitario] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [professor-matematica] cta começa em 2026-05-03T20:19:04.157Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/professor-matematica-cta.log
+=============================================
+
+▶ [professor-matematica/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-professor-matematica.mp3 Ensinar matemática mudou. E agora? Você foi a criança que gostava do problema difícil. Estudou cada teorema, virou professora de matemática, desmistificou o medo em milhares. Viu a lousa virar tela, a prova virar PDF, a aula virar remota. Agora a IA explica passo a passo. Você continua sendo a que traduz o abstrato. Continue aprendendo no Inema ponto CLUB....
+✅ [professor-matematica/prof:tts] ok
+
+▶ [professor-matematica/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professor-matematica/prof:whisper] ok
+
+▶ [professor-matematica/prof:render] node render-criaprof-cta-916.js professor-matematica prof...
+✅ [professor-matematica/prof:render] ok
+
+▶ [professor-matematica/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-professor-matematica.mp3 A sua profissão mudou. E agora? Você foi a criança que gostava do problema difícil. Estudou cada teorema, virou professora de matemática, desmistificou o medo em milhares. Viu a lousa virar tela, a prova virar PDF, a aula virar remota. Agora a IA explica passo a passo. Você continua sendo a que traduz o abstrato. Continue aprendendo no Inema ponto CLUB....
+✅ [professor-matematica/generic:tts] ok
+
+▶ [professor-matematica/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [professor-matematica/generic:whisper] ok
+
+▶ [professor-matematica/generic:render] node render-criaprof-cta-916.js professor-matematica generic...
+✅ [professor-matematica/generic:render] ok
+
+✅ [professor-matematica] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [educador-fisico] cta começa em 2026-05-03T20:19:59.491Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/educador-fisico-cta.log
+=============================================
+
+▶ [educador-fisico/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-educador-fisico.mp3 A educação física mudou. E agora? Você foi a criança que organizava o campeonato do quarteirão. Estudou cada músculo, virou professor de educação física, formou milhares de atletas. Viu o cronômetro virar digital, a aula virar online, o aluno virar app. Agora a IA analisa movimento pela câmera. Você continua sendo o que motiva a começar. Continue aprendendo no Inema ponto CLUB....
+✅ [educador-fisico/prof:tts] ok
+
+▶ [educador-fisico/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [educador-fisico/prof:whisper] ok
+
+▶ [educador-fisico/prof:render] node render-criaprof-cta-916.js educador-fisico prof...
+✅ [educador-fisico/prof:render] ok
+
+▶ [educador-fisico/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-educador-fisico.mp3 A sua profissão mudou. E agora? Você foi a criança que organizava o campeonato do quarteirão. Estudou cada músculo, virou professor de educação física, formou milhares de atletas. Viu o cronômetro virar digital, a aula virar online, o aluno virar app. Agora a IA analisa movimento pela câmera. Você continua sendo o que motiva a começar. Continue aprendendo no Inema ponto CLUB....
+✅ [educador-fisico/generic:tts] ok
+
+▶ [educador-fisico/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [educador-fisico/generic:whisper] ok
+
+▶ [educador-fisico/generic:render] node render-criaprof-cta-916.js educador-fisico generic...
+✅ [educador-fisico/generic:render] ok
+
+✅ [educador-fisico] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [bibliotecaria] cta começa em 2026-05-03T20:20:53.659Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/bibliotecaria-cta.log
+=============================================
+
+▶ [bibliotecaria/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-bibliotecaria.mp3 A biblioteconomia mudou. E agora? Você foi a criança que emprestava livros do quarto. Aprendeu cada gênero, virou bibliotecária, conectou milhares a livros. Viu o fichário virar sistema, o livro virar PDF, a sala virar silenciosa no online. Agora a IA recomenda o próximo livro certo. Você continua sendo a que conhece o leitor pelo pedido. Continue aprendendo no Inema ponto CLUB....
+✅ [bibliotecaria/prof:tts] ok
+
+▶ [bibliotecaria/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [bibliotecaria/prof:whisper] ok
+
+▶ [bibliotecaria/prof:render] node render-criaprof-cta-916.js bibliotecaria prof...
+✅ [bibliotecaria/prof:render] ok
+
+▶ [bibliotecaria/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-bibliotecaria.mp3 A sua profissão mudou. E agora? Você foi a criança que emprestava livros do quarto. Aprendeu cada gênero, virou bibliotecária, conectou milhares a livros. Viu o fichário virar sistema, o livro virar PDF, a sala virar silenciosa no online. Agora a IA recomenda o próximo livro certo. Você continua sendo a que conhece o leitor pelo pedido. Continue aprendendo no Inema ponto CLUB....
+✅ [bibliotecaria/generic:tts] ok
+
+▶ [bibliotecaria/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [bibliotecaria/generic:whisper] ok
+
+▶ [bibliotecaria/generic:render] node render-criaprof-cta-916.js bibliotecaria generic...
+✅ [bibliotecaria/generic:render] ok
+
+✅ [bibliotecaria] CTA COMPLETO (2 variantes) em 1.0 min
+
+=============================================
+=== [coordenador-escolar] cta começa em 2026-05-03T20:21:53.228Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/coordenador-escolar-cta.log
+=============================================
+
+▶ [coordenador-escolar/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-coordenador-escolar.mp3 A gestão escolar mudou. E agora? Você foi a criança que mediava as brigas do recreio. Estudou gestão, virou coordenador, segurou escolas inteiras. Viu a ficha virar sistema, o bilhete virar app, a reunião virar vídeo. Agora a IA prevê evasão antes de acontecer. Você continua sendo o que enxerga a escola inteira. Continue aprendendo no Inema ponto CLUB....
+✅ [coordenador-escolar/prof:tts] ok
+
+▶ [coordenador-escolar/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [coordenador-escolar/prof:whisper] ok
+
+▶ [coordenador-escolar/prof:render] node render-criaprof-cta-916.js coordenador-escolar prof...
+✅ [coordenador-escolar/prof:render] ok
+
+▶ [coordenador-escolar/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-coordenador-escolar.mp3 A sua profissão mudou. E agora? Você foi a criança que mediava as brigas do recreio. Estudou gestão, virou coordenador, segurou escolas inteiras. Viu a ficha virar sistema, o bilhete virar app, a reunião virar vídeo. Agora a IA prevê evasão antes de acontecer. Você continua sendo o que enxerga a escola inteira. Continue aprendendo no Inema ponto CLUB....
+✅ [coordenador-escolar/generic:tts] ok
+
+▶ [coordenador-escolar/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [coordenador-escolar/generic:whisper] ok
+
+▶ [coordenador-escolar/generic:render] node render-criaprof-cta-916.js coordenador-escolar generic...
+✅ [coordenador-escolar/generic:render] ok
+
+✅ [coordenador-escolar] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [juiza] cta começa em 2026-05-03T20:22:46.321Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/juiza-cta.log
+=============================================
+
+▶ [juiza/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-juiza.mp3 A magistratura mudou. E agora? Você foi a criança que queria justiça até em briga de irmão. Estudou a constituição, virou juíza, decidiu milhares de vidas. Viu o carimbo virar token digital, a audiência virar vídeo, o acórdão virar banco de dados. Agora a IA pesquisa precedentes em segundos. Você continua sendo a que decide com equilíbrio. Continue aprendendo no Inema ponto CLUB....
+✅ [juiza/prof:tts] ok
+
+▶ [juiza/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [juiza/prof:whisper] ok
+
+▶ [juiza/prof:render] node render-criaprof-cta-916.js juiza prof...
+✅ [juiza/prof:render] ok
+
+▶ [juiza/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-juiza.mp3 A sua profissão mudou. E agora? Você foi a criança que queria justiça até em briga de irmão. Estudou a constituição, virou juíza, decidiu milhares de vidas. Viu o carimbo virar token digital, a audiência virar vídeo, o acórdão virar banco de dados. Agora a IA pesquisa precedentes em segundos. Você continua sendo a que decide com equilíbrio. Continue aprendendo no Inema ponto CLUB....
+✅ [juiza/generic:tts] ok
+
+▶ [juiza/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [juiza/generic:whisper] ok
+
+▶ [juiza/generic:render] node render-criaprof-cta-916.js juiza generic...
+✅ [juiza/generic:render] ok
+
+✅ [juiza] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [delegada] cta começa em 2026-05-03T20:23:40.593Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/delegada-cta.log
+=============================================
+
+▶ [delegada/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-delegada.mp3 A investigação mudou. E agora? Você foi a criança que resolvia o mistério da goiabeira. Estudou o código, virou delegada, tirou milhares de dúvidas. Viu a máquina de escrever virar sistema, o retrato falado virar IA, a vítima virar depoimento online. Agora a IA cruza evidências em segundos. Você continua sendo a que escuta sem prejulgar. Continue aprendendo no Inema ponto CLUB....
+✅ [delegada/prof:tts] ok
+
+▶ [delegada/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [delegada/prof:whisper] ok
+
+▶ [delegada/prof:render] node render-criaprof-cta-916.js delegada prof...
+✅ [delegada/prof:render] ok
+
+▶ [delegada/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-delegada.mp3 A sua profissão mudou. E agora? Você foi a criança que resolvia o mistério da goiabeira. Estudou o código, virou delegada, tirou milhares de dúvidas. Viu a máquina de escrever virar sistema, o retrato falado virar IA, a vítima virar depoimento online. Agora a IA cruza evidências em segundos. Você continua sendo a que escuta sem prejulgar. Continue aprendendo no Inema ponto CLUB....
+✅ [delegada/generic:tts] ok
+
+▶ [delegada/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [delegada/generic:whisper] ok
+
+▶ [delegada/generic:render] node render-criaprof-cta-916.js delegada generic...
+✅ [delegada/generic:render] ok
+
+✅ [delegada] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [auditor-fiscal] cta começa em 2026-05-03T20:24:36.423Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/auditor-fiscal-cta.log
+=============================================
+
+▶ [auditor-fiscal/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-auditor-fiscal.mp3 A auditoria mudou. E agora? Você foi a criança que sabia onde cada centavo foi. Estudou a receita, virou auditor, garantiu milhares cumprirem. Viu a declaração virar eletrônica, a nota virar XML, a fiscalização virar big data. Agora a IA detecta fraude em milissegundos. Você continua sendo o que vê o padrão por trás do número. Continue aprendendo no Inema ponto CLUB....
+✅ [auditor-fiscal/prof:tts] ok
+
+▶ [auditor-fiscal/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [auditor-fiscal/prof:whisper] ok
+
+▶ [auditor-fiscal/prof:render] node render-criaprof-cta-916.js auditor-fiscal prof...
+✅ [auditor-fiscal/prof:render] ok
+
+▶ [auditor-fiscal/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-auditor-fiscal.mp3 A sua profissão mudou. E agora? Você foi a criança que sabia onde cada centavo foi. Estudou a receita, virou auditor, garantiu milhares cumprirem. Viu a declaração virar eletrônica, a nota virar XML, a fiscalização virar big data. Agora a IA detecta fraude em milissegundos. Você continua sendo o que vê o padrão por trás do número. Continue aprendendo no Inema ponto CLUB....
+✅ [auditor-fiscal/generic:tts] ok
+
+▶ [auditor-fiscal/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [auditor-fiscal/generic:whisper] ok
+
+▶ [auditor-fiscal/generic:render] node render-criaprof-cta-916.js auditor-fiscal generic...
+✅ [auditor-fiscal/generic:render] ok
+
+✅ [auditor-fiscal] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [consultor-financeiro] cta começa em 2026-05-03T20:25:30.445Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/consultor-financeiro-cta.log
+=============================================
+
+▶ [consultor-financeiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3 A consultoria financeira mudou. E agora? Você foi a criança que cuidava da mesada. Estudou juros, virou consultor, planejou milhares de vidas. Viu a carta da corretora virar home broker, o boleto virar PIX, a planilha virar dashboard. Agora a IA otimiza portfólio em segundos. Você continua sendo o que explica com paciência. Continue aprendendo no Inema ponto CLUB....
+✅ [consultor-financeiro/prof:tts] ok
+
+▶ [consultor-financeiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [consultor-financeiro/prof:whisper] ok
+
+▶ [consultor-financeiro/prof:render] node render-criaprof-cta-916.js consultor-financeiro prof...
+✅ [consultor-financeiro/prof:render] ok
+
+▶ [consultor-financeiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3 A sua profissão mudou. E agora? Você foi a criança que cuidava da mesada. Estudou juros, virou consultor, planejou milhares de vidas. Viu a carta da corretora virar home broker, o boleto virar PIX, a planilha virar dashboard. Agora a IA otimiza portfólio em segundos. Você continua sendo o que explica com paciência. Continue aprendendo no Inema ponto CLUB....
+✅ [consultor-financeiro/generic:tts] ok
+
+▶ [consultor-financeiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [consultor-financeiro/generic:whisper] ok
+
+▶ [consultor-financeiro/generic:render] node render-criaprof-cta-916.js consultor-financeiro generic...
+✅ [consultor-financeiro/generic:render] ok
+
+✅ [consultor-financeiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [soldador] cta começa em 2026-05-03T20:26:25.038Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/soldador-cta.log
+=============================================
+
+▶ [soldador/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-soldador.mp3 A soldagem mudou. E agora? Você foi a criança que ficava olhando o clarão do arco. Aprendeu cada tipo de solda, virou soldador, uniu milhares de peças. Viu o rolo virar MIG, o projeto virar CAD, a inspeção virar AI. Agora o robô solda e a IA inspeciona. Você continua sendo o que sente o metal na mão. Continue aprendendo no Inema ponto CLUB....
+✅ [soldador/prof:tts] ok
+
+▶ [soldador/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [soldador/prof:whisper] ok
+
+▶ [soldador/prof:render] node render-criaprof-cta-916.js soldador prof...
+✅ [soldador/prof:render] ok
+
+▶ [soldador/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-soldador.mp3 A sua profissão mudou. E agora? Você foi a criança que ficava olhando o clarão do arco. Aprendeu cada tipo de solda, virou soldador, uniu milhares de peças. Viu o rolo virar MIG, o projeto virar CAD, a inspeção virar AI. Agora o robô solda e a IA inspeciona. Você continua sendo o que sente o metal na mão. Continue aprendendo no Inema ponto CLUB....
+✅ [soldador/generic:tts] ok
+
+▶ [soldador/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [soldador/generic:whisper] ok
+
+▶ [soldador/generic:render] node render-criaprof-cta-916.js soldador generic...
+✅ [soldador/generic:render] ok
+
+✅ [soldador] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [pintor] cta começa em 2026-05-03T20:27:20.182Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/pintor-cta.log
+=============================================
+
+▶ [pintor/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-pintor.mp3 A pintura mudou. E agora? Você foi a criança que pintava a parede do quintal. Aprendeu cada tinta, virou pintor, coloriu milhares de casas. Viu a tabela Pantone virar app, o pincel virar pistola, o cliente virar foto. Agora a IA simula a cor na sala antes. Você continua sendo o que faz a parede ficar reta. Continue aprendendo no Inema ponto CLUB....
+✅ [pintor/prof:tts] ok
+
+▶ [pintor/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pintor/prof:whisper] ok
+
+▶ [pintor/prof:render] node render-criaprof-cta-916.js pintor prof...
+✅ [pintor/prof:render] ok
+
+▶ [pintor/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-pintor.mp3 A sua profissão mudou. E agora? Você foi a criança que pintava a parede do quintal. Aprendeu cada tinta, virou pintor, coloriu milhares de casas. Viu a tabela Pantone virar app, o pincel virar pistola, o cliente virar foto. Agora a IA simula a cor na sala antes. Você continua sendo o que faz a parede ficar reta. Continue aprendendo no Inema ponto CLUB....
+✅ [pintor/generic:tts] ok
+
+▶ [pintor/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pintor/generic:whisper] ok
+
+▶ [pintor/generic:render] node render-criaprof-cta-916.js pintor generic...
+✅ [pintor/generic:render] ok
+
+✅ [pintor] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [pedreiro] cta começa em 2026-05-03T20:28:12.165Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/pedreiro-cta.log
+=============================================
+
+▶ [pedreiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-pedreiro.mp3 Ser pedreiro mudou. E agora? Você foi a criança que ajudava a levantar muro. Aprendeu cada tijolo, virou pedreiro, ergueu milhares de casas. Viu a planta virar tablet, a obra virar drone, o material virar app. Agora a IA estima concreto em segundos. Você continua sendo o que sente o prumo com o olho. Continue aprendenden no Inema ponto CLUB....
+✅ [pedreiro/prof:tts] ok
+
+▶ [pedreiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pedreiro/prof:whisper] ok
+
+▶ [pedreiro/prof:render] node render-criaprof-cta-916.js pedreiro prof...
+✅ [pedreiro/prof:render] ok
+
+▶ [pedreiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-pedreiro.mp3 A sua profissão mudou. E agora? Você foi a criança que ajudava a levantar muro. Aprendeu cada tijolo, virou pedreiro, ergueu milhares de casas. Viu a planta virar tablet, a obra virar drone, o material virar app. Agora a IA estima concreto em segundos. Você continua sendo o que sente o prumo com o olho. Continue aprendenden no Inema ponto CLUB....
+✅ [pedreiro/generic:tts] ok
+
+▶ [pedreiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pedreiro/generic:whisper] ok
+
+▶ [pedreiro/generic:render] node render-criaprof-cta-916.js pedreiro generic...
+✅ [pedreiro/generic:render] ok
+
+✅ [pedreiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [sapateiro] cta começa em 2026-05-03T20:29:04.433Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/sapateiro-cta.log
+=============================================
+
+▶ [sapateiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-sapateiro.mp3 Ser sapateiro mudou. E agora? Você foi a criança que colava a sola sozinha. Aprendeu couro, linha, formão, virou sapateiro, salvou milhares de pares. Viu o catálogo virar site, o molde virar CAD, a encomenda virar WhatsApp. Agora a IA escaneia o pé e gera sapato personalizado. Você continua sendo o que conhece o couro no cheiro. Continue aprendendo no Inema ponto CLUB....
+✅ [sapateiro/prof:tts] ok
+
+▶ [sapateiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [sapateiro/prof:whisper] ok
+
+▶ [sapateiro/prof:render] node render-criaprof-cta-916.js sapateiro prof...
+✅ [sapateiro/prof:render] ok
+
+▶ [sapateiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-sapateiro.mp3 A sua profissão mudou. E agora? Você foi a criança que colava a sola sozinha. Aprendeu couro, linha, formão, virou sapateiro, salvou milhares de pares. Viu o catálogo virar site, o molde virar CAD, a encomenda virar WhatsApp. Agora a IA escaneia o pé e gera sapato personalizado. Você continua sendo o que conhece o couro no cheiro. Continue aprendendo no Inema ponto CLUB....
+✅ [sapateiro/generic:tts] ok
+
+▶ [sapateiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [sapateiro/generic:whisper] ok
+
+▶ [sapateiro/generic:render] node render-criaprof-cta-916.js sapateiro generic...
+✅ [sapateiro/generic:render] ok
+
+✅ [sapateiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [relojoeiro] cta começa em 2026-05-03T20:29:57.341Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/relojoeiro-cta.log
+=============================================
+
+▶ [relojoeiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-relojoeiro.mp3 Ser relojoeiro mudou. E agora? Você foi a criança que desmontava o despertador. Aprendeu cada engrenagem, virou relojoeiro, trouxe milhares de relógios de volta à vida. Viu o pêndulo virar quartzo, o quartzo virar smartwatch, o catálogo virar site. Agora a IA identifica peça pela foto. Você continua sendo o que sente a cadência. Continue aprendendo no Inema ponto CLUB....
+✅ [relojoeiro/prof:tts] ok
+
+▶ [relojoeiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [relojoeiro/prof:whisper] ok
+
+▶ [relojoeiro/prof:render] node render-criaprof-cta-916.js relojoeiro prof...
+✅ [relojoeiro/prof:render] ok
+
+▶ [relojoeiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-relojoeiro.mp3 A sua profissão mudou. E agora? Você foi a criança que desmontava o despertador. Aprendeu cada engrenagem, virou relojoeiro, trouxe milhares de relógios de volta à vida. Viu o pêndulo virar quartzo, o quartzo virar smartwatch, o catálogo virar site. Agora a IA identifica peça pela foto. Você continua sendo o que sente a cadência. Continue aprendendo no Inema ponto CLUB....
+✅ [relojoeiro/generic:tts] ok
+
+▶ [relojoeiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [relojoeiro/generic:whisper] ok
+
+▶ [relojoeiro/generic:render] node render-criaprof-cta-916.js relojoeiro generic...
+✅ [relojoeiro/generic:render] ok
+
+✅ [relojoeiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [caminhoneiro] cta começa em 2026-05-03T20:30:50.360Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/caminhoneiro-cta.log
+=============================================
+
+▶ [caminhoneiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-caminhoneiro.mp3 A estrada mudou. E agora? Você foi a criança que dormia olhando o mapa rodoviário. Virou caminhoneiro, cruzou o Brasil inteiro. Viu o atlas virar GPS, o rádio CB virar app, a carga virar código de barras. Agora a IA otimiza rota em segundos. Você continua sendo o que lê a estrada com o corpo. Continue aprendendo no Inema ponto CLUB....
+✅ [caminhoneiro/prof:tts] ok
+
+▶ [caminhoneiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [caminhoneiro/prof:whisper] ok
+
+▶ [caminhoneiro/prof:render] node render-criaprof-cta-916.js caminhoneiro prof...
+✅ [caminhoneiro/prof:render] ok
+
+▶ [caminhoneiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-caminhoneiro.mp3 A sua profissão mudou. E agora? Você foi a criança que dormia olhando o mapa rodoviário. Virou caminhoneiro, cruzou o Brasil inteiro. Viu o atlas virar GPS, o rádio CB virar app, a carga virar código de barras. Agora a IA otimiza rota em segundos. Você continua sendo o que lê a estrada com o corpo. Continue aprendendo no Inema ponto CLUB....
+✅ [caminhoneiro/generic:tts] ok
+
+▶ [caminhoneiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [caminhoneiro/generic:whisper] ok
+
+▶ [caminhoneiro/generic:render] node render-criaprof-cta-916.js caminhoneiro generic...
+✅ [caminhoneiro/generic:render] ok
+
+✅ [caminhoneiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [piloto] cta começa em 2026-05-03T20:31:44.037Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/piloto-cta.log
+=============================================
+
+▶ [piloto/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-piloto.mp3 A aviação mudou. E agora? Você foi a criança que olhava o avião passar. Estudou cada instrumento, virou piloto, cruzou milhares de fronteiras. Viu o mapa de papel virar EFB, o rádio virar digital, o briefing virar app. Agora a IA otimiza rota com meteorologia. Você continua sendo o que mantém o passageiro no chão pelo exemplo. Continue aprendendo no Inema ponto CLUB....
+✅ [piloto/prof:tts] ok
+
+▶ [piloto/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [piloto/prof:whisper] ok
+
+▶ [piloto/prof:render] node render-criaprof-cta-916.js piloto prof...
+✅ [piloto/prof:render] ok
+
+▶ [piloto/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-piloto.mp3 A sua profissão mudou. E agora? Você foi a criança que olhava o avião passar. Estudou cada instrumento, virou piloto, cruzou milhares de fronteiras. Viu o mapa de papel virar EFB, o rádio virar digital, o briefing virar app. Agora a IA otimiza rota com meteorologia. Você continua sendo o que mantém o passageiro no chão pelo exemplo. Continue aprendendo no Inema ponto CLUB....
+✅ [piloto/generic:tts] ok
+
+▶ [piloto/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [piloto/generic:whisper] ok
+
+▶ [piloto/generic:render] node render-criaprof-cta-916.js piloto generic...
+✅ [piloto/generic:render] ok
+
+✅ [piloto] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [controlador-aereo] cta começa em 2026-05-03T20:32:36.858Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/controlador-aereo-cta.log
+=============================================
+
+▶ [controlador-aereo/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-controlador-aereo.mp3 O controle aéreo mudou. E agora? Você foi a criança que ouvia rádio e organizava tudo. Estudou aerovias, virou controladora, dirigiu milhares de voos. Viu a fita de papel virar tela, o radar virar digital, a torre virar remota. Agora a IA prevê conflitos antes de acontecer. Você continua sendo a voz calma que coordena o céu. Continue aprendendo no Inema ponto CLUB....
+✅ [controlador-aereo/prof:tts] ok
+
+▶ [controlador-aereo/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [controlador-aereo/prof:whisper] ok
+
+▶ [controlador-aereo/prof:render] node render-criaprof-cta-916.js controlador-aereo prof...
+✅ [controlador-aereo/prof:render] ok
+
+▶ [controlador-aereo/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-controlador-aereo.mp3 A sua profissão mudou. E agora? Você foi a criança que ouvia rádio e organizava tudo. Estudou aerovias, virou controladora, dirigiu milhares de voos. Viu a fita de papel virar tela, o radar virar digital, a torre virar remota. Agora a IA prevê conflitos antes de acontecer. Você continua sendo a voz calma que coordena o céu. Continue aprendendo no Inema ponto CLUB....
+✅ [controlador-aereo/generic:tts] ok
+
+▶ [controlador-aereo/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [controlador-aereo/generic:whisper] ok
+
+▶ [controlador-aereo/generic:render] node render-criaprof-cta-916.js controlador-aereo generic...
+✅ [controlador-aereo/generic:render] ok
+
+✅ [controlador-aereo] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [maquiadora] cta começa em 2026-05-03T20:33:28.818Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/maquiadora-cta.log
+=============================================
+
+▶ [maquiadora/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-maquiadora.mp3 A maquiagem mudou. E agora? Você foi a criança que pintava a boneca de batom. Aprendeu cada pincelada, virou maquiadora, arrumou milhares de dias especiais. Viu a revista virar Instagram, o catálogo virar filtro, a aula virar YouTube. Agora a IA simula a makeup antes de aplicar. Você continua sendo a que traduz a pele em beleza. Continue aprendendo no Inema ponto CLUB....
+✅ [maquiadora/prof:tts] ok
+
+▶ [maquiadora/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [maquiadora/prof:whisper] ok
+
+▶ [maquiadora/prof:render] node render-criaprof-cta-916.js maquiadora prof...
+✅ [maquiadora/prof:render] ok
+
+▶ [maquiadora/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-maquiadora.mp3 A sua profissão mudou. E agora? Você foi a criança que pintava a boneca de batom. Aprendeu cada pincelada, virou maquiadora, arrumou milhares de dias especiais. Viu a revista virar Instagram, o catálogo virar filtro, a aula virar YouTube. Agora a IA simula a makeup antes de aplicar. Você continua sendo a que traduz a pele em beleza. Continue aprendendo no Inema ponto CLUB....
+✅ [maquiadora/generic:tts] ok
+
+▶ [maquiadora/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [maquiadora/generic:whisper] ok
+
+▶ [maquiadora/generic:render] node render-criaprof-cta-916.js maquiadora generic...
+✅ [maquiadora/generic:render] ok
+
+✅ [maquiadora] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [florista] cta começa em 2026-05-03T20:34:21.725Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/florista-cta.log
+=============================================
+
+▶ [florista/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-florista.mp3 A floricultura mudou. E agora? Você foi a criança que montava buquê no quintal. Aprendeu cada flor, virou florista, enfeitou milhares de dias. Viu o encomenda virar WhatsApp, a entrega virar app, o casamento virar Instagram. Agora a IA gera arranjo a partir de uma paleta. Você continua sendo a que sabe a emoção por trás da flor. Continue aprendendo no Inema ponto CLUB....
+✅ [florista/prof:tts] ok
+
+▶ [florista/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [florista/prof:whisper] ok
+
+▶ [florista/prof:render] node render-criaprof-cta-916.js florista prof...
+✅ [florista/prof:render] ok
+
+▶ [florista/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-florista.mp3 A sua profissão mudou. E agora? Você foi a criança que montava buquê no quintal. Aprendeu cada flor, virou florista, enfeitou milhares de dias. Viu o encomenda virar WhatsApp, a entrega virar app, o casamento virar Instagram. Agora a IA gera arranjo a partir de uma paleta. Você continua sendo a que sabe a emoção por trás da flor. Continue aprendendo no Inema ponto CLUB....
+✅ [florista/generic:tts] ok
+
+▶ [florista/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [florista/generic:whisper] ok
+
+▶ [florista/generic:render] node render-criaprof-cta-916.js florista generic...
+✅ [florista/generic:render] ok
+
+✅ [florista] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [confeiteiro] cta começa em 2026-05-03T20:35:17.673Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/confeiteiro-cta.log
+=============================================
+
+▶ [confeiteiro/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-confeiteiro.mp3 A confeitaria mudou. E agora? Você foi a criança que esperava a massa crescer. Aprendeu cada ponto de açúcar, virou confeiteiro, fez milhares de aniversários. Viu a encomenda virar WhatsApp, o catálogo virar Instagram, a entrega virar app. Agora a IA gera design de bolo a partir de uma ideia. Você continua sendo o que faz doce saber a afeto. Continue aprendendo no Inema ponto CLUB....
+✅ [confeiteiro/prof:tts] ok
+
+▶ [confeiteiro/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [confeiteiro/prof:whisper] ok
+
+▶ [confeiteiro/prof:render] node render-criaprof-cta-916.js confeiteiro prof...
+✅ [confeiteiro/prof:render] ok
+
+▶ [confeiteiro/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-confeiteiro.mp3 A sua profissão mudou. E agora? Você foi a criança que esperava a massa crescer. Aprendeu cada ponto de açúcar, virou confeiteiro, fez milhares de aniversários. Viu a encomenda virar WhatsApp, o catálogo virar Instagram, a entrega virar app. Agora a IA gera design de bolo a partir de uma ideia. Você continua sendo o que faz doce saber a afeto. Continue aprendendo no Inema ponto CLUB....
+✅ [confeiteiro/generic:tts] ok
+
+▶ [confeiteiro/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [confeiteiro/generic:whisper] ok
+
+▶ [confeiteiro/generic:render] node render-criaprof-cta-916.js confeiteiro generic...
+✅ [confeiteiro/generic:render] ok
+
+✅ [confeiteiro] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [dj-produtor] cta começa em 2026-05-03T20:36:13.709Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/dj-produtor-cta.log
+=============================================
+
+▶ [dj-produtor/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-dj-produtor.mp3 A produção musical mudou. E agora? Você foi a criança que tocava vinil do pai. Aprendeu a batida, virou DJ produtor, emocionou milhares. Viu o vinil virar MP3, o MP3 virar streaming, o clube virar live online. Agora a IA gera beat, masteriza, separa stems. Você continua sendo o que sente o público antes do drop. Continue aprendendo no Inema ponto CLUB....
+✅ [dj-produtor/prof:tts] ok
+
+▶ [dj-produtor/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [dj-produtor/prof:whisper] ok
+
+▶ [dj-produtor/prof:render] node render-criaprof-cta-916.js dj-produtor prof...
+✅ [dj-produtor/prof:render] ok
+
+▶ [dj-produtor/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-dj-produtor.mp3 A sua profissão mudou. E agora? Você foi a criança que tocava vinil do pai. Aprendeu a batida, virou DJ produtor, emocionou milhares. Viu o vinil virar MP3, o MP3 virar streaming, o clube virar live online. Agora a IA gera beat, masteriza, separa stems. Você continua sendo o que sente o público antes do drop. Continue aprendendo no Inema ponto CLUB....
+✅ [dj-produtor/generic:tts] ok
+
+▶ [dj-produtor/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [dj-produtor/generic:whisper] ok
+
+▶ [dj-produtor/generic:render] node render-criaprof-cta-916.js dj-produtor generic...
+✅ [dj-produtor/generic:render] ok
+
+✅ [dj-produtor] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [agronomo] cta começa em 2026-05-03T20:37:06.575Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/agronomo-cta.log
+=============================================
+
+▶ [agronomo/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-agronomo.mp3 A agronomia mudou. E agora? Você foi a criança que andava no pé do milho. Aprendeu solo, praga, ciclo, virou agrônomo, salvou milhares de colheitas. Viu a caderneta virar app, a observação virar satélite, o drone virar comum. Agora a IA prevê doença antes de aparecer. Você continua sendo o que lê a terra pelo olho. Continue aprendendo no Inema ponto CLUB....
+✅ [agronomo/prof:tts] ok
+
+▶ [agronomo/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [agronomo/prof:whisper] ok
+
+▶ [agronomo/prof:render] node render-criaprof-cta-916.js agronomo prof...
+✅ [agronomo/prof:render] ok
+
+▶ [agronomo/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-agronomo.mp3 A sua profissão mudou. E agora? Você foi a criança que andava no pé do milho. Aprendeu solo, praga, ciclo, virou agrônomo, salvou milhares de colheitas. Viu a caderneta virar app, a observação virar satélite, o drone virar comum. Agora a IA prevê doença antes de aparecer. Você continua sendo o que lê a terra pelo olho. Continue aprendendo no Inema ponto CLUB....
+✅ [agronomo/generic:tts] ok
+
+▶ [agronomo/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [agronomo/generic:whisper] ok
+
+▶ [agronomo/generic:render] node render-criaprof-cta-916.js agronomo generic...
+✅ [agronomo/generic:render] ok
+
+✅ [agronomo] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [biologo-ambiental] cta começa em 2026-05-03T20:38:00.836Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/biologo-ambiental-cta.log
+=============================================
+
+▶ [biologo-ambiental/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-biologo-ambiental.mp3 A biologia mudou. E agora? Você foi a criança que colecionava folha e inseto. Estudou cada ecossistema, virou bióloga, protegeu milhares de espécies. Viu o caderno virar GPS, a foto virar dado, o campo virar satélite. Agora a IA identifica espécie pelo som ou foto. Você continua sendo a que sabe o bioma pelo cheiro. Continue aprendendo no Inema ponto CLUB....
+✅ [biologo-ambiental/prof:tts] ok
+
+▶ [biologo-ambiental/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [biologo-ambiental/prof:whisper] ok
+
+▶ [biologo-ambiental/prof:render] node render-criaprof-cta-916.js biologo-ambiental prof...
+✅ [biologo-ambiental/prof:render] ok
+
+▶ [biologo-ambiental/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-biologo-ambiental.mp3 A sua profissão mudou. E agora? Você foi a criança que colecionava folha e inseto. Estudou cada ecossistema, virou bióloga, protegeu milhares de espécies. Viu o caderno virar GPS, a foto virar dado, o campo virar satélite. Agora a IA identifica espécie pelo som ou foto. Você continua sendo a que sabe o bioma pelo cheiro. Continue aprendendo no Inema ponto CLUB....
+✅ [biologo-ambiental/generic:tts] ok
+
+▶ [biologo-ambiental/generic:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [biologo-ambiental/generic:whisper] ok
+
+▶ [biologo-ambiental/generic:render] node render-criaprof-cta-916.js biologo-ambiental generic...
+✅ [biologo-ambiental/generic:render] ok
+
+✅ [biologo-ambiental] CTA COMPLETO (2 variantes) em 0.9 min
+
+=============================================
+=== [pescador] cta começa em 2026-05-03T20:38:53.882Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/criaprof-cta/pescador-cta.log
+=============================================
+
+▶ [pescador/prof:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-pescador.mp3 A pesca mudou. E agora? Você foi a criança que olhava o mar antes de andar. Aprendeu cada corrente, virou pescador, alimentou milhares de mesas. Viu o boia virar sonar, o mapa virar GPS, o mercado virar app. Agora a IA prevê cardume pelo satélite. Você continua sendo o que sente o mar no vento. Continue aprendendo no Inema ponto CLUB....
+✅ [pescador/prof:tts] ok
+
+▶ [pescador/prof:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatt...
+✅ [pescador/prof:whisper] ok
+
+▶ [pescador/prof:render] node render-criaprof-cta-916.js pescador prof...
+✅ [pescador/prof:render] ok
+
+▶ [pescador/generic:tts] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-pescador.mp3 A sua profissão mudou. E agora? Você foi a criança que olhava o mar antes de andar. Aprendeu cada corrente, virou pescador, alimentou milhares de mesas. Viu o boia virar sonar, o mapa virar GPS, o mercado virar app. Agora a IA prevê cardume pelo satélite. Você continua sendo o que sente o mar no vento. Continue aprendendo no Inema ponto CLUB....

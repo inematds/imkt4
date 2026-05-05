@@ -1,512 +1,91 @@
 ## Project Overview
 
-**timesmkt3 v4.5.4** — INEMA Time de Agentes de Marketing. AI-powered Social Media Content Automation System built with Claude Code inside the Antigravity IDE.
+**imkt3** — Fork independente do `timesmkt3 v4.5.4`. Cockpit web para o pipeline INEMA de geração de conteúdo social.
+
+A interface principal é o **cockpit web** (`ui/`), não há bot Telegram ativo nesse fork. O pipeline subjacente (agentes, skills, knowledge) é herdado mas evolui de forma autônoma.
+
+> ⚠️ **NUNCA tocar em `/home/nmaldaner/projetos/timesmkt3/`** — é o sistema legado em produção, com PM2 próprio. Qualquer arquivo dentro de `/imkt3/` é editável.
 
 ---
 
 ## Versionamento
 
-**Padrão:** `timesmkt3 vMAJOR.RECURSO.BUG`
+Dois esquemas convivem:
 
-| Campo | Quando incrementar |
-|---|---|
-| `MAJOR` | Mudança de arquitetura ou redesign completo do fluxo |
-| `RECURSO` | Novo agente, nova aprovação, novo provider, nova feature |
-| `BUG` | Correção de bug, ajuste de comportamento, fix de prompt |
+| Componente | Esquema | Onde atualizar |
+|---|---|---|
+| **Cockpit UI** | `v3.RECURSO.BUG` (atual: **v3.5.0**) | `ui/public/app.js` (`UI_VERSION`) + `ui/public/index.html` (`<small class="brand-version">`) |
+| **Pipeline herdado** | `v4.5.4` (do timesmkt3) | `package.json` — não bumpar até definir esquema próprio |
 
-**Regra crítica:** O contador `BUG` **acumula e nunca zera quando RECURSO incrementa**. Só zera quando MAJOR incrementa.
-
-**Exemplos:**
-- `v3.0.0` → versão base com novo fluxo de 4 aprovações + Diretor de Criação
-- `v3.1.0` → adição do Agente Revisor automático (RECURSO+1, BUG não zera → mantém 0)
-- `v3.1.1` → fix no gate de imagens (BUG+1)
-- `v3.2.1` → Motion Director + brand visual context (RECURSO+1, BUG acumulado = 1, não zerou)
-- `v4.0.0` → pipeline 5 estágios, 6 agentes de plataforma, video quick/pro, publish genérico (MAJOR+1, tudo zera)
-
-**Versão atual:** `timesmkt3 v4.3.4`
-
-Sempre atualizar a versão no topo deste arquivo e no `package.json` ao fazer uma alteração relevante.
+`BUG` acumula e nunca zera ao incrementar `RECURSO`. Só zera quando MAJOR muda. A cada mudança em `ui/`, perguntar se é RECURSO ou BUG e atualizar os dois arquivos.
 
 ---
 
-The system uses **13+ specialized AI agents** coordinated by a **bot controller** in a **5-stage pipeline** to research, generate, render, and distribute marketing content.
+## Cockpit UI
 
-Each agent runs as a **Claude CLI subprocess** (`claude -p <prompt> --dangerously-skip-permissions`) with full tool access (Read, Write, Bash, etc.). The `skills/` folder contains the **agent instruction specs** — Markdown documents each agent reads to know exactly what to do. These are not Claude Code skills; they are the agent's operational spec.
-
-The demo brand used in this project is **Cold Brew Coffee Co.**
-
----
-
-# Project Directory Structure
-
-Projects are organized under the `prj/` directory. Each project (client/brand) has its own subdirectory containing `assets/`, `knowledge/`, and `outputs/`:
-
-```
-prj/
-└── coldbrew-coffee-co/        ← Cold Brew Coffee Co. project
-    ├── assets/                 ← product images and media assets
-    ├── knowledge/              ← brand_identity, product_campaign, platform_guidelines
-    └── outputs/                ← campaign output folders
-```
-
-All pipeline payloads must include a `project_dir` field (e.g., `"project_dir": "prj/coldbrew-coffee-co"`) so agents know where to find knowledge files, assets, and where to write outputs.
+- **Stack:** Node `http` nativo (sem Express), frontend vanilla JS monolítico (`ui/public/app.js` ~2500 linhas)
+- **Porta:** 5177 (override via `TIMESMKT_UI_PORT`)
+- **PM2:** processo `ui`, `cwd=/imkt3/`, `script=ui/server.js`. Subir: `npx pm2 start ui/server.js --name ui --time && npx pm2 save`
 
 ---
 
-# System Architecture
+## System Architecture
 
-The system consists of **13+ specialized agents** coordinated by the bot in a **5-stage approval pipeline**:
+Pipeline de 5 etapas com gate de aprovação cada:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Stage 1: Estratégia & Narrativa                            │
-│  Research Agent → Diretor Criativo → Copywriter             │
-│                          [APROVAÇÃO 1 — brief + narrativa]  │
-├─────────────────────────────────────────────────────────────┤
-│  Stage 2: Imagens                                           │
-│  Ad Creative Designer                                       │
-│                          [APROVAÇÃO 2 — imagens estáticas]  │
-├─────────────────────────────────────────────────────────────┤
-│  Stage 3: Vídeo                                             │
-│  Video Quick (default) + Video Pro (sob demanda)            │
-│  Independentes — podem rodar juntos                         │
-│                          [APROVAÇÃO 3 — vídeo + plataformas]│
-├─────────────────────────────────────────────────────────────┤
-│  Stage 4: Plataformas                                       │
-│  Instagram + YouTube + TikTok + Facebook + Threads + LinkedIn│
-│  (só rodam as plataformas selecionadas)                     │
-│                          [APROVAÇÃO 4 — copy nativo]        │
-├─────────────────────────────────────────────────────────────┤
-│  Stage 5: Distribuição                                      │
-│  Distribution Agent (upload + agendar + publicar)           │
-│                          [APROVAÇÃO 5 — publicar]           │
-└─────────────────────────────────────────────────────────────┘
-```
+1. **Estratégia & Narrativa** — Research → Diretor Criativo → Copywriter
+2. **Imagens** — Ad Creative Designer
+3. **Vídeo** — Video Quick (default) + Video Pro (sob demanda)
+4. **Plataformas** — 6 agentes (só rodam as de `platform_targets`)
+5. **Distribuição** — upload + agendar + publicar
+
+Detalhes por stage: `doc/manual-stage{1..5}-*.md`. Aprovações: `doc/pipeline-aprovacoes.md`.
+
+**Modos de aprovação** (via `approval_modes`): `humano` (padrão), `auto`, `agente` (Revisor decide).
+
+**Gate de imagens vs gate de stage:** worker emite `[IMAGE_APPROVAL_NEEDED]` interno, aguardando `imgs/approved.json` para montar HTML do ad. A aprovação real do stage 2 acontece depois, quando `ad_creative_designer` + `copywriter_agent` completam — mecanismos independentes.
 
 **Componentes:**
-- **Bot** (`telegram/bot.js`) — controlador do pipeline; avança etapas após aprovação
-- **Orchestrator** (`pipeline/orchestrator.js`) — enfileira jobs por etapa via `enqueueStage()`
-- **Worker** (`pipeline/worker.js`) — executa os agentes; emite sinais `[STAGE1_DONE]`, `[STAGE2_IMAGE_READY]`, `[IMAGE_APPROVAL_NEEDED]`
-
-**Modos de aprovação por etapa** (configurável via `approval_modes` no payload):
-| Modo | Comportamento |
-|---|---|
-| `humano` | Bot envia resultado ao usuário e aguarda confirmação (padrão) |
-| `auto` | Avança automaticamente sem aprovação |
-| `agente` | Agente Revisor avalia e decide |
-
-**Gate interno de imagens vs. aprovação de stage:**
-O worker emite `[IMAGE_APPROVAL_NEEDED]` após gerar imagens via API — esse é um gate **interno** que aguarda o arquivo `imgs/approved.json` para continuar montando o ad HTML. O bot v3 escreve esse arquivo automaticamente. A aprovação real (humano/agente/auto) acontece no **gate de stage 2**, depois que ambos os agentes (`ad_creative_designer` + `copywriter_agent`) completam. Os dois mecanismos são independentes — os flags de aprovação controlam apenas o gate de stage.
-
-Each agent uses a combination of **instruction specs, knowledge files, and APIs** to perform its tasks.
+- Cockpit UI (`ui/server.js`)
+- Orchestrator (`pipeline/orchestrator.js`) — enfileira via `enqueueStage()`
+- Worker (`pipeline/worker.js`) — emite `[STAGE1_DONE]`, `[STAGE2_IMAGE_READY]`, `[IMAGE_APPROVAL_NEEDED]`
 
 ---
 
-# Orchestrator
+## Fila e runtime
 
-The Orchestrator is not an agent — it is a Node.js coordinator (`pipeline/orchestrator.js`) that enqueues jobs and manages stage advancement.
+**BullMQ isolada:** `ai-content-pipeline-imkt3` (em `pipeline/queues.js:4`). **Nunca renomear para `ai-content-pipeline`** — esse é o do timesmkt3, e colidir faz outputs irem parar em `/timesmkt3/prj/`.
 
-Agent Spec: `skills/orchestrator/SKILL.md`
+**Redis:** container Docker `redis` (alpine, porta 6379). Compartilhado com timesmkt3, segregação por nome de fila. Se `ECONNREFUSED 6379`: `docker start redis`.
 
-Responsibilities:
-- Accept a Job Payload (JSON) with `task_name`, `task_date`, `project_dir`, `platform_targets`, and optional skip flags
-- Validate the payload and enforce dependency ordering
-- Enqueue all agent jobs into the `ai-content-pipeline` BullMQ queue via `pipeline/orchestrator.js`
-- Start the BullMQ worker (`pipeline/worker.js`) to process queued jobs
-- Track job status via log files in `<project_dir>/outputs/<task_name>_<date>/logs/`
-- Report pipeline completion and surface the generated Publish MD file
-
-### Dependências de Runtime
-
-**Redis** roda via Docker local (`redis:alpine`, porta 6379). Container configurado com `--restart unless-stopped` — reinicia automaticamente após reboot. Se o bot/worker der `ECONNREFUSED 6379`, o Redis parou:
-
+**Worker próprio do imkt3 ainda não existe no PM2.** Sem ele, jobs ficam em "Aguardando" indefinidamente. Para iniciar:
 ```bash
-docker start redis              # iniciar Redis
-docker ps | grep redis          # verificar se está rodando
+cd /home/nmaldaner/projetos/imkt3
+npx pm2 start pipeline/worker.js --name imkt3-worker --time && npx pm2 save
 ```
 
-### PM2 — Bot e Worker
+Nunca deixar 2 instâncias do mesmo processo PM2 — antes de `start`, conferir `npx pm2 list` e usar `restart` se já existe.
 
-Bot e worker rodam via PM2. **Sempre manter PM2 limpo** — processos duplicados causam conflitos (mensagens duplicadas, jobs processados 2x). Processos salvos com `pm2 save` — restauram automaticamente se o daemon reiniciar.
+---
 
-```bash
-# Iniciar
-npx pm2 start telegram/bot.js --name bot
-npx pm2 start pipeline/worker.js --name worker
+## Estrutura de projetos
 
-# Reiniciar (após alterar bot.js ou worker.js)
-npx pm2 restart bot
-npx pm2 restart worker
+`prj/<slug>/` com `assets/`, `knowledge/`, `outputs/`. Todo payload precisa de `project_dir` (ex: `"project_dir": "prj/coldbrew-coffee-co"`). Demo: Cold Brew Coffee Co.
 
-# Ver status / logs
-npx pm2 list
-npx pm2 logs bot --lines 30
-npx pm2 logs worker --lines 30
+Skip flags no payload: `skip_research`, `skip_image`, `skip_video`. Detalhes em `doc/manual-pipeline-comandos.md`.
 
-# Limpar tudo (se houver conflito ou processos fantasma)
-npx pm2 delete all
-```
+---
 
-**Regra:** Antes de iniciar, rodar `npx pm2 list` para verificar se já existem processos. Se existir, usar `restart` em vez de `start`. Nunca deixar 2 instâncias do mesmo processo.
+## Agents
 
-### Pipeline Commands
+Specs em `skills/<agente>/SKILL.md` — sempre ler o SKILL.md antes de mexer no agente. Agentes de plataforma em `doc/agentes-distribuicao.md`. Templates de Video Pro (`auto`, `data_story`, `explainer`, `narrativo`, `brand_film`) e visual types (`photo`, `chart`, `text_card`, `list`, `split`) em `skills/video-editor-agent/SKILL.md`.
 
-```bash
-npm run pipeline:run                     # run with default demo payload
-npm run pipeline:run:payload '<json>'    # run with inline JSON payload
-```
+**Override visual no payload (não consumido ainda):** o cockpit grava `visual_direction_override` (ad_layout_type, mood, dominant_colors, etc.). Hoje é só metadado — para virar hard constraint, precisa mexer em `skills/creative-director/SKILL.md`.
 
-### Skip Flags
-
-| Flag | Effect |
-|---|---|
-| `skip_research: true` | Skips Research Agent; requires `<project_dir>/assets/<task_name>/` to exist |
-| `skip_image: true` | Skips Ad Creative Designer |
-| `skip_video: true` | Skips Video Ad Specialist |
+**Regra fixa de imagens via API:** modelos (KIE/z-image) devem gerar imagens **limpas de texto** — texto sempre sobreposto via HTML/CSS na montagem.
 
 ---
 
 ## Comando /import
 
-Copia assets de múltiplas campanhas para uma pasta central `imports/` dentro do projeto.
-
-**Sintaxe:**
-```
-/import <campanhas> <origem> [modificador]
-```
-
-**Campanhas:**
-- `c55 c56` — lista
-- `c55-c59` — range
-- `todos` — todas as campanhas do projeto
-
-**Origens:**
-| Origem | O que copia |
-|---|---|
-| `videos` | Apenas `video/*.mp4` (quick + pro) |
-| `ads` | Apenas `ads/*.png` (carousels do ad creative designer) |
-| `imgs` | Apenas `imgs/*.jpg` (imagens geradas) |
-| `report` | Pasta `report/` completa (separada em videos/ e ads/ no destino) |
-| `gatilhos` | Pasta `gatilhos/` completa (todos os hooks) |
-
-**Modificadores** (dentro de `report` ou `gatilhos`):
-- `videos` — só os MP4
-- `ads` — só os carousels PNG
-
-**Destino:**
-```
-prj/<projeto>/imports/
-├── videos/
-│   ├── c55_quick.mp4
-│   ├── c55_pro_data_story.mp4
-│   ├── c55_report.mp4
-│   └── c55_g01_obsolescencia.mp4
-└── ads/
-    ├── c55_ad_01/
-    ├── c55_report/
-    └── c55_g01_obsolescencia/
-```
-
-**Exemplos:**
-```
-/import c55 c56 videos              # videos de c55 e c56
-/import c55-c59 report               # report de todas entre c55-c59
-/import todos gatilhos videos        # só os videos dos gatilhos
-/import c56 gatilhos ads             # só os carousels dos gatilhos de c56
-```
-
-Reimports sobrescrevem o destino.
-
----
-
-# Agents and Responsibilities
-
-## 0. Creative Director
-
-Purpose:
-Transform research output into a **single strategic campaign angle** that guides all creative production.
-
-Agent Spec: `skills/creative-director/SKILL.md`
-
-Responsibilities:
-- Read research results + brand identity + product campaign
-- Choose ONE campaign angle (strongest intersection of audience desire + brand authenticity)
-- Define visual direction: mood, colors, photography style
-- Write key messages per platform
-- Set guardrails (what to avoid)
-
-Typical Output (saved to `<project_dir>/outputs/<task_name>_<date>/creative/`):
-- `creative_brief.json` — structured brief consumed by creative agents
-- `creative_brief.md` — human-readable brief shown for Approval 1
-
-Emits `[STAGE1_DONE]` signal when complete.
-
----
-
-## 1. Marketing Research Agent
-
-Purpose:
-Conduct structured market intelligence research using the **Tavily AI SDK** via a local Node.js script.
-
-Agent Spec: `skills/marketing-research-agent/SKILL.md`
-
-Responsibilities:
-- Run 5 targeted Tavily searches (trends, competitors, audience, hooks, viral topics)
-- Synthesize findings into marketing intelligence categories
-- Output three deliverables: structured JSON, Markdown brief with Mermaid diagrams, and an interactive HTML report with Chart.js
-
-Typical Output (saved to `<project_dir>/outputs/<task_name>_<date>/`):
-- `research_results.json` — machine-readable structured data consumed by downstream agents
-- `research_brief.md` — human-readable Markdown report with Mermaid graphs
-- `interactive_report.html` — brand-styled interactive dashboard with Chart.js charts
-
----
-
-## 2. Ad Creative Designer
-
-Purpose:
-Generate **static marketing ad creatives** as structured design JSON, then render them to PNG via **Playwright**.
-
-Agent Spec: `skills/ad-creative-designer/SKILL.md`
-
-Responsibilities:
-- Select ad layout type (Product Focus, Split, or Lifestyle) based on platform and campaign goal
-- Generate marketing copy (headline ≤4 words, subtext, CTA)
-- Output a design JSON spec
-- Generate `ad.html` + `styles.css` from the layout spec
-- Render the HTML to a 1080×1080 PNG screenshot using Playwright (`chromium.launch()`)
-
-**Regra de imagens geradas via API:**
-Imagens geradas por modelos de IA (ex: KIE/z-image) devem sempre ser **limpas de texto**. Texto é sempre sobreposto via HTML/CSS na etapa de montagem do ad — nunca embutido na imagem gerada. Esta regra é fixa. Futuramente, se o modelo suportar texto de forma confiável, a regra pode ser revisada.
-
-Typical Output (saved to `<project_dir>/outputs/<task_name>_<date>/ads/`):
-- `layout.json` — design specification
-- `ad.html` + `styles.css` — generated HTML ad
-- `instagram_ad.png` — Playwright-rendered screenshot at 1080×1080
-
----
-
-## 3. Video Quick (default)
-
-Purpose:
-Generate a quick slideshow video (10-20s) using images from the Ad Creative Designer.
-
-Agent Spec: `skills/video-editor-agent/SKILL.md`
-
-Responsibilities:
-- Use images from ads/ as source
-- Apply transitions, Ken Burns effects, text overlays
-- Optional narration (ElevenLabs) and music
-- Render via ffmpeg (`pipeline/render-video-ffmpeg.js`)
-
-Typical Output: `<project_dir>/outputs/<task_name>_<date>/video/ad.mp4`
-
-## 3b. Video Pro (sob demanda)
-
-Purpose:
-Professional video production (30-60s) with narration, music, and advanced editing. **Independent** from Video Quick — both can run in the same campaign.
-
-Agent Spec: `skills/video-editor-agent/SKILL.md` (mode: pro)
-
-Responsibilities:
-- Draft phase: generate preview with SVG/placeholders for approval
-- Final phase: generate real images via API + render complete video
-- Narration + music mandatory
-- Narrative frameworks (AIDA, PAS, Hero's Journey)
-- Render via Remotion (`pipeline/render-video.js`) for professional quality
-- Reference `skills/video-art-direction/SKILL.md` for 12 visual style presets
-
-Typical Output: `<project_dir>/outputs/<task_name>_<date>/video/ad_pro.mp4`
-
-### Video Pro Templates
-
-O Video Pro suporta **templates** que controlam o `visual_type` de cada cena. Em vez de apenas fotos, o vídeo pode conter gráficos, cards de texto, listas e comparações lado a lado.
-
-**5 templates:**
-
-| Template | Foco | Mix visual |
-|---|---|---|
-| `auto` | Agente decide (padrão) | Livre |
-| `data_story` | Dados/estatísticas | ~60% chart, ~20% text_card, ~20% photo |
-| `explainer` | Explicar conceitos | ~40% list/text_card, ~30% photo, ~30% chart |
-| `narrativo` | Narrativa visual | ~50% text_card, ~30% photo, ~20% chart |
-| `brand_film` | Cinematográfico | ~70% photo, ~20% text_card, ~10% chart |
-
-**5 visual_types por cena:**
-
-| Tipo | Renderiza | Campos |
-|---|---|---|
-| `photo` | Foto + text overlay + motion (padrão) | `image`, `motion`, `text_overlay` |
-| `chart` | Gráfico Chart.js (bar/line/pie/donut) | `chart_data`, `chart_type`, `chart_title` |
-| `text_card` | Texto grande em fundo estilizado | `card_title`, `card_body`, `card_bg` |
-| `list` | Itens em sequência | `list_items`, `list_title` |
-| `split` | Comparação lado a lado | `split_left`, `split_right`, `split_labels` |
-
-**Uso:** Incluir `"video_template": "data_story"` no payload, ou escrever "template data_story" na descrição da campanha no Telegram.
-
-**Implementação:**
-- `pipeline/render-visual-png.js` — gera PNGs de chart/text_card/list/split via Playwright
-- `pipeline/render-video-ffmpeg.js` — pre-renderiza visual_types antes de compor o vídeo
-- `pipeline/worker-video-pro.js` — injeta instruções de template no prompt do scene plan
-- Templates compartilham assets (áudio, imagens) — múltiplos templates coexistem no mesmo output dir
-
-## Video Art Direction
-
-Skill: `skills/video-art-direction/SKILL.md`
-
-Provides 12 visual style presets (cinematic, editorial, bold, minimal, etc.) defining color palettes, typography, transitions, and mood. Applied by both Video Quick and Video Pro agents.
-
----
-
-## 4. Platform Agents (Stage 4)
-
-Purpose:
-Adapt campaign narrative into **platform-native content** for each selected platform.
-
-6 platform agents: Instagram, YouTube, TikTok, Facebook, Threads, LinkedIn.
-
-Only the platforms in `platform_targets` are executed. Each agent generates copy, formats, and scheduling recommendations native to its platform. See `doc/agentes-distribuicao.md` for detailed specs per platform.
-
-Typical Output (saved to `<project_dir>/outputs/<task_name>_<date>/platforms/`):
-- `instagram.json` + `.md`
-- `youtube.json` + `.md`
-- `tiktok.json` + `.md`
-- `facebook.json` + `.md`
-- `threads.json` + `.md`
-- `linkedin.json` + `.md`
-
----
-
-## 5. Distribution Agent
-
-Purpose:
-Host media on **Supabase**, assemble publish-ready metadata, generate scheduling recommendations, and gate-protect actual posting.
-
-Agent Spec: `skills/distribution-agent/SKILL.md`
-
-Responsibilities:
-- Upload all campaign media files to the `campaign-uploads` Supabase storage bucket
-- Generate public URLs and save them to `media_urls.json`
-- Assemble final platform metadata from Copywriter Agent outputs
-- Generate scheduling recommendations based on research trends
-- Write a `Publish <task_name> <date>.md` advisory file
-- Execute actual API posting **only** when the user explicitly references the Publish MD file by name
-
-Platforms:
-- **Instagram** — Graph API (`/media` + `/media_publish`)
-- **YouTube** — YouTube Data API (requires OAuth `YOUTUBE_REFRESH_TOKEN`)
-- **Threads** — graph.threads.net API
-
-Typical Output (saved to `<project_dir>/outputs/<task_name>_<date>/`):
-- `media_urls.json` — Supabase public URLs for all uploaded media
-- `Publish <task_name> <date>.md` — complete advisory with captions, metadata, scheduling, and publishing instructions
-
----
-
-# Knowledge Files
-
-All agents must reference the following knowledge files located in each project's **`<project_dir>/knowledge/`** directory.
-
-### brand_identity.md
-Defines:
-- tone and brand voice
-- approved emojis and what to avoid
-- CTA style and approved CTA language
-- hashtag strategy
-
-Used by:
-- All five agents
-
----
-
-### product_campaign.md
-Defines:
-- product features and selling points
-- visual asset references (filenames in `assets/`)
-- campaign ideas and angles
-
-Used by:
-- Marketing Research Agent
-- Ad Creative Designer
-- Video Ad Specialist
-- Copywriter Agent
-
----
-
-### platform_guidelines.md
-Defines platform best practices and formatting constraints for:
-
-- Instagram (feed, Stories, Reels)
-- Threads
-- YouTube (Shorts, standard video)
-
-Used by:
-- Ad Creative Designer
-- Copywriter Agent
-- Distribution Agent
-
----
-
-# Assets
-
-Each project's `<project_dir>/assets/` contains media assets used for testing and rendering.
-
-For Cold Brew Coffee Co. (`prj/coldbrew-coffee-co/assets/`):
-- `coffee_can.png.jpeg`
-- `coffee_glass.png.jpeg`
-- `morning_cafe.png.jpeg`
-- `product_square.png`
-- `background_blur.png`
-
----
-
-# Pipeline Output Folder Structure
-
-```
-<project_dir>/outputs/<task_name>_<date>/
-├── research_results.json         ← Research Agent
-├── research_brief.md             ← Research Agent
-├── interactive_report.html       ← Research Agent
-├── media_urls.json               ← Distribution Agent
-├── ads/
-│   ├── layout.json               ← Ad Creative Designer
-│   ├── ad.html                   ← Ad Creative Designer
-│   ├── styles.css                ← Ad Creative Designer
-│   └── instagram_ad.png          ← Ad Creative Designer (Playwright render)
-├── video/
-│   └── ad.mp4                    ← Video Ad Specialist (Remotion render)
-├── copy/
-│   └── narrative.json            ← Copywriter Agent (narrativa central)
-├── platforms/
-│   ├── instagram.json            ← Instagram Agent
-│   ├── youtube.json              ← YouTube Agent
-│   ├── tiktok.json               ← TikTok Agent
-│   ├── facebook.json             ← Facebook Agent
-│   ├── threads.json              ← Threads Agent
-│   └── linkedin.json             ← LinkedIn Agent
-├── logs/
-│   ├── research_agent.log
-│   ├── ad_creative_designer.log
-│   ├── video_quick.log
-│   ├── video_pro.log
-│   ├── copywriter_agent.log
-│   ├── platform_instagram.log
-│   ├── platform_youtube.log
-│   └── distribution_agent.log
-└── Publish <task_name> <date>.md ← Distribution Agent
-```
-
----
-
-# Tech Stack
-
-| Tool | Purpose |
-|---|---|
-| BullMQ + Upstash Redis | Job queuing and worker orchestration |
-| Tavily AI SDK (`@tavily/core`) | Market research via Node.js scripts |
-| Playwright (`chromium`) | HTML-to-PNG ad rendering |
-| ffmpeg | Basic video rendering (Video Quick) |
-| Remotion | Professional video rendering (Video Pro) |
-| Supabase (`@supabase/supabase-js`) | Media hosting and public URL generation |
-| Instagram Graph API | Instagram publishing |
-| YouTube Data API | YouTube publishing (requires OAuth) |
+Copia assets entre campanhas para `prj/<projeto>/imports/`. Sintaxe e exemplos em `doc/sistema.md`.

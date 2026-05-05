@@ -1,0 +1,838 @@
+
+=============================================
+=== [cardiologista] começa em 2026-04-23T07:20:07.081Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/cardiologista-batch.log
+=============================================
+⏭ [cardiologista] criaprof já completo (50 imgs)
+⏭ [cardiologista] nostalgia já completo (20 imgs)
+⏭ [cardiologista] tts-criaprof já existe
+⏭ [cardiologista] tts-gertran já existe
+⏭ [cardiologista] whispers já existem
+
+▶ [cardiologista:render-criaprof] node render-criaprof.js cardiologista
+✅ [cardiologista:render-criaprof] ok
+
+▶ [cardiologista:render-gertran] node render-gertran.js cardiologista
+✅ [cardiologista:render-gertran] ok
+
+✅ [cardiologista] COMPLETO em 0.2 min
+
+=============================================
+=== [pediatra] começa em 2026-04-23T07:20:17.089Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/pediatra-batch.log
+=============================================
+
+▶ [pediatra:gen-criaprof] node gen-criaprof.js pediatra
+✅ [pediatra:gen-criaprof] ok
+
+▶ [pediatra:gen-nostalgia] node gen-gertran-nostalgia.js pediatra
+✅ [pediatra:gen-nostalgia] ok
+
+▶ [pediatra:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-pediatra.mp3 Você foi a criança que cuidava dos menores no recreio. Estudou cada fase, virou pediatra, acompanhou milhares crescerem. Viu a caderneta de vacina virar app, a curva virar dashboard, a consulta virar videochamada. Agora a IA rastreia marcos do desenvolvimento. Você continua sendo a que tranquiliza a mãe. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pediatra:tts-criaprof] ok
+
+▶ [pediatra:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-pediatra.mp3 Você viu a caderneta virar app, a curva virar dashboard, o atendimento virar remoto. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pediatra:tts-gertran] ok
+
+▶ [pediatra:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-pediatra.mp3 /tmp/narr/whisper-criaprof-pediatra.json && python3 transcribe-words.py /tmp/narr/narr-gertran-pediatra.mp3 /tmp/narr/whisper-gertran-pediatra.json
+✅ [pediatra:whisper] ok
+
+▶ [pediatra:render-criaprof] node render-criaprof.js pediatra
+✅ [pediatra:render-criaprof] ok
+
+▶ [pediatra:render-gertran] node render-gertran.js pediatra
+✅ [pediatra:render-gertran] ok
+
+✅ [pediatra] COMPLETO em 3.4 min
+
+=============================================
+=== [ginecologista] começa em 2026-04-23T07:23:39.250Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/ginecologista-batch.log
+=============================================
+
+▶ [ginecologista:gen-criaprof] node gen-criaprof.js ginecologista
+✅ [ginecologista:gen-criaprof] ok
+
+▶ [ginecologista:gen-nostalgia] node gen-gertran-nostalgia.js ginecologista
+✅ [ginecologista:gen-nostalgia] ok
+
+▶ [ginecologista:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-ginecologista.mp3 Você foi a criança que já acolhia as primas mais novas. Estudou o corpo feminino inteiro, virou ginecologista. Viu o ultrassom virar 3D, a ficha virar digital, a consulta virar remota. Agora a IA ajuda a ler imagens em segundos. Você continua sendo a que escuta sem julgar. Continue aprendendo no Inema ponto CLUB. bella
+✅ [ginecologista:tts-criaprof] ok
+
+▶ [ginecologista:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-ginecologista.mp3 Você viu o ultrassom virar 3D, o prontuário virar digital, a consulta virar remota. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [ginecologista:tts-gertran] ok
+
+▶ [ginecologista:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-ginecologista.mp3 /tmp/narr/whisper-criaprof-ginecologista.json && python3 transcribe-words.py /tmp/narr/narr-gertran-ginecologista.mp3 /tmp/narr/whisper-gertran-ginecologista.json
+✅ [ginecologista:whisper] ok
+
+▶ [ginecologista:render-criaprof] node render-criaprof.js ginecologista
+✅ [ginecologista:render-criaprof] ok
+
+▶ [ginecologista:render-gertran] node render-gertran.js ginecologista
+✅ [ginecologista:render-gertran] ok
+
+✅ [ginecologista] COMPLETO em 3.4 min
+
+=============================================
+=== [veterinario] começa em 2026-04-23T07:27:01.301Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/veterinario-batch.log
+=============================================
+
+▶ [veterinario:gen-criaprof] node gen-criaprof.js veterinario
+✅ [veterinario:gen-criaprof] ok
+
+▶ [veterinario:gen-nostalgia] node gen-gertran-nostalgia.js veterinario
+✅ [veterinario:gen-nostalgia] ok
+
+▶ [veterinario:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-veterinario.mp3 Você foi a criança que salvou o cachorro de rua. Estudou cada espécie, virou veterinário, cuidou de milhares. Viu a ficha virar app, o raio-X virar digital, o atendimento virar remoto. Agora a IA lê exame em segundos. Você continua sendo o que acalma o animal com as mãos. Continue aprendendo no Inema ponto CLUB. bella
+✅ [veterinario:tts-criaprof] ok
+
+▶ [veterinario:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-veterinario.mp3 Você viu a ficha virar app, o raio-X virar AI, o tutor virar online. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [veterinario:tts-gertran] ok
+
+▶ [veterinario:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-veterinario.mp3 /tmp/narr/whisper-criaprof-veterinario.json && python3 transcribe-words.py /tmp/narr/narr-gertran-veterinario.mp3 /tmp/narr/whisper-gertran-veterinario.json
+✅ [veterinario:whisper] ok
+
+▶ [veterinario:render-criaprof] node render-criaprof.js veterinario
+✅ [veterinario:render-criaprof] ok
+
+▶ [veterinario:render-gertran] node render-gertran.js veterinario
+✅ [veterinario:render-gertran] ok
+
+✅ [veterinario] COMPLETO em 3.4 min
+
+=============================================
+=== [massoterapeuta] começa em 2026-04-23T07:30:24.063Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/massoterapeuta-batch.log
+=============================================
+
+▶ [massoterapeuta:gen-criaprof] node gen-criaprof.js massoterapeuta
+✅ [massoterapeuta:gen-criaprof] ok
+
+▶ [massoterapeuta:gen-nostalgia] node gen-gertran-nostalgia.js massoterapeuta
+✅ [massoterapeuta:gen-nostalgia] ok
+
+▶ [massoterapeuta:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-massoterapeuta.mp3 Você foi a criança que já sabia relaxar quem estava tenso. Estudou cada músculo, virou massoterapeuta, aliviou milhares. Viu o agendamento virar app, o cliente virar Instagram, o tutorial virar vídeo. Agora a IA mapeia tensão pelo corpo. Você continua sendo a que cura pelo toque. Continue aprendendo no Inema ponto CLUB. bella
+✅ [massoterapeuta:tts-criaprof] ok
+
+▶ [massoterapeuta:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-massoterapeuta.mp3 Você viu a agenda virar app, o tutorial virar vídeo, a tensão virar mapa digital. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [massoterapeuta:tts-gertran] ok
+
+▶ [massoterapeuta:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-massoterapeuta.mp3 /tmp/narr/whisper-criaprof-massoterapeuta.json && python3 transcribe-words.py /tmp/narr/narr-gertran-massoterapeuta.mp3 /tmp/narr/whisper-gertran-massoterapeuta.json
+✅ [massoterapeuta:whisper] ok
+
+▶ [massoterapeuta:render-criaprof] node render-criaprof.js massoterapeuta
+✅ [massoterapeuta:render-criaprof] ok
+
+▶ [massoterapeuta:render-gertran] node render-gertran.js massoterapeuta
+✅ [massoterapeuta:render-gertran] ok
+
+✅ [massoterapeuta] COMPLETO em 3.4 min
+
+=============================================
+=== [parteira] começa em 2026-04-23T07:33:47.055Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/parteira-batch.log
+=============================================
+
+▶ [parteira:gen-criaprof] node gen-criaprof.js parteira
+✅ [parteira:gen-criaprof] ok
+
+▶ [parteira:gen-nostalgia] node gen-gertran-nostalgia.js parteira
+✅ [parteira:gen-nostalgia] ok
+
+▶ [parteira:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-parteira.mp3 Você foi a criança que ajudava a avó no parto da tia. Aprendeu cada respiração, virou parteira. Viu o parto virar hospital, o hospital virar humanizado, a consulta virar vídeo. Agora a IA monitora mãe e bebê em tempo real. Você continua sendo a mão que traz a vida. Continue aprendendo no Inema ponto CLUB. bella
+✅ [parteira:tts-criaprof] ok
+
+▶ [parteira:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-parteira.mp3 Você viu o parto virar hospital, o hospital virar humanizado, o monitor virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [parteira:tts-gertran] ok
+
+▶ [parteira:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-parteira.mp3 /tmp/narr/whisper-criaprof-parteira.json && python3 transcribe-words.py /tmp/narr/narr-gertran-parteira.mp3 /tmp/narr/whisper-gertran-parteira.json
+✅ [parteira:whisper] ok
+
+▶ [parteira:render-criaprof] node render-criaprof.js parteira
+✅ [parteira:render-criaprof] ok
+
+▶ [parteira:render-gertran] node render-gertran.js parteira
+✅ [parteira:render-gertran] ok
+
+✅ [parteira] COMPLETO em 3.4 min
+
+=============================================
+=== [professor-universitario] começa em 2026-04-23T07:37:11.524Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/professor-universitario-batch.log
+=============================================
+
+▶ [professor-universitario:gen-criaprof] node gen-criaprof.js professor-universitario
+✅ [professor-universitario:gen-criaprof] ok
+
+▶ [professor-universitario:gen-nostalgia] node gen-gertran-nostalgia.js professor-universitario
+✅ [professor-universitario:gen-nostalgia] ok
+
+▶ [professor-universitario:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-professor-universitario.mp3 Você foi a criança que dava aula pra enciclopédia. Estudou pra caramba, virou professor universitário, formou milhares. Viu o slide virar PowerPoint, a revista virar JSTOR, a sala virar Zoom. Agora a IA resume papers em segundos. Você continua sendo o que transforma conhecimento em cabeça pensante. Continue aprendendo no Inema ponto CLUB. bella
+✅ [professor-universitario:tts-criaprof] ok
+
+▶ [professor-universitario:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-professor-universitario.mp3 Você viu o slide virar PowerPoint, o paper virar PDF, a sala virar Zoom. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [professor-universitario:tts-gertran] ok
+
+▶ [professor-universitario:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-professor-universitario.mp3 /tmp/narr/whisper-criaprof-professor-universitario.json && python3 transcribe-words.py /tmp/narr/narr-gertran-professor-universitario.mp3 /tmp/narr/whisper-gertran-professor-universitario.json
+✅ [professor-universitario:whisper] ok
+
+▶ [professor-universitario:render-criaprof] node render-criaprof.js professor-universitario
+✅ [professor-universitario:render-criaprof] ok
+
+▶ [professor-universitario:render-gertran] node render-gertran.js professor-universitario
+✅ [professor-universitario:render-gertran] ok
+
+✅ [professor-universitario] COMPLETO em 3.4 min
+
+=============================================
+=== [professor-matematica] começa em 2026-04-23T07:40:34.346Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/professor-matematica-batch.log
+=============================================
+
+▶ [professor-matematica:gen-criaprof] node gen-criaprof.js professor-matematica
+✅ [professor-matematica:gen-criaprof] ok
+
+▶ [professor-matematica:gen-nostalgia] node gen-gertran-nostalgia.js professor-matematica
+✅ [professor-matematica:gen-nostalgia] ok
+
+▶ [professor-matematica:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-professor-matematica.mp3 Você foi a criança que gostava do problema difícil. Estudou cada teorema, virou professora de matemática, desmistificou o medo em milhares. Viu a lousa virar tela, a prova virar PDF, a aula virar remota. Agora a IA explica passo a passo. Você continua sendo a que traduz o abstrato. Continue aprendendo no Inema ponto CLUB. bella
+✅ [professor-matematica:tts-criaprof] ok
+
+▶ [professor-matematica:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-professor-matematica.mp3 Você viu o giz virar caneta, a prova virar digital, o exercício virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [professor-matematica:tts-gertran] ok
+
+▶ [professor-matematica:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-professor-matematica.mp3 /tmp/narr/whisper-criaprof-professor-matematica.json && python3 transcribe-words.py /tmp/narr/narr-gertran-professor-matematica.mp3 /tmp/narr/whisper-gertran-professor-matematica.json
+✅ [professor-matematica:whisper] ok
+
+▶ [professor-matematica:render-criaprof] node render-criaprof.js professor-matematica
+✅ [professor-matematica:render-criaprof] ok
+
+▶ [professor-matematica:render-gertran] node render-gertran.js professor-matematica
+✅ [professor-matematica:render-gertran] ok
+
+✅ [professor-matematica] COMPLETO em 3.4 min
+
+=============================================
+=== [educador-fisico] começa em 2026-04-23T07:43:57.625Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/educador-fisico-batch.log
+=============================================
+
+▶ [educador-fisico:gen-criaprof] node gen-criaprof.js educador-fisico
+✅ [educador-fisico:gen-criaprof] ok
+
+▶ [educador-fisico:gen-nostalgia] node gen-gertran-nostalgia.js educador-fisico
+✅ [educador-fisico:gen-nostalgia] ok
+
+▶ [educador-fisico:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-educador-fisico.mp3 Você foi a criança que organizava o campeonato do quarteirão. Estudou cada músculo, virou professor de educação física, formou milhares de atletas. Viu o cronômetro virar digital, a aula virar online, o aluno virar app. Agora a IA analisa movimento pela câmera. Você continua sendo o que motiva a começar. Continue aprendendo no Inema ponto CLUB. bella
+✅ [educador-fisico:tts-criaprof] ok
+
+▶ [educador-fisico:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-educador-fisico.mp3 Você viu o cronômetro virar digital, a aula virar online, o movimento virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [educador-fisico:tts-gertran] ok
+
+▶ [educador-fisico:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-educador-fisico.mp3 /tmp/narr/whisper-criaprof-educador-fisico.json && python3 transcribe-words.py /tmp/narr/narr-gertran-educador-fisico.mp3 /tmp/narr/whisper-gertran-educador-fisico.json
+✅ [educador-fisico:whisper] ok
+
+▶ [educador-fisico:render-criaprof] node render-criaprof.js educador-fisico
+✅ [educador-fisico:render-criaprof] ok
+
+▶ [educador-fisico:render-gertran] node render-gertran.js educador-fisico
+✅ [educador-fisico:render-gertran] ok
+
+✅ [educador-fisico] COMPLETO em 3.4 min
+
+=============================================
+=== [bibliotecaria] começa em 2026-04-23T07:47:24.187Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/bibliotecaria-batch.log
+=============================================
+
+▶ [bibliotecaria:gen-criaprof] node gen-criaprof.js bibliotecaria
+✅ [bibliotecaria:gen-criaprof] ok
+
+▶ [bibliotecaria:gen-nostalgia] node gen-gertran-nostalgia.js bibliotecaria
+✅ [bibliotecaria:gen-nostalgia] ok
+
+▶ [bibliotecaria:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-bibliotecaria.mp3 Você foi a criança que emprestava livros do quarto. Aprendeu cada gênero, virou bibliotecária, conectou milhares a livros. Viu o fichário virar sistema, o livro virar PDF, a sala virar silenciosa no online. Agora a IA recomenda o próximo livro certo. Você continua sendo a que conhece o leitor pelo pedido. Continue aprendendo no Inema ponto CLUB. bella
+✅ [bibliotecaria:tts-criaprof] ok
+
+▶ [bibliotecaria:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-bibliotecaria.mp3 Você viu a ficha virar sistema, o livro virar PDF, a biblioteca virar digital. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [bibliotecaria:tts-gertran] ok
+
+▶ [bibliotecaria:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-bibliotecaria.mp3 /tmp/narr/whisper-criaprof-bibliotecaria.json && python3 transcribe-words.py /tmp/narr/narr-gertran-bibliotecaria.mp3 /tmp/narr/whisper-gertran-bibliotecaria.json
+✅ [bibliotecaria:whisper] ok
+
+▶ [bibliotecaria:render-criaprof] node render-criaprof.js bibliotecaria
+✅ [bibliotecaria:render-criaprof] ok
+
+▶ [bibliotecaria:render-gertran] node render-gertran.js bibliotecaria
+✅ [bibliotecaria:render-gertran] ok
+
+✅ [bibliotecaria] COMPLETO em 3.4 min
+
+=============================================
+=== [coordenador-escolar] começa em 2026-04-23T07:50:49.354Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/coordenador-escolar-batch.log
+=============================================
+
+▶ [coordenador-escolar:gen-criaprof] node gen-criaprof.js coordenador-escolar
+✅ [coordenador-escolar:gen-criaprof] ok
+
+▶ [coordenador-escolar:gen-nostalgia] node gen-gertran-nostalgia.js coordenador-escolar
+✅ [coordenador-escolar:gen-nostalgia] ok
+
+▶ [coordenador-escolar:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-coordenador-escolar.mp3 Você foi a criança que mediava as brigas do recreio. Estudou gestão, virou coordenador, segurou escolas inteiras. Viu a ficha virar sistema, o bilhete virar app, a reunião virar vídeo. Agora a IA prevê evasão antes de acontecer. Você continua sendo o que enxerga a escola inteira. Continue aprendendo no Inema ponto CLUB. bella
+✅ [coordenador-escolar:tts-criaprof] ok
+
+▶ [coordenador-escolar:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-coordenador-escolar.mp3 Você viu a ficha virar sistema, o bilhete virar app, a reunião virar remota. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [coordenador-escolar:tts-gertran] ok
+
+▶ [coordenador-escolar:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-coordenador-escolar.mp3 /tmp/narr/whisper-criaprof-coordenador-escolar.json && python3 transcribe-words.py /tmp/narr/narr-gertran-coordenador-escolar.mp3 /tmp/narr/whisper-gertran-coordenador-escolar.json
+✅ [coordenador-escolar:whisper] ok
+
+▶ [coordenador-escolar:render-criaprof] node render-criaprof.js coordenador-escolar
+✅ [coordenador-escolar:render-criaprof] ok
+
+▶ [coordenador-escolar:render-gertran] node render-gertran.js coordenador-escolar
+✅ [coordenador-escolar:render-gertran] ok
+
+✅ [coordenador-escolar] COMPLETO em 3.4 min
+
+=============================================
+=== [juiza] começa em 2026-04-23T07:54:11.060Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/juiza-batch.log
+=============================================
+
+▶ [juiza:gen-criaprof] node gen-criaprof.js juiza
+✅ [juiza:gen-criaprof] ok
+
+▶ [juiza:gen-nostalgia] node gen-gertran-nostalgia.js juiza
+✅ [juiza:gen-nostalgia] ok
+
+▶ [juiza:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-juiza.mp3 Você foi a criança que queria justiça até em briga de irmão. Estudou a constituição, virou juíza, decidiu milhares de vidas. Viu o carimbo virar token digital, a audiência virar vídeo, o acórdão virar banco de dados. Agora a IA pesquisa precedentes em segundos. Você continua sendo a que decide com equilíbrio. Continue aprendendo no Inema ponto CLUB. bella
+✅ [juiza:tts-criaprof] ok
+
+▶ [juiza:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-juiza.mp3 Você viu o carimbo virar token, a audiência virar vídeo, o precedente virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [juiza:tts-gertran] ok
+
+▶ [juiza:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-juiza.mp3 /tmp/narr/whisper-criaprof-juiza.json && python3 transcribe-words.py /tmp/narr/narr-gertran-juiza.mp3 /tmp/narr/whisper-gertran-juiza.json
+✅ [juiza:whisper] ok
+
+▶ [juiza:render-criaprof] node render-criaprof.js juiza
+✅ [juiza:render-criaprof] ok
+
+▶ [juiza:render-gertran] node render-gertran.js juiza
+✅ [juiza:render-gertran] ok
+
+✅ [juiza] COMPLETO em 3.4 min
+
+=============================================
+=== [delegada] começa em 2026-04-23T07:57:33.668Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/delegada-batch.log
+=============================================
+
+▶ [delegada:gen-criaprof] node gen-criaprof.js delegada
+✅ [delegada:gen-criaprof] ok
+
+▶ [delegada:gen-nostalgia] node gen-gertran-nostalgia.js delegada
+✅ [delegada:gen-nostalgia] ok
+
+▶ [delegada:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-delegada.mp3 Você foi a criança que resolvia o mistério da goiabeira. Estudou o código, virou delegada, tirou milhares de dúvidas. Viu a máquina de escrever virar sistema, o retrato falado virar IA, a vítima virar depoimento online. Agora a IA cruza evidências em segundos. Você continua sendo a que escuta sem prejulgar. Continue aprendendo no Inema ponto CLUB. bella
+✅ [delegada:tts-criaprof] ok
+
+▶ [delegada:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-delegada.mp3 Você viu a máquina virar sistema, o retrato virar AI, a vítima virar online. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [delegada:tts-gertran] ok
+
+▶ [delegada:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-delegada.mp3 /tmp/narr/whisper-criaprof-delegada.json && python3 transcribe-words.py /tmp/narr/narr-gertran-delegada.mp3 /tmp/narr/whisper-gertran-delegada.json
+✅ [delegada:whisper] ok
+
+▶ [delegada:render-criaprof] node render-criaprof.js delegada
+✅ [delegada:render-criaprof] ok
+
+▶ [delegada:render-gertran] node render-gertran.js delegada
+✅ [delegada:render-gertran] ok
+
+✅ [delegada] COMPLETO em 3.4 min
+
+=============================================
+=== [auditor-fiscal] começa em 2026-04-23T08:01:00.275Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/auditor-fiscal-batch.log
+=============================================
+
+▶ [auditor-fiscal:gen-criaprof] node gen-criaprof.js auditor-fiscal
+✅ [auditor-fiscal:gen-criaprof] ok
+
+▶ [auditor-fiscal:gen-nostalgia] node gen-gertran-nostalgia.js auditor-fiscal
+✅ [auditor-fiscal:gen-nostalgia] ok
+
+▶ [auditor-fiscal:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-auditor-fiscal.mp3 Você foi a criança que sabia onde cada centavo foi. Estudou a receita, virou auditor, garantiu milhares cumprirem. Viu a declaração virar eletrônica, a nota virar XML, a fiscalização virar big data. Agora a IA detecta fraude em milissegundos. Você continua sendo o que vê o padrão por trás do número. Continue aprendendo no Inema ponto CLUB. bella
+✅ [auditor-fiscal:tts-criaprof] ok
+
+▶ [auditor-fiscal:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-auditor-fiscal.mp3 Você viu a declaração virar eletrônica, a nota virar XML, a fiscalização virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [auditor-fiscal:tts-gertran] ok
+
+▶ [auditor-fiscal:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-auditor-fiscal.mp3 /tmp/narr/whisper-criaprof-auditor-fiscal.json && python3 transcribe-words.py /tmp/narr/narr-gertran-auditor-fiscal.mp3 /tmp/narr/whisper-gertran-auditor-fiscal.json
+✅ [auditor-fiscal:whisper] ok
+
+▶ [auditor-fiscal:render-criaprof] node render-criaprof.js auditor-fiscal
+✅ [auditor-fiscal:render-criaprof] ok
+
+▶ [auditor-fiscal:render-gertran] node render-gertran.js auditor-fiscal
+✅ [auditor-fiscal:render-gertran] ok
+
+✅ [auditor-fiscal] COMPLETO em 3.4 min
+
+=============================================
+=== [consultor-financeiro] começa em 2026-04-23T08:04:23.990Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/consultor-financeiro-batch.log
+=============================================
+
+▶ [consultor-financeiro:gen-criaprof] node gen-criaprof.js consultor-financeiro
+✅ [consultor-financeiro:gen-criaprof] ok
+
+▶ [consultor-financeiro:gen-nostalgia] node gen-gertran-nostalgia.js consultor-financeiro
+✅ [consultor-financeiro:gen-nostalgia] ok
+
+▶ [consultor-financeiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-consultor-financeiro.mp3 Você foi a criança que cuidava da mesada. Estudou juros, virou consultor, planejou milhares de vidas. Viu a carta da corretora virar home broker, o boleto virar PIX, a planilha virar dashboard. Agora a IA otimiza portfólio em segundos. Você continua sendo o que explica com paciência. Continue aprendendo no Inema ponto CLUB. bella
+✅ [consultor-financeiro:tts-criaprof] ok
+
+▶ [consultor-financeiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-consultor-financeiro.mp3 Você viu a carta virar home broker, o boleto virar PIX, o portfólio virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [consultor-financeiro:tts-gertran] ok
+
+▶ [consultor-financeiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-consultor-financeiro.mp3 /tmp/narr/whisper-criaprof-consultor-financeiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-consultor-financeiro.mp3 /tmp/narr/whisper-gertran-consultor-financeiro.json
+✅ [consultor-financeiro:whisper] ok
+
+▶ [consultor-financeiro:render-criaprof] node render-criaprof.js consultor-financeiro
+✅ [consultor-financeiro:render-criaprof] ok
+
+▶ [consultor-financeiro:render-gertran] node render-gertran.js consultor-financeiro
+✅ [consultor-financeiro:render-gertran] ok
+
+✅ [consultor-financeiro] COMPLETO em 3.4 min
+
+=============================================
+=== [soldador] começa em 2026-04-23T08:07:49.536Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/soldador-batch.log
+=============================================
+
+▶ [soldador:gen-criaprof] node gen-criaprof.js soldador
+✅ [soldador:gen-criaprof] ok
+
+▶ [soldador:gen-nostalgia] node gen-gertran-nostalgia.js soldador
+✅ [soldador:gen-nostalgia] ok
+
+▶ [soldador:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-soldador.mp3 Você foi a criança que ficava olhando o clarão do arco. Aprendeu cada tipo de solda, virou soldador, uniu milhares de peças. Viu o rolo virar MIG, o projeto virar CAD, a inspeção virar AI. Agora o robô solda e a IA inspeciona. Você continua sendo o que sente o metal na mão. Continue aprendendo no Inema ponto CLUB. bella
+✅ [soldador:tts-criaprof] ok
+
+▶ [soldador:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-soldador.mp3 Você viu o arco virar MIG, o projeto virar CAD, a inspeção virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [soldador:tts-gertran] ok
+
+▶ [soldador:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-soldador.mp3 /tmp/narr/whisper-criaprof-soldador.json && python3 transcribe-words.py /tmp/narr/narr-gertran-soldador.mp3 /tmp/narr/whisper-gertran-soldador.json
+✅ [soldador:whisper] ok
+
+▶ [soldador:render-criaprof] node render-criaprof.js soldador
+✅ [soldador:render-criaprof] ok
+
+▶ [soldador:render-gertran] node render-gertran.js soldador
+✅ [soldador:render-gertran] ok
+
+✅ [soldador] COMPLETO em 3.4 min
+
+=============================================
+=== [pintor] começa em 2026-04-23T08:11:11.724Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/pintor-batch.log
+=============================================
+
+▶ [pintor:gen-criaprof] node gen-criaprof.js pintor
+✅ [pintor:gen-criaprof] ok
+
+▶ [pintor:gen-nostalgia] node gen-gertran-nostalgia.js pintor
+✅ [pintor:gen-nostalgia] ok
+
+▶ [pintor:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-pintor.mp3 Você foi a criança que pintava a parede do quintal. Aprendeu cada tinta, virou pintor, coloriu milhares de casas. Viu a tabela Pantone virar app, o pincel virar pistola, o cliente virar foto. Agora a IA simula a cor na sala antes. Você continua sendo o que faz a parede ficar reta. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pintor:tts-criaprof] ok
+
+▶ [pintor:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-pintor.mp3 Você viu a tabela virar app, o pincel virar pistola, a cor virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pintor:tts-gertran] ok
+
+▶ [pintor:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-pintor.mp3 /tmp/narr/whisper-criaprof-pintor.json && python3 transcribe-words.py /tmp/narr/narr-gertran-pintor.mp3 /tmp/narr/whisper-gertran-pintor.json
+✅ [pintor:whisper] ok
+
+▶ [pintor:render-criaprof] node render-criaprof.js pintor
+✅ [pintor:render-criaprof] ok
+
+▶ [pintor:render-gertran] node render-gertran.js pintor
+✅ [pintor:render-gertran] ok
+
+✅ [pintor] COMPLETO em 3.4 min
+
+=============================================
+=== [pedreiro] começa em 2026-04-23T08:14:33.446Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/pedreiro-batch.log
+=============================================
+
+▶ [pedreiro:gen-criaprof] node gen-criaprof.js pedreiro
+✅ [pedreiro:gen-criaprof] ok
+
+▶ [pedreiro:gen-nostalgia] node gen-gertran-nostalgia.js pedreiro
+✅ [pedreiro:gen-nostalgia] ok
+
+▶ [pedreiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-pedreiro.mp3 Você foi a criança que ajudava a levantar muro. Aprendeu cada tijolo, virou pedreiro, ergueu milhares de casas. Viu a planta virar tablet, a obra virar drone, o material virar app. Agora a IA estima concreto em segundos. Você continua sendo o que sente o prumo com o olho. Continue aprendenden no Inema ponto CLUB. bella
+✅ [pedreiro:tts-criaprof] ok
+
+▶ [pedreiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-pedreiro.mp3 Você viu a planta virar tablet, a obra virar drone, o orçamento virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pedreiro:tts-gertran] ok
+
+▶ [pedreiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-pedreiro.mp3 /tmp/narr/whisper-criaprof-pedreiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-pedreiro.mp3 /tmp/narr/whisper-gertran-pedreiro.json
+✅ [pedreiro:whisper] ok
+
+▶ [pedreiro:render-criaprof] node render-criaprof.js pedreiro
+✅ [pedreiro:render-criaprof] ok
+
+▶ [pedreiro:render-gertran] node render-gertran.js pedreiro
+✅ [pedreiro:render-gertran] ok
+
+✅ [pedreiro] COMPLETO em 3.4 min
+
+=============================================
+=== [sapateiro] começa em 2026-04-23T08:17:55.274Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/sapateiro-batch.log
+=============================================
+
+▶ [sapateiro:gen-criaprof] node gen-criaprof.js sapateiro
+✅ [sapateiro:gen-criaprof] ok
+
+▶ [sapateiro:gen-nostalgia] node gen-gertran-nostalgia.js sapateiro
+✅ [sapateiro:gen-nostalgia] ok
+
+▶ [sapateiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-sapateiro.mp3 Você foi a criança que colava a sola sozinha. Aprendeu couro, linha, formão, virou sapateiro, salvou milhares de pares. Viu o catálogo virar site, o molde virar CAD, a encomenda virar WhatsApp. Agora a IA escaneia o pé e gera sapato personalizado. Você continua sendo o que conhece o couro no cheiro. Continue aprendendo no Inema ponto CLUB. bella
+✅ [sapateiro:tts-criaprof] ok
+
+▶ [sapateiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-sapateiro.mp3 Você viu o catálogo virar site, o molde virar CAD, o sapato virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [sapateiro:tts-gertran] ok
+
+▶ [sapateiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-sapateiro.mp3 /tmp/narr/whisper-criaprof-sapateiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-sapateiro.mp3 /tmp/narr/whisper-gertran-sapateiro.json
+✅ [sapateiro:whisper] ok
+
+▶ [sapateiro:render-criaprof] node render-criaprof.js sapateiro
+✅ [sapateiro:render-criaprof] ok
+
+▶ [sapateiro:render-gertran] node render-gertran.js sapateiro
+✅ [sapateiro:render-gertran] ok
+
+✅ [sapateiro] COMPLETO em 3.4 min
+
+=============================================
+=== [relojoeiro] começa em 2026-04-23T08:21:19.943Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/relojoeiro-batch.log
+=============================================
+
+▶ [relojoeiro:gen-criaprof] node gen-criaprof.js relojoeiro
+✅ [relojoeiro:gen-criaprof] ok
+
+▶ [relojoeiro:gen-nostalgia] node gen-gertran-nostalgia.js relojoeiro
+✅ [relojoeiro:gen-nostalgia] ok
+
+▶ [relojoeiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-relojoeiro.mp3 Você foi a criança que desmontava o despertador. Aprendeu cada engrenagem, virou relojoeiro, trouxe milhares de relógios de volta à vida. Viu o pêndulo virar quartzo, o quartzo virar smartwatch, o catálogo virar site. Agora a IA identifica peça pela foto. Você continua sendo o que sente a cadência. Continue aprendendo no Inema ponto CLUB. bella
+✅ [relojoeiro:tts-criaprof] ok
+
+▶ [relojoeiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-relojoeiro.mp3 Você viu o pêndulo virar quartzo, o quartzo virar smart, o diagnóstico virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [relojoeiro:tts-gertran] ok
+
+▶ [relojoeiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-relojoeiro.mp3 /tmp/narr/whisper-criaprof-relojoeiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-relojoeiro.mp3 /tmp/narr/whisper-gertran-relojoeiro.json
+✅ [relojoeiro:whisper] ok
+
+▶ [relojoeiro:render-criaprof] node render-criaprof.js relojoeiro
+✅ [relojoeiro:render-criaprof] ok
+
+▶ [relojoeiro:render-gertran] node render-gertran.js relojoeiro
+✅ [relojoeiro:render-gertran] ok
+
+✅ [relojoeiro] COMPLETO em 3.4 min
+
+=============================================
+=== [caminhoneiro] começa em 2026-04-23T08:24:43.314Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/caminhoneiro-batch.log
+=============================================
+
+▶ [caminhoneiro:gen-criaprof] node gen-criaprof.js caminhoneiro
+✅ [caminhoneiro:gen-criaprof] ok
+
+▶ [caminhoneiro:gen-nostalgia] node gen-gertran-nostalgia.js caminhoneiro
+✅ [caminhoneiro:gen-nostalgia] ok
+
+▶ [caminhoneiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-caminhoneiro.mp3 Você foi a criança que dormia olhando o mapa rodoviário. Virou caminhoneiro, cruzou o Brasil inteiro. Viu o atlas virar GPS, o rádio CB virar app, a carga virar código de barras. Agora a IA otimiza rota em segundos. Você continua sendo o que lê a estrada com o corpo. Continue aprendendo no Inema ponto CLUB. bella
+✅ [caminhoneiro:tts-criaprof] ok
+
+▶ [caminhoneiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-caminhoneiro.mp3 Você viu o atlas virar GPS, o CB virar app, a rota virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [caminhoneiro:tts-gertran] ok
+
+▶ [caminhoneiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-caminhoneiro.mp3 /tmp/narr/whisper-criaprof-caminhoneiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-caminhoneiro.mp3 /tmp/narr/whisper-gertran-caminhoneiro.json
+✅ [caminhoneiro:whisper] ok
+
+▶ [caminhoneiro:render-criaprof] node render-criaprof.js caminhoneiro
+✅ [caminhoneiro:render-criaprof] ok
+
+▶ [caminhoneiro:render-gertran] node render-gertran.js caminhoneiro
+✅ [caminhoneiro:render-gertran] ok
+
+✅ [caminhoneiro] COMPLETO em 3.4 min
+
+=============================================
+=== [piloto] começa em 2026-04-23T08:28:05.482Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/piloto-batch.log
+=============================================
+
+▶ [piloto:gen-criaprof] node gen-criaprof.js piloto
+✅ [piloto:gen-criaprof] ok
+
+▶ [piloto:gen-nostalgia] node gen-gertran-nostalgia.js piloto
+✅ [piloto:gen-nostalgia] ok
+
+▶ [piloto:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-piloto.mp3 Você foi a criança que olhava o avião passar. Estudou cada instrumento, virou piloto, cruzou milhares de fronteiras. Viu o mapa de papel virar EFB, o rádio virar digital, o briefing virar app. Agora a IA otimiza rota com meteorologia. Você continua sendo o que mantém o passageiro no chão pelo exemplo. Continue aprendendo no Inema ponto CLUB. bella
+✅ [piloto:tts-criaprof] ok
+
+▶ [piloto:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-piloto.mp3 Você viu o mapa virar EFB, o rádio virar digital, a rota virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [piloto:tts-gertran] ok
+
+▶ [piloto:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-piloto.mp3 /tmp/narr/whisper-criaprof-piloto.json && python3 transcribe-words.py /tmp/narr/narr-gertran-piloto.mp3 /tmp/narr/whisper-gertran-piloto.json
+✅ [piloto:whisper] ok
+
+▶ [piloto:render-criaprof] node render-criaprof.js piloto
+✅ [piloto:render-criaprof] ok
+
+▶ [piloto:render-gertran] node render-gertran.js piloto
+✅ [piloto:render-gertran] ok
+
+✅ [piloto] COMPLETO em 3.4 min
+
+=============================================
+=== [controlador-aereo] começa em 2026-04-23T08:31:27.426Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/controlador-aereo-batch.log
+=============================================
+
+▶ [controlador-aereo:gen-criaprof] node gen-criaprof.js controlador-aereo
+✅ [controlador-aereo:gen-criaprof] ok
+
+▶ [controlador-aereo:gen-nostalgia] node gen-gertran-nostalgia.js controlador-aereo
+✅ [controlador-aereo:gen-nostalgia] ok
+
+▶ [controlador-aereo:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-controlador-aereo.mp3 Você foi a criança que ouvia rádio e organizava tudo. Estudou aerovias, virou controladora, dirigiu milhares de voos. Viu a fita de papel virar tela, o radar virar digital, a torre virar remota. Agora a IA prevê conflitos antes de acontecer. Você continua sendo a voz calma que coordena o céu. Continue aprendendo no Inema ponto CLUB. bella
+✅ [controlador-aereo:tts-criaprof] ok
+
+▶ [controlador-aereo:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-controlador-aereo.mp3 Você viu a fita virar tela, o radar virar digital, o conflito virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [controlador-aereo:tts-gertran] ok
+
+▶ [controlador-aereo:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-controlador-aereo.mp3 /tmp/narr/whisper-criaprof-controlador-aereo.json && python3 transcribe-words.py /tmp/narr/narr-gertran-controlador-aereo.mp3 /tmp/narr/whisper-gertran-controlador-aereo.json
+✅ [controlador-aereo:whisper] ok
+
+▶ [controlador-aereo:render-criaprof] node render-criaprof.js controlador-aereo
+✅ [controlador-aereo:render-criaprof] ok
+
+▶ [controlador-aereo:render-gertran] node render-gertran.js controlador-aereo
+✅ [controlador-aereo:render-gertran] ok
+
+✅ [controlador-aereo] COMPLETO em 3.4 min
+
+=============================================
+=== [maquiadora] começa em 2026-04-23T08:34:50.014Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/maquiadora-batch.log
+=============================================
+
+▶ [maquiadora:gen-criaprof] node gen-criaprof.js maquiadora
+✅ [maquiadora:gen-criaprof] ok
+
+▶ [maquiadora:gen-nostalgia] node gen-gertran-nostalgia.js maquiadora
+✅ [maquiadora:gen-nostalgia] ok
+
+▶ [maquiadora:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-maquiadora.mp3 Você foi a criança que pintava a boneca de batom. Aprendeu cada pincelada, virou maquiadora, arrumou milhares de dias especiais. Viu a revista virar Instagram, o catálogo virar filtro, a aula virar YouTube. Agora a IA simula a makeup antes de aplicar. Você continua sendo a que traduz a pele em beleza. Continue aprendendo no Inema ponto CLUB. bella
+✅ [maquiadora:tts-criaprof] ok
+
+▶ [maquiadora:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-maquiadora.mp3 Você viu a revista virar Instagram, o catálogo virar filtro, a makeup virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [maquiadora:tts-gertran] ok
+
+▶ [maquiadora:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-maquiadora.mp3 /tmp/narr/whisper-criaprof-maquiadora.json && python3 transcribe-words.py /tmp/narr/narr-gertran-maquiadora.mp3 /tmp/narr/whisper-gertran-maquiadora.json
+✅ [maquiadora:whisper] ok
+
+▶ [maquiadora:render-criaprof] node render-criaprof.js maquiadora
+✅ [maquiadora:render-criaprof] ok
+
+▶ [maquiadora:render-gertran] node render-gertran.js maquiadora
+✅ [maquiadora:render-gertran] ok
+
+✅ [maquiadora] COMPLETO em 3.4 min
+
+=============================================
+=== [florista] começa em 2026-04-23T08:38:14.866Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/florista-batch.log
+=============================================
+
+▶ [florista:gen-criaprof] node gen-criaprof.js florista
+✅ [florista:gen-criaprof] ok
+
+▶ [florista:gen-nostalgia] node gen-gertran-nostalgia.js florista
+✅ [florista:gen-nostalgia] ok
+
+▶ [florista:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-florista.mp3 Você foi a criança que montava buquê no quintal. Aprendeu cada flor, virou florista, enfeitou milhares de dias. Viu o encomenda virar WhatsApp, a entrega virar app, o casamento virar Instagram. Agora a IA gera arranjo a partir de uma paleta. Você continua sendo a que sabe a emoção por trás da flor. Continue aprendendo no Inema ponto CLUB. bella
+✅ [florista:tts-criaprof] ok
+
+▶ [florista:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-florista.mp3 Você viu a encomenda virar WhatsApp, a entrega virar app, o arranjo virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [florista:tts-gertran] ok
+
+▶ [florista:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-florista.mp3 /tmp/narr/whisper-criaprof-florista.json && python3 transcribe-words.py /tmp/narr/narr-gertran-florista.mp3 /tmp/narr/whisper-gertran-florista.json
+✅ [florista:whisper] ok
+
+▶ [florista:render-criaprof] node render-criaprof.js florista
+✅ [florista:render-criaprof] ok
+
+▶ [florista:render-gertran] node render-gertran.js florista
+✅ [florista:render-gertran] ok
+
+✅ [florista] COMPLETO em 3.4 min
+
+=============================================
+=== [confeiteiro] começa em 2026-04-23T08:41:37.125Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/confeiteiro-batch.log
+=============================================
+
+▶ [confeiteiro:gen-criaprof] node gen-criaprof.js confeiteiro
+✅ [confeiteiro:gen-criaprof] ok
+
+▶ [confeiteiro:gen-nostalgia] node gen-gertran-nostalgia.js confeiteiro
+✅ [confeiteiro:gen-nostalgia] ok
+
+▶ [confeiteiro:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-confeiteiro.mp3 Você foi a criança que esperava a massa crescer. Aprendeu cada ponto de açúcar, virou confeiteiro, fez milhares de aniversários. Viu a encomenda virar WhatsApp, o catálogo virar Instagram, a entrega virar app. Agora a IA gera design de bolo a partir de uma ideia. Você continua sendo o que faz doce saber a afeto. Continue aprendendo no Inema ponto CLUB. bella
+✅ [confeiteiro:tts-criaprof] ok
+
+▶ [confeiteiro:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-confeiteiro.mp3 Você viu a encomenda virar WhatsApp, o catálogo virar Instagram, o design virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [confeiteiro:tts-gertran] ok
+
+▶ [confeiteiro:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-confeiteiro.mp3 /tmp/narr/whisper-criaprof-confeiteiro.json && python3 transcribe-words.py /tmp/narr/narr-gertran-confeiteiro.mp3 /tmp/narr/whisper-gertran-confeiteiro.json
+✅ [confeiteiro:whisper] ok
+
+▶ [confeiteiro:render-criaprof] node render-criaprof.js confeiteiro
+✅ [confeiteiro:render-criaprof] ok
+
+▶ [confeiteiro:render-gertran] node render-gertran.js confeiteiro
+✅ [confeiteiro:render-gertran] ok
+
+✅ [confeiteiro] COMPLETO em 3.4 min
+
+=============================================
+=== [dj-produtor] começa em 2026-04-23T08:45:01.916Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/dj-produtor-batch.log
+=============================================
+
+▶ [dj-produtor:gen-criaprof] node gen-criaprof.js dj-produtor
+✅ [dj-produtor:gen-criaprof] ok
+
+▶ [dj-produtor:gen-nostalgia] node gen-gertran-nostalgia.js dj-produtor
+✅ [dj-produtor:gen-nostalgia] ok
+
+▶ [dj-produtor:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-dj-produtor.mp3 Você foi a criança que tocava vinil do pai. Aprendeu a batida, virou DJ produtor, emocionou milhares. Viu o vinil virar MP3, o MP3 virar streaming, o clube virar live online. Agora a IA gera beat, masteriza, separa stems. Você continua sendo o que sente o público antes do drop. Continue aprendendo no Inema ponto CLUB. bella
+✅ [dj-produtor:tts-criaprof] ok
+
+▶ [dj-produtor:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-dj-produtor.mp3 Você viu o vinil virar MP3, o clube virar live, a mixagem virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [dj-produtor:tts-gertran] ok
+
+▶ [dj-produtor:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-dj-produtor.mp3 /tmp/narr/whisper-criaprof-dj-produtor.json && python3 transcribe-words.py /tmp/narr/narr-gertran-dj-produtor.mp3 /tmp/narr/whisper-gertran-dj-produtor.json
+✅ [dj-produtor:whisper] ok
+
+▶ [dj-produtor:render-criaprof] node render-criaprof.js dj-produtor
+✅ [dj-produtor:render-criaprof] ok
+
+▶ [dj-produtor:render-gertran] node render-gertran.js dj-produtor
+✅ [dj-produtor:render-gertran] ok
+
+✅ [dj-produtor] COMPLETO em 3.4 min
+
+=============================================
+=== [agronomo] começa em 2026-04-23T08:48:23.721Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/agronomo-batch.log
+=============================================
+
+▶ [agronomo:gen-criaprof] node gen-criaprof.js agronomo
+✅ [agronomo:gen-criaprof] ok
+
+▶ [agronomo:gen-nostalgia] node gen-gertran-nostalgia.js agronomo
+✅ [agronomo:gen-nostalgia] ok
+
+▶ [agronomo:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-agronomo.mp3 Você foi a criança que andava no pé do milho. Aprendeu solo, praga, ciclo, virou agrônomo, salvou milhares de colheitas. Viu a caderneta virar app, a observação virar satélite, o drone virar comum. Agora a IA prevê doença antes de aparecer. Você continua sendo o que lê a terra pelo olho. Continue aprendendo no Inema ponto CLUB. bella
+✅ [agronomo:tts-criaprof] ok
+
+▶ [agronomo:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-agronomo.mp3 Você viu a caderneta virar app, a observação virar satélite, a colheita virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [agronomo:tts-gertran] ok
+
+▶ [agronomo:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-agronomo.mp3 /tmp/narr/whisper-criaprof-agronomo.json && python3 transcribe-words.py /tmp/narr/narr-gertran-agronomo.mp3 /tmp/narr/whisper-gertran-agronomo.json
+✅ [agronomo:whisper] ok
+
+▶ [agronomo:render-criaprof] node render-criaprof.js agronomo
+✅ [agronomo:render-criaprof] ok
+
+▶ [agronomo:render-gertran] node render-gertran.js agronomo
+✅ [agronomo:render-gertran] ok
+
+✅ [agronomo] COMPLETO em 3.5 min
+
+=============================================
+=== [biologo-ambiental] começa em 2026-04-23T08:51:51.055Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/biologo-ambiental-batch.log
+=============================================
+
+▶ [biologo-ambiental:gen-criaprof] node gen-criaprof.js biologo-ambiental
+✅ [biologo-ambiental:gen-criaprof] ok
+
+▶ [biologo-ambiental:gen-nostalgia] node gen-gertran-nostalgia.js biologo-ambiental
+✅ [biologo-ambiental:gen-nostalgia] ok
+
+▶ [biologo-ambiental:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-biologo-ambiental.mp3 Você foi a criança que colecionava folha e inseto. Estudou cada ecossistema, virou bióloga, protegeu milhares de espécies. Viu o caderno virar GPS, a foto virar dado, o campo virar satélite. Agora a IA identifica espécie pelo som ou foto. Você continua sendo a que sabe o bioma pelo cheiro. Continue aprendendo no Inema ponto CLUB. bella
+✅ [biologo-ambiental:tts-criaprof] ok
+
+▶ [biologo-ambiental:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-biologo-ambiental.mp3 Você viu o caderno virar GPS, a foto virar dado, a biodiversidade virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [biologo-ambiental:tts-gertran] ok
+
+▶ [biologo-ambiental:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-biologo-ambiental.mp3 /tmp/narr/whisper-criaprof-biologo-ambiental.json && python3 transcribe-words.py /tmp/narr/narr-gertran-biologo-ambiental.mp3 /tmp/narr/whisper-gertran-biologo-ambiental.json
+✅ [biologo-ambiental:whisper] ok
+
+▶ [biologo-ambiental:render-criaprof] node render-criaprof.js biologo-ambiental
+✅ [biologo-ambiental:render-criaprof] ok
+
+▶ [biologo-ambiental:render-gertran] node render-gertran.js biologo-ambiental
+✅ [biologo-ambiental:render-gertran] ok
+
+✅ [biologo-ambiental] COMPLETO em 3.4 min
+
+=============================================
+=== [pescador] começa em 2026-04-23T08:55:15.935Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/pescador-batch.log
+=============================================
+
+▶ [pescador:gen-criaprof] node gen-criaprof.js pescador
+✅ [pescador:gen-criaprof] ok
+
+▶ [pescador:gen-nostalgia] node gen-gertran-nostalgia.js pescador
+✅ [pescador:gen-nostalgia] ok
+
+▶ [pescador:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-pescador.mp3 Você foi a criança que olhava o mar antes de andar. Aprendeu cada corrente, virou pescador, alimentou milhares de mesas. Viu o boia virar sonar, o mapa virar GPS, o mercado virar app. Agora a IA prevê cardume pelo satélite. Você continua sendo o que sente o mar no vento. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pescador:tts-criaprof] ok
+
+▶ [pescador:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-pescador.mp3 Você viu a boia virar sonar, o mapa virar GPS, o cardume virar AI. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [pescador:tts-gertran] ok
+
+▶ [pescador:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-pescador.mp3 /tmp/narr/whisper-criaprof-pescador.json && python3 transcribe-words.py /tmp/narr/narr-gertran-pescador.mp3 /tmp/narr/whisper-gertran-pescador.json
+✅ [pescador:whisper] ok
+
+▶ [pescador:render-criaprof] node render-criaprof.js pescador
+✅ [pescador:render-criaprof] ok
+
+▶ [pescador:render-gertran] node render-gertran.js pescador
+✅ [pescador:render-gertran] ok
+
+✅ [pescador] COMPLETO em 3.4 min
+
+
+================= BATCH RESUMO =================
+total: 30
+sucessos: 30
+skips: 0
+falhas: 0
+tempo total: 98.5 min

@@ -21,6 +21,47 @@ function slugify(str) {
 }
 
 /**
+ * Concatena N mp3s em um único arquivo, inserindo silêncio entre cada par.
+ * Usa filter concat do ffmpeg — normaliza taxa/canais, tolera inputs mistos.
+ * @param {string[]} partFiles  mp3s por frase
+ * @param {number[]} silencesSec  silêncio após cada parte (length = partFiles.length-1)
+ * @param {string} outputFile  mp3 final (24 kHz mono 128k)
+ */
+function concatPartsWithSilence(partFiles, silencesSec, outputFile) {
+  const inputs = [];
+  const filters = [];
+  const concatLabels = [];
+  let idx = 0;
+
+  for (let i = 0; i < partFiles.length; i += 1) {
+    inputs.push('-i', partFiles[i]);
+    filters.push(`[${idx}:a]aresample=24000,aformat=sample_fmts=s16:channel_layouts=mono[p${i}]`);
+    concatLabels.push(`[p${i}]`);
+    idx += 1;
+
+    const silence = silencesSec[i];
+    if (i < partFiles.length - 1 && silence > 0) {
+      inputs.push('-f', 'lavfi', '-t', String(silence), '-i', 'anullsrc=r=24000:cl=mono');
+      filters.push(`[${idx}:a]aformat=sample_fmts=s16:channel_layouts=mono[s${i}]`);
+      concatLabels.push(`[s${i}]`);
+      idx += 1;
+    }
+  }
+
+  const concatStr = `${concatLabels.join('')}concat=n=${concatLabels.length}:v=0:a=1[out]`;
+  const filterComplex = [...filters, concatStr].join(';');
+
+  execFileSync('ffmpeg', [
+    '-y',
+    ...inputs,
+    '-filter_complex', filterComplex,
+    '-map', '[out]',
+    '-acodec', 'libmp3lame', '-b:a', '128k', '-ar', '24000', '-ac', '1',
+    outputFile,
+  ], { stdio: 'pipe', timeout: 60000 });
+}
+
+/**
  * Generate gatilhos (hooks) carousel + video batch from research data.
  * @param {object} opts - { projectRoot, outputDir, projectDir, taskName, stylePreset, ctaBrand, ctaAction, log }
  */
@@ -46,43 +87,77 @@ async function generateGatilhos(opts) {
 
   log(outputDir, 'video_pro', 'Template GATILHOS: extracting hooks from research...');
 
-  // ── Extract hooks from multiple sources (support EN + PT field names) ──
+  // ── Fuzzy field resolver (Research Agent varies field names between runs) ──
+
+  /**
+   * Find the first non-empty array in `obj` whose key contains `root`.
+   * Handles: hooks_de_anuncio, hooks_anuncios, hooks_anuncio, ad_hooks, etc.
+   */
+  function findArray(obj, ...roots) {
+    // 1. Try exact matches first
+    for (const root of roots) {
+      if (Array.isArray(obj[root]) && obj[root].length > 0) return obj[root];
+    }
+    // 2. Fuzzy: match any key containing any root (normalized — no accents, lowercase)
+    const normalize = (s) => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const normalizedRoots = roots.map(normalize);
+    for (const key of Object.keys(obj)) {
+      if (!Array.isArray(obj[key]) || obj[key].length === 0) continue;
+      const nk = normalize(key);
+      for (const nr of normalizedRoots) {
+        if (nk.includes(nr) || nr.includes(nk)) return obj[key];
+      }
+    }
+    return [];
+  }
+
+  function findProp(obj, ...keys) {
+    for (const k of keys) {
+      const v = obj[k];
+      if (v != null && v !== '') return v;
+    }
+    return '';
+  }
+
+  // ── Extract hooks from multiple sources ──
 
   const hooks = [];
 
-  // From ad_hooks / hooks_de_anuncio (strings)
-  const adHooks = research.ad_hooks || research.hooks_de_anuncio || [];
+  // From ad_hooks / hooks_*anuncio* (strings or objects)
+  const adHooks = findArray(research, 'ad_hooks', 'hooks_de_anuncio', 'hooks_anuncios', 'hooks_anuncio', 'hooks');
   for (const hook of adHooks) {
     hooks.push({
-      hook: typeof hook === 'string' ? hook : hook.text || hook.hook || '',
+      hook: typeof hook === 'string' ? hook : findProp(hook, 'text', 'hook', 'titulo', 'title'),
       source: 'ad_hook',
       emotion: '',
       cta: ctaAction,
     });
   }
 
-  // From video_concepts / conceitos_de_video (objects with hook, format, cta)
-  for (const vc of (research.video_concepts || research.conceitos_de_video || [])) {
-    const hookText = vc.hook || vc.title || vc.titulo || '';
+  // From video_concepts / conceitos_*video* (objects with hook, format, cta)
+  const videoConcepts = findArray(research, 'video_concepts', 'conceitos_de_video', 'conceitos_video', 'conceito_video');
+  for (const vc of videoConcepts) {
+    const hookText = findProp(vc, 'hook', 'title', 'titulo');
     if (hookText && !hooks.find(h => h.hook === hookText)) {
       hooks.push({
         hook: hookText,
         source: 'video_concept',
-        emotion: vc.narrative_framework || vc.narrative || '',
+        emotion: findProp(vc, 'narrative_framework', 'narrative', 'narrativa'),
         cta: vc.cta || ctaAction,
-        format: vc.format || '',
+        format: findProp(vc, 'format', 'formato'),
       });
     }
   }
 
-  // From marketing_angles / angulos_de_marketing (objects with angle, emotion)
-  for (const ma of (research.marketing_angles || research.angulos_de_marketing || [])) {
-    const hookText = ma.angle || ma.angulo || ma.positioning || ma.posicionamento || '';
+  // From marketing_angles / angulos_*marketing* (objects with angle, emotion)
+  const marketingAngles = findArray(research, 'marketing_angles', 'angulos_de_marketing', 'angulos_marketing', 'angulo_marketing');
+  for (const ma of marketingAngles) {
+    const hookText = findProp(ma, 'angle', 'angulo', 'titulo', 'title', 'positioning', 'posicionamento');
     if (hookText && !hooks.find(h => h.hook === hookText)) {
       hooks.push({
-        hook: hookText,
+        hook: hookText.length > 60 ? hookText.slice(0, 60) : hookText,
         source: 'marketing_angle',
-        emotion: ma.emotion || ma.why_it_works || '',
+        emotion: findProp(ma, 'emotion', 'why_it_works', 'narrativa', 'narrative'),
         cta: ma.cta || ctaAction,
       });
     }
@@ -144,8 +219,10 @@ async function generateGatilhos(opts) {
 
   // ── Extract supporting data for enriching hooks ──────────────────────
 
-  const pains = (research.consumer_motivations || research.motivacoes_do_consumidor || []).filter(p => p.pain_point || p.motivation || p.dor || p.motivacao);
-  const trends = (research.industry_trends || research.tendencias_do_setor || []).filter(t => t.trend || t.detail || t.tendencia || t.detalhe);
+  const pains = findArray(research, 'consumer_motivations', 'motivacoes_do_consumidor', 'motivacoes_consumidor', 'motivacao_consumidor', 'pain_points', 'dores')
+    .filter(p => findProp(p, 'pain_point', 'motivation', 'dor', 'motivacao'));
+  const trends = findArray(research, 'industry_trends', 'tendencias_do_setor', 'tendencias_mercado', 'tendencia_mercado', 'market_trends', 'tendencias')
+    .filter(t => findProp(t, 'trend', 'detail', 'tendencia', 'detalhe', 'titulo', 'descricao'));
 
   log(outputDir, 'video_pro', `Supporting data: ${pains.length} pain points, ${trends.length} trends`);
 
@@ -165,13 +242,13 @@ async function generateGatilhos(opts) {
 
     // Match hook to a related pain point (cycle through available)
     const pain = pains[hi % pains.length] || {};
-    const painText = pain.pain_point || pain.dor || pain.motivation || pain.motivacao || '';
-    const painTrigger = pain.emotional_trigger || pain.gatilho_emocional || pain.description || pain.descricao || '';
+    const painText = findProp(pain, 'pain_point', 'dor', 'motivation', 'motivacao', 'titulo', 'title');
+    const painTrigger = findProp(pain, 'emotional_trigger', 'gatilho_emocional', 'description', 'descricao', 'desejo');
 
     // Match hook to a related data point (cycle through available)
     const trend = trends[hi % trends.length] || {};
-    const trendText = trend.trend || trend.tendencia || '';
-    const trendDetail = trend.detail || trend.descricao || '';
+    const trendText = findProp(trend, 'trend', 'tendencia', 'titulo', 'title');
+    const trendDetail = findProp(trend, 'detail', 'descricao', 'description', 'detalhe');
 
     // Extract a keyword from the hook (first 2-3 impactful words)
     const hookWords = h.hook.split(/\s+/).filter(w => w.length > 3).slice(0, 2).join(' ').toUpperCase() || 'ATENÇÃO';
@@ -233,8 +310,7 @@ async function generateGatilhos(opts) {
         painText ? painText : '',
         trendText ? trendText.slice(0, 80) : '',
         `Acesse ${ctaBrand}.`,
-      ].filter(Boolean);
-      const script = scriptParts.join('. ').slice(0, 500);
+      ].filter((p) => p && p.trim().length > 0).map((p) => p.trim());
 
       // Set narration text per scene
       scenes[0].narration = h.hook;
@@ -244,16 +320,36 @@ async function generateGatilhos(opts) {
       scenes[4].narration = '';
 
       hookNarrationFile = path.join(hookDir, 'narration.mp3');
-      if (script.length > 20) {
+      const totalChars = scriptParts.reduce((sum, p) => sum + p.length, 0);
+      if (totalChars > 20) {
+        const tmpDir = path.join(hookDir, '_tts_tmp');
         try {
+          fs.mkdirSync(tmpDir, { recursive: true });
           const generateAudio = path.resolve(projectRoot, 'pipeline/generate-audio.js');
-          const args = [generateAudio, hookNarrationFile, script, narrator];
-          if (ttsProvider && ttsProvider !== 'auto') args.push('--provider', ttsProvider);
-          execFileSync('node', args, { cwd: projectRoot, stdio: 'pipe', timeout: 60000 });
-          log(outputDir, 'video_pro', `  Narration generated: ${path.basename(hookDir)}/narration.mp3`);
+          const partFiles = [];
+
+          // Generate one mp3 per sentence (respects daemon cache, ~3s each after warmup)
+          for (let pi = 0; pi < scriptParts.length; pi += 1) {
+            const partFile = path.join(tmpDir, `p${pi}.mp3`);
+            const args = [generateAudio, partFile, scriptParts[pi], narrator];
+            if (ttsProvider && ttsProvider !== 'auto') args.push('--provider', ttsProvider);
+            execFileSync('node', args, { cwd: projectRoot, stdio: 'pipe', timeout: 60000 });
+            partFiles.push(partFile);
+          }
+
+          // Silence between parts: 0.4s normal, 0.6s before last (CTA beat)
+          const silencesSec = [];
+          for (let pi = 0; pi < partFiles.length - 1; pi += 1) {
+            silencesSec.push(pi === partFiles.length - 2 ? 0.6 : 0.4);
+          }
+
+          concatPartsWithSilence(partFiles, silencesSec, hookNarrationFile);
+          log(outputDir, 'video_pro', `  Narration generated: ${path.basename(hookDir)}/narration.mp3 (${scriptParts.length} frases + pausas)`);
         } catch (e) {
           log(outputDir, 'video_pro', `  Narration failed: ${e.message.slice(0, 100)}`);
           hookNarrationFile = null;
+        } finally {
+          try { fs.rmSync(tmpDir, { recursive: true, force: true }); } catch {}
         }
       } else {
         hookNarrationFile = null;

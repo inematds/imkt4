@@ -1,0 +1,745 @@
+
+=== 2026-04-23T06:28:13.819Z node gen-criaprof.js costureira ===
+
+[criaprof:costureira] 50 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs
+
+── 1/50 ── cena01-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cozy 1980s Brazilian home with a home sewing corner with fabric scraps, a foot-pedal machine and a dress on a mannequin,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena01-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 2/50 ── cena01-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 6 years old, sm...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena01-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 3/50 ── cena02-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian bedroom with a toy sewing kit with plastic needles and fabric scraps sitting on a bedspread, old wooden ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena02-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 4/50 ── cena02-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 7 years old, ch...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena02-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 5/50 ── cena03-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian public school classroom with wooden desks, chalkboard with a chalkboard with pattern-making diagrams, su...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena03-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 6/50 ── cena03-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 9 years old, ch...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena03-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 7/50 ── cena04-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Warm family living room 1980s with a an old brazilian fashion-pattern magazine on a crochet tablecloth, old TV tube in b...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena04-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 8/50 ── cena04-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 10 years old, c...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena04-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 9/50 ── cena05-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 1990s brazilian home scene with a cousin with a torn party dress the night before an event, muted afternoon light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena05-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 10/50 ── cena05-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 12 years old, p...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena05-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 11/50 ── cena06-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1990s brazilian classroom with a garment pattern poster on the wall, a notebook open on a wooden desk, afternoon sunligh...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena06-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 12/50 ── cena06-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 14 years old, t...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena06-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 13/50 ── cena07-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian teen bedroom with a Singer pedal sewing machine, patterns, colorful fabric bolts, posters on wall, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena07-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/50 ── cena07-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 16 years old, t...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena07-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/50 ── cena08-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian dining table with a fashion technical school pamphlet (course catalog, vestibular books), family ki...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena08-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 16/50 ── cena08-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 18 years old, y...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena08-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 17/50 ── cena09-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s brazilian fashion technical school hallway with bulletin board, backpacks on the floor, natural daylight thr...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena09-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 18/50 ── cena09-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 20 years old, u...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena09-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/50 ── cena10-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: University study room with fashion textbooks and a pattern-drafting table, notebooks piled, coffee cup, clean daylight, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena10-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 20/50 ── cena10-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 22 years old, s...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena10-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 21/50 ── cena11-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Small small neighborhood sewing atelier with a small atelier with mannequins, sewing machines and fabric bolts, soft neu...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena11-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 22/50 ── cena11-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 24 years old, y...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena11-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 23/50 ── cena12-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s graduation scene, empty graduation cap and diploma on a table, family photograph nearby, soft warm light, ci...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena12-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 24/50 ── cena12-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 26 years old, n...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena12-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 25/50 ── cena13-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier in 2000s with a sewing machine, scissors and measuring tape on a work surface, warm professional amb...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena13-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 26/50 ── cena13-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 28 years old, y...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena13-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 27/50 ── cena14-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Well-organized warm sewing atelier with organized fabric racks, mannequin, measuring tools, soft morning light, practice...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena14-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 28/50 ── cena14-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 30 years old, e...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena14-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 29/50 ── cena15-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier set up for a custom-fitting consultation, chairs or bed positioned, natural light, cinematic, shallo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena15-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 30/50 ── cena15-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 32 years old, m...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena15-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 31/50 ── cena16-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier in 2010s with a desktop monitor showing pattern-drafting CAD software, cables visible, mix of old an...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena16-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 32/50 ── cena16-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 34 years old, p...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena16-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 33/50 ── cena17-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up on a smartphone running an online fashion-client app for orders next to a sewing machine, scissors and measurin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena17-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 34/50 ── cena17-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 36 years old, p...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena17-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 35/50 ── cena18-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier with a tripod smartphone set up for sewing tutorial short video, ring light visible, cinematic, shal...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena18-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 36/50 ── cena18-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 38 years old, p...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena18-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 37/50 ── cena19-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Home office with a laptop showing a video-call remote fitting consultation via video, soft daylight, 2020-era improvised...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena19-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 38/50 ── cena19-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 40 years old, p...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena19-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 39/50 ── cena20-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a monitor showing an order-pipeline management dashboard, modern clinical/professional UI, teal accents, sof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena20-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 40/50 ── cena20-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 42 years old, s...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena20-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 41/50 ── cena21-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Clean modern screen showing an AI pattern-generation tool with personalized output and progress charts, soft teal UI acc...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena21-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 42/50 ── cena21-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 44 years old, v...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena21-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 43/50 ── cena22-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier with a an AI body-measurement tool from smartphone photos subtly integrated into the workflow, moder...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena22-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 44/50 ── cena22-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 46 years old, s...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena22-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 45/50 ── cena23-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm sewing atelier with a junior colleague's notebook open, older mentor's hand gesturing to explain, soft collaborativ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena23-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 46/50 ── cena23-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient presence, about 48 years old, s...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena23-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 47/50 ── cena24-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Bright modern warm sewing atelier space with equipment and tools in soft out-of-focus background, warm-cool gradient amb...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena24-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 48/50 ── cena24-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Heroic cinematic close-up portrait of the same Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nu...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena24-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 49/50 ── cena25-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of warm sewing atelier bathed in golden-hour window light, equipment arranged, sense of legacy and f...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena25-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 50/50 ── cena25-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of the same Brazilian woman with warm medium skin, dark hair, precise gentle eyes, nurturing patient...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena25-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+
+[criaprof:costureira] ✅ 50/50 em 110.1s (fails=0)
+
+=== 2026-04-23T06:30:03.915Z node gen-gertran-nostalgia.js costureira ===
+
+[gertran-nostalgia:costureira] 20 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs
+
+── 1/20 ── nost01.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a 1980s Singer pedal sewing machine with colorful fabric being fed through, shot on 35mm film, cinematic gra...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost01.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 2/20 ── nost02.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage brazilian sewing atelier with mannequins, fabric bolts and pattern books, shot on 35mm film, cinematic grading, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost02.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 3/20 ── nost03.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Old brazilian fashion-pattern magazine open with hand-drawn patterns, shot on 35mm film, cinematic grading, warm tungste...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost03.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 4/20 ── nost04.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s sewing atelier with a desktop computer running pattern-drafting software, cinematic, shallow depth of field,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost04.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 5/20 ── nost05.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A smartphone showing an online fashion-client app with order photos, cinematic, shallow depth of field, natural light, e...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost05.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 6/20 ── nost06.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a remote fitting consultation with a client turning in video, cinematic, shallow depth of field, natura...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost06.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 7/20 ── nost07.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern tablet displaying AI pattern-generation from measurements with 3D preview, neo-noir clinical lighting, soft glass...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost07.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 8/20 ── nost08.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Seamstress holding a smartphone with AI body-measurement overlay on a client, neo-noir clinical lighting, soft glassmorp...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost08.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 9/20 ── nost09.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern sewing atelier integrating craft tradition and AI, neo-noir clinical lighting, soft glas...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost09.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 10/20 ── nost10.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian warm sewing atelier with analog tools and warm afternoon light, shot on 35mm film, cinematic g...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost10.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 11/20 ── nost11.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost11.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 12/20 ── nost12.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage a sewing machine, scissors and measuring tape on a wooden surface, 1980s domestic warmth, shot on 35mm film, cin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost12.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 13/20 ── nost13.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s warm sewing atelier with a desktop computer showing pattern-drafting CAD software, cinematic, shallow depth ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost13.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/20 ── nost14.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a smartphone running an online fashion-client app for orders next to a sewing machine, scissors and measurin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost14.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/20 ── nost15.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a remote fitting consultation via video session, 2020-era improvised home workspace, cinematic, shallow...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost15.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 16/20 ── nost16.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern monitor showing an order-pipeline management dashboard with teal UI accents, neo-noir clinical lighting, soft gla...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost16.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 17/20 ── nost17.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of an AI body-measurement tool from smartphone photos running on a tablet, professional hand swiping, neo-noir ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost17.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 18/20 ── nost18.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern warm sewing atelier integrating classic expertise and AI technology, neo-noir clinical l...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost18.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/20 ── nost19.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian warm sewing atelier with analog tools and warm afternoon light, shot on 35mm film, cinematic g...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost19.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 20/20 ── nost20.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost20.png  (server=2.13s wall=2.2s vram=32.3GB)
+
+[gertran-nostalgia:costureira] ✅ 20/20 em 43.9s (fails=0)
+
+=== 2026-04-23T06:30:47.869Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-costureira.mp3 Você foi a criança que costurava vestido pra boneca. Aprendeu cada ponto, cada molde, virou costureira, fez milhares de peças únicas. Viu o molde de papel virar CAD, a cliente virar online, o atendimento virar vídeo. Agora a IA gera molde a partir de foto. Você continua sendo a que sente a fazenda no dedo. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-costureira.mp3 (voice rachel, 348 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-costureira.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T06:30:53.522Z node pipeline/generate-audio.js /tmp/narr/narr-gertran-costureira.mp3 Você viu o molde virar CAD, a máquina virar eletrônica, o atendimento virar online. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-gertran-costureira.mp3 (voice rachel, 247 chars)
+✅ Audio saved: /tmp/narr/narr-gertran-costureira.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T06:30:58.054Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-costureira.mp3 /tmp/narr/whisper-criaprof-costureira.json && python3 transcribe-words.py /tmp/narr/narr-gertran-costureira.mp3 /tmp/narr/whisper-gertran-costureira.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2344 [00:00<?, ?frames/s]100%|██████████| 2344/2344 [00:05<00:00, 454.44frames/s]100%|██████████| 2344/2344 [00:05<00:00, 454.43frames/s]
+[whisper] 61 palavras -> 15 chunks -> /tmp/narr/whisper-criaprof-costureira.json
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/1672 [00:00<?, ?frames/s]100%|██████████| 1672/1672 [00:03<00:00, 429.94frames/s]100%|██████████| 1672/1672 [00:03<00:00, 429.92frames/s]
+[whisper] 40 palavras -> 10 chunks -> /tmp/narr/whisper-gertran-costureira.json
+
+=== 2026-04-23T06:31:28.250Z node render-criaprof.js costureira ===
+[costureira] detectou N_SCENES=25
+[costureira] 15 captions via whisper (offset +0.8s)
+[costureira] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/video/costureira-criaprof.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #50:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #51, mp3, from '/tmp/narr/narr-criaprof-costureira.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:23.50, start: 0.046042, bitrate: 128 kb/s
+  Stream #51:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> zoompan:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (mp3float) -> atrim:default
+  Stream #51:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc31e021530e0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc31e021530e0] profile High, level 3.2, 4:2:0, 8-bit
+[libx264 @ 0xc31e021530e0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/costureira_2026-04-23/video/costureira-criaprof.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.90 bitrate=   0.4kbits/s speed=1.12x    frame=   91 fps= 70 q=26.0 size=    1024kB time=00:00:05.38 bitrate=1557.3kbits/s speed=4.12x    frame=  250 fps=138 q=26.0 size=    2816kB time=00:00:10.68 bitrate=2159.8kbits/s speed= 5.9x    frame=  414 fps=179 q=26.0 size=    4608kB time=00:00:16.16 bitrate=2335.8kbits/s speed=6.99x    frame=  599 fps=213 q=26.0 size=    6144kB time=00:00:22.33 bitrate=2253.2kbits/s speed=7.94x    frame=  765 fps=231 q=26.0 size=    7424kB time=00:00:27.86 bitrate=2182.7kbits/s speed=8.41x    frame=  930 fps=244 q=26.0 size=    8704kB time=00:00:33.39 bitrate=2135.5kbits/s speed=8.75x    frame= 1084 fps=251 q=26.0 size=    9728kB time=00:00:38.52 bitrate=2068.7kbits/s speed=8.92x    frame= 1239 fps=256 q=26.0 size=   11008kB time=00:00:43.67 bitrate=2064.7kbits/s speed=9.02x    [mp4 @ 0xc31e021520f0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc31e02151f80] video:10849kB audio:1085kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.412276%
+frame= 1350 fps=256 q=-1.0 Lsize=   11983kB time=00:00:44.97 bitrate=2182.6kbits/s speed=8.52x    
+[libx264 @ 0xc31e021530e0] frame I:36    Avg QP:15.52  size:117710
+[libx264 @ 0xc31e021530e0] frame P:347   Avg QP:19.76  size: 11904
+[libx264 @ 0xc31e021530e0] frame B:967   Avg QP:23.61  size:  2834
+[libx264 @ 0xc31e021530e0] consecutive B-frames:  3.0%  4.4%  0.4% 92.1%
+[libx264 @ 0xc31e021530e0] mb I  I16..4:  7.2% 80.2% 12.6%
+[libx264 @ 0xc31e021530e0] mb P  I16..4:  0.5%  3.8%  0.5%  P16..4: 37.0%  9.7%  4.9%  0.0%  0.0%    skip:43.4%
+[libx264 @ 0xc31e021530e0] mb B  I16..4:  0.0%  0.1%  0.0%  B16..8: 37.2%  0.8%  0.1%  direct: 0.9%  skip:61.0%  L0:55.6% L1:43.7% BI: 0.7%
+[libx264 @ 0xc31e021530e0] 8x8 transform intra:79.4% inter:93.4%
+[libx264 @ 0xc31e021530e0] coded y,uvDC,uvAC intra: 86.5% 83.5% 64.7% inter: 4.3% 9.3% 0.8%
+[libx264 @ 0xc31e021530e0] i16 v,h,dc,p: 36% 14%  2% 48%
+[libx264 @ 0xc31e021530e0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 20% 16%  5%  6%  7%  7%  7%  8%
+[libx264 @ 0xc31e021530e0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 21% 11%  5% 10%  8%  8%  6%  5%
+[libx264 @ 0xc31e021530e0] i8c dc,h,v,p: 39% 25% 26% 10%
+[libx264 @ 0xc31e021530e0] Weighted P-Frames: Y:0.3% UV:0.3%
+[libx264 @ 0xc31e021530e0] ref P L0: 76.1%  8.5%  9.0%  6.3%  0.0%
+[libx264 @ 0xc31e021530e0] ref B L0: 91.3%  7.5%  1.2%
+[libx264 @ 0xc31e021530e0] ref B L1: 96.5%  3.5%
+[libx264 @ 0xc31e021530e0] kb/s:1974.86
+[aac @ 0xc31e02154a50] Qavg: 598.629
+[costureira] ✅ 11.7 MB em 5.8s
+
+=== 2026-04-23T06:31:34.103Z node render-gertran.js costureira ===
+[gertran costureira] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/costureira_2026-04-23/video/gertran-costureira-31s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost01.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost02.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost03.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost04.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost05.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost06.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost07.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost08.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost09.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost10.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost11.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost12.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost13.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost14.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost15.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost16.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost17.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost18.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost19.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/costureira_2026-04-23/imgs/nost20.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #20, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #20:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #21, mp3, from '/tmp/narr/narr-gertran-costureira.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:16.78, start: 0.046042, bitrate: 128 kb/s
+  Stream #21:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> scale:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> scale:default
+  Stream #4:0 (png) -> scale:default
+  Stream #5:0 (png) -> scale:default
+  Stream #6:0 (png) -> scale:default
+  Stream #7:0 (png) -> scale:default
+  Stream #8:0 (png) -> scale:default
+  Stream #9:0 (png) -> scale:default
+  Stream #10:0 (png) -> scale:default
+  Stream #11:0 (png) -> scale:default
+  Stream #12:0 (png) -> scale:default
+  Stream #13:0 (png) -> scale:default
+  Stream #14:0 (png) -> scale:default
+  Stream #15:0 (png) -> scale:default
+  Stream #16:0 (png) -> scale:default
+  Stream #17:0 (png) -> scale:default
+  Stream #18:0 (png) -> scale:default
+  Stream #19:0 (png) -> scale:default
+  Stream #20:0 (mp3float) -> atrim:default
+  Stream #21:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc1e9f0a75a40] using SAR=1/1
+[libx264 @ 0xc1e9f0a75a40] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc1e9f0a75a40] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xc1e9f0a75a40] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/costureira_2026-04-23/video/gertran-costureira-31s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   25 fps= 20 q=26.0 size=       0kB time=00:00:03.20 bitrate=   0.1kbits/s speed=2.54x    frame=  162 fps= 92 q=26.0 size=     512kB time=00:00:07.75 bitrate= 540.9kbits/s speed= 4.4x    frame=  303 fps=134 q=26.0 size=    1536kB time=00:00:12.46 bitrate=1009.2kbits/s speed= 5.5x    frame=  454 fps=164 q=26.0 size=    2048kB time=00:00:17.53 bitrate= 957.0kbits/s speed=6.34x    frame=  583 fps=178 q=26.0 size=    3328kB time=00:00:21.80 bitrate=1250.4kbits/s speed=6.68x    frame=  725 fps=192 q=26.0 size=    3840kB time=00:00:26.54 bitrate=1185.3kbits/s speed=7.04x    [mp4 @ 0xc1e9f0a74a50] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc1e9f0a74960] video:4244kB audio:743kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.683134%
+frame=  930 fps=220 q=-1.0 Lsize=    5021kB time=00:00:30.99 bitrate=1327.0kbits/s speed=7.32x    
+[libx264 @ 0xc1e9f0a75a40] frame I:4     Avg QP:10.75  size:155917
+[libx264 @ 0xc1e9f0a75a40] frame P:244   Avg QP:14.67  size: 14835
+[libx264 @ 0xc1e9f0a75a40] frame B:682   Avg QP:12.95  size:   150
+[libx264 @ 0xc1e9f0a75a40] consecutive B-frames:  0.5%  2.2%  8.7% 88.6%
+[libx264 @ 0xc1e9f0a75a40] mb I  I16..4: 41.5% 44.9% 13.6%
+[libx264 @ 0xc1e9f0a75a40] mb P  I16..4:  5.7%  4.8%  0.8%  P16..4:  1.7%  0.3%  0.2%  0.0%  0.0%    skip:86.5%
+[libx264 @ 0xc1e9f0a75a40] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.5%  0.0%  0.0%  direct: 0.2%  skip:99.2%  L0:27.9% L1:70.6% BI: 1.5%
+[libx264 @ 0xc1e9f0a75a40] 8x8 transform intra:43.0% inter:81.2%
+[libx264 @ 0xc1e9f0a75a40] coded y,uvDC,uvAC intra: 40.8% 41.7% 37.1% inter: 0.3% 0.5% 0.1%
+[libx264 @ 0xc1e9f0a75a40] i16 v,h,dc,p: 90%  5%  1%  4%
+[libx264 @ 0xc1e9f0a75a40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 26% 23%  4%  6%  5%  6%  5%  8%
+[libx264 @ 0xc1e9f0a75a40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 27% 13%  4%  8%  6%  7%  4%  5%
+[libx264 @ 0xc1e9f0a75a40] i8c dc,h,v,p: 71% 14% 10%  5%
+[libx264 @ 0xc1e9f0a75a40] Weighted P-Frames: Y:2.0% UV:2.0%
+[libx264 @ 0xc1e9f0a75a40] ref P L0: 78.5%  1.7% 18.3%  1.5%  0.1%
+[libx264 @ 0xc1e9f0a75a40] ref B L0: 68.3% 31.3%  0.4%
+[libx264 @ 0xc1e9f0a75a40] ref B L1: 96.5%  3.5%
+[libx264 @ 0xc1e9f0a75a40] kb/s:1121.46
+[aac @ 0xc1e9f0a77380] Qavg: 591.038
+[gertran costureira] ✅ 4.9 MB em 4.5s

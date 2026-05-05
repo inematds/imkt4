@@ -1,0 +1,192 @@
+{
+  "task_name": "c0060-nutri_escala",
+  "task_date": "2026-04-10",
+  "business": "INEMA — Ecossistema de IA e Transformação Digital",
+  "description": "Campanha para nutricionistas. Ângulo: o problema não é falta de conhecimento — é excesso de demanda e pouco tempo. A IA não vai substituir o nutricionista, vai dar escala ao cuidado personalizado. Mensagem central: atenda melhor em menos tempo, sem perder o toque humano.",
+
+  "script_content": "O nutricionista moderno enfrenta um paradoxo: quanto mais cresce, menos tempo tem para cuidar de cada paciente como merece.\n\nMontagem de planos alimentares consome horas. Responder pacientes fora da consulta desgasta. Produzir conteúdo para atrair clientes compete com a agenda lotada. E no fim do dia, a pergunta é: dá para crescer sem perder a qualidade?\n\nA resposta é sim — com IA aplicada do jeito certo.\n\nNão é sobre virar técnico. É sobre usar IA para:\n1. Organizar anamneses e informações do paciente com mais rapidez\n2. Estruturar planos alimentares sem começar do zero toda vez\n3. Criar materiais de orientação e responder dúvidas recorrentes com eficiência\n4. Produzir conteúdo para redes sociais sem esgotar a criatividade\n5. Acompanhar a evolução dos pacientes com mais organização\n\nO resultado? Mais produtividade, mais tempo para o paciente, mais consistência no atendimento — e crescimento sem aumentar o caos.\n\nO INEMA entrega isso de forma simples, prática e aplicável. Não um curso longo de tecnologia. Mas conteúdo direto para o nutricionista que quer atender melhor em menos tempo.",
+
+  "simulate_uploads": false,
+  "dry_run": false,
+
+  "project_dir": "prj/inema",
+  "output_dir": "prj/inema/outputs/c0060-nutri_escala_2026-04-10",
+
+  "platform_targets": ["instagram"],
+
+  "narrator": "bella",
+  "video_quick": false,
+  "video_pro": true,
+  "image_source": "api",
+
+  "video_template": "explainer",
+
+  "skip_research": false,
+  "skip_image": false,
+  "skip_video": false,
+
+  "approval_modes": {
+    "stage1": "humano",
+    "stage2": "humano",
+    "stage3": "humano",
+    "stage4": "humano",
+    "stage5": "humano"
+  },
+
+  "knowledge_files": [
+    "prj/inema/knowledge/brand_identity.md",
+    "prj/inema/knowledge/product_campaign.md",
+    "prj/inema/knowledge/platform_guidelines.md"
+  ],
+
+  "pipeline": {
+    "research": {
+      "enabled": true,
+      "inputs": {
+        "niche": "IA aplicada à nutrição clínica — produtividade e escala no atendimento nutricional",
+        "target_audience": "nutricionistas clínicos, autônomos e de clínicas que querem atender mais pacientes com menos esforço operacional",
+        "campaign_goal": "educação + conversão: mostrar como a IA pode dar escala ao atendimento nutricional sem perder personalização",
+        "script_summary": "IA para nutricionistas: organizar anamneses, estruturar planos alimentares, criar conteúdo, responder dúvidas recorrentes e acompanhar evolução. Mensagem: mais pacientes, mais qualidade, menos caos."
+      }
+    },
+    "static_ad": {
+      "enabled": true,
+      "inputs": {
+        "product": "INEMA — IA para Nutricionistas",
+        "campaign_goal": "atrair nutricionistas que querem produtividade e escala sem perder a personalização do atendimento",
+        "platform": "instagram",
+        "format": "square",
+        "dimensions": "1080x1080",
+        "layout_type": "lifestyle",
+        "image_source": "api",
+        "brand_colors": {
+          "primary": "#0099FF",
+          "dark": "#0D0D0D",
+          "accent": "#00FF88",
+          "white": "#FFFFFF"
+        },
+        "copy": {
+          "headline": "Atenda mais, esgote menos",
+          "subtext": "IA para nutricionistas que querem crescer sem perder o cuidado",
+          "cta": "Aprenda em inema.club"
+        },
+        "design_notes": "Dark-first com toque de saúde e bem-estar. Tipografia bold mas acolhedora. Imagem evoca profissional de saúde + tecnologia de forma suave. Sem estética clínica fria — warm tech."
+      }
+    },
+
+    "carousel": {
+      "enabled": true,
+      "platform": "instagram",
+      "format": "square",
+      "dimensions": "1080x1080",
+      "image_source": "api",
+      "slide_count": 7,
+      "design_notes": "Dark-first com identidade INEMA: fundo #0D0D0D, azul #0099FF, verde neon #00FF88. Tipografia bold (Montserrat/Space Grotesk). Numeração de slide visível. Linha de acento lateral. Handle @inema.tds no rodapé. Cada slide tem imagem gerada via API limpa de texto — copy sobreposto via HTML/CSS. Tema: nutrição + tecnologia, warm tech, sem estética clínica fria.",
+      "slides": [
+        {
+          "id": 1,
+          "concept": "hook — o paradoxo do crescimento",
+          "headline": "Quanto mais você cresce...",
+          "subtext": "...menos tempo tem para cada paciente",
+          "badge": "Para nutricionistas",
+          "image_prompt": "nutritionist overwhelmed with paperwork and consultation schedule, modern clinic, soft dark background, professional, no text"
+        },
+        {
+          "id": 2,
+          "concept": "dor 1 — montagem de planos",
+          "number": "01",
+          "headline": "Planos alimentares do zero",
+          "subtext": "Horas que poderiam estar no paciente",
+          "image_prompt": "nutritionist writing meal plan, notebook and laptop, focused work, dark warm atmosphere, no text"
+        },
+        {
+          "id": 3,
+          "concept": "dor 2 — responder fora da consulta",
+          "number": "02",
+          "headline": "Paciente perguntando às 22h",
+          "subtext": "E você ainda respondendo",
+          "image_prompt": "smartphone with messages notifications at night, exhausted professional, dark background, no text"
+        },
+        {
+          "id": 4,
+          "concept": "virada — o que a IA muda",
+          "headline": "IA não substitui você",
+          "subtext": "Ela multiplica o seu cuidado",
+          "image_prompt": "nutritionist confidently using laptop, modern clinic, technology and health, dark with warm light, no text"
+        },
+        {
+          "id": 5,
+          "concept": "benefício — escala com personalização",
+          "number": "03",
+          "headline": "Mais pacientes, mesma qualidade",
+          "subtext": "Organização, planos e conteúdo — mais rápido",
+          "image_prompt": "organized digital workflow, health data, patient records, productivity, dark tech aesthetic, no text"
+        },
+        {
+          "id": 6,
+          "concept": "benefício — conteúdo sem esforço",
+          "number": "04",
+          "headline": "Conteúdo que atrai pacientes",
+          "subtext": "Sem consumir o que você tem de melhor",
+          "image_prompt": "social media content creation, nutrition posts, smartphone and laptop, creative professional, dark background, no text"
+        },
+        {
+          "id": 7,
+          "concept": "cta — INEMA",
+          "headline": "Atenda melhor em menos tempo",
+          "subtext": "Sem perder o toque humano que faz diferença",
+          "cta": "inema.club",
+          "image_prompt": "nutritionist smiling with patient, warmth and professionalism, technology in background, success, dark warm atmosphere, no text"
+        }
+      ]
+    },
+
+    "video_ad": {
+      "enabled": true,
+      "mode": "pro",
+      "narrator": "bella",
+      "image_source": "api",
+      "script_source": "script_content",
+      "pro": {
+        "duration": "45-60s",
+        "style": "cinematic",
+        "framework": "PAS",
+        "focus": "problema (excesso de demanda, tempo escasso) → agitação (crescer cria mais caos, pacientes perdem qualidade) → solução (IA que dá escala sem perder personalização — INEMA)"
+      }
+    },
+
+    "copywriting": {
+      "enabled": true,
+      "inputs": {
+        "campaign_angle": "IA para nutricionistas que querem crescer sem aumentar o caos",
+        "topic": "produtividade, escala e personalização no atendimento nutricional com IA",
+        "key_benefit": "atender mais pacientes com mais qualidade e menos esforço operacional",
+        "platforms": ["instagram"],
+        "cta_primary": "inema.club — cursos rápidos e aplicáveis",
+        "tone": "acolhedor, prático, empoderador — sem jargão técnico, sem hype",
+        "language": "pt-BR"
+      }
+    },
+
+    "distribution": {
+      "enabled": true,
+      "inputs": {
+        "simulate_uploads": false,
+        "publish_immediately": false,
+        "media_sources": {
+          "instagram_image": "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/instagram_ad.png",
+          "instagram_carousel": [
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_01.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_02.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_03.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_04.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_05.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_06.png",
+            "prj/inema/outputs/c0060-nutri_escala_2026-04-10/ads/carousel_07.png"
+          ],
+          "video_pro": "prj/inema/outputs/c0060-nutri_escala_2026-04-10/video/ad_pro.mp4"
+        }
+      }
+    }
+  }
+}

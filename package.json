@@ -8,6 +8,7 @@
     "pipeline:worker": "node pipeline/worker.js",
     "pipeline:run": "node pipeline/orchestrator.js --file pipeline/payloads/coldbrew_demo.json",
     "pipeline:run:payload": "node pipeline/orchestrator.js --payload",
+    "ui": "node ui/server.js",
     "campaign-import:scan": "node scripts/campaign-import-worker.js scan",
     "campaign-import:cancel": "node scripts/campaign-import-worker.js cancel",
     "campaign-import:clean": "node scripts/campaign-import-worker.js clean-imports",

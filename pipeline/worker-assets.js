@@ -34,8 +34,8 @@ function createWorkerAssetHelpers({ projectRoot, freeImageProviderEnv = 'pexels'
     };
   }
 
-  function getFreeImageProvider() {
-    const preferred = FREE_IMAGE_PROVIDER;
+  function getFreeImageProvider(preferredOverride = null) {
+    const preferred = String(preferredOverride || FREE_IMAGE_PROVIDER || 'pexels').toLowerCase();
     const providers = {
       pexels:   { key: env.PEXELS_API_KEY, name: 'Pexels', searchUrl: 'https://api.pexels.com/v1/search', authHeader: 'Authorization' },
       unsplash: { key: env.UNSPLASH_ACCESS_KEY, name: 'Unsplash', searchUrl: 'https://api.unsplash.com/search/photos', authHeader: 'Authorization' },

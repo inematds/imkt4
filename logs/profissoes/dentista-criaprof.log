@@ -1,0 +1,205 @@
+
+[criaprof:dentista] 50 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs
+
+── 1/50 ── cena01-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cozy 1980s Brazilian home with a relative in front of a bathroom mirror inspecting a sore tooth, warm afternoon light sp...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena01-ini.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 2/50 ── cena01-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena01-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 3/50 ── cena02-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian bedroom with a toy dental set with a small mirror and toothbrush sitting on a bedspread, old wooden toy ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena02-ini.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 4/50 ── cena02-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena02-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 5/50 ── cena03-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian public school classroom with wooden desks, chalkboard with a poster showing healthy vs. decayed teeth, s...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena03-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 6/50 ── cena03-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena03-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 7/50 ── cena04-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Warm family living room 1980s with a an old dental anatomy pamphlet from a school health campaign on a crochet tableclot...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena04-ini.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 8/50 ── cena04-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena04-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 9/50 ── cena05-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 1990s brazilian home scene with a younger sibling with a wobbly baby tooth, tissue at the ready, muted afternoon l...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena05-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 10/50 ── cena05-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena05-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 11/50 ── cena06-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1990s brazilian classroom with an enlarged tooth anatomy poster on the wall, a notebook open on a wooden desk, afternoon...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena06-ini.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 12/50 ── cena06-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena06-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 13/50 ── cena07-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian teen bedroom with dental hygiene books, a magnifying mirror on a desk, posters on wall, boombox ste...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena07-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/50 ── cena07-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena07-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/50 ── cena08-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian dining table with a dental school brochure open on a family table (course catalog, vestibular books...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena08-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 16/50 ── cena08-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena08-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 17/50 ── cena09-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s brazilian dental school hallway with bulletin board, backpacks on the floor, natural daylight through tall w...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena09-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 18/50 ── cena09-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena09-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 19/50 ── cena10-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: University study room with a full dental anatomy model and textbooks on restorative dentistry, notebooks piled, coffee c...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena10-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 20/50 ── cena10-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena10-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 21/50 ── cena11-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Small dental clinic with a classic dental chair, a dental mirror, a probe and suction tube, soft neutral daylight, early...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena11-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 22/50 ── cena11-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena11-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 23/50 ── cena12-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s graduation scene, empty graduation cap and diploma on a table, family photograph nearby, soft warm light, ci...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena12-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 24/50 ── cena12-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena12-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 25/50 ── cena13-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic in 2000s with a classic handheld dental drill and tray of instruments on a work surface, war...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena13-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 26/50 ── cena13-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena13-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 27/50 ── cena14-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Well-organized bright modern dental clinic with organized tray of sterilized dental instruments on a clean surface, soft...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena14-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 28/50 ── cena14-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena14-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 29/50 ── cena15-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic set up for a dental consultation, chairs or bed positioned, natural light, cinematic, shallo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena15-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 30/50 ── cena15-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena15-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 31/50 ── cena16-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic in 2010s with a desktop monitor showing dental practice management software with patient rec...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena16-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 32/50 ── cena16-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena16-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 33/50 ── cena17-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up on a smartphone running a patient appointment reminder app next to a classic handheld dental drill and tray of ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena17-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 34/50 ── cena17-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena17-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 35/50 ── cena18-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic with a tripod smartphone set up for oral-health education tutorial, ring light visible, cine...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena18-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 36/50 ── cena18-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena18-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 37/50 ── cena19-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Home office with a laptop showing a video-call dental tele-consultation about a broken tooth, soft daylight, 2020-era im...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena19-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 38/50 ── cena19-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena19-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 39/50 ── cena20-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a monitor showing 3D panoramic dental scan on a high-resolution monitor, modern clinical/professional UI, te...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena20-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 40/50 ── cena20-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena20-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 41/50 ── cena21-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Clean modern screen showing an AI caries-detection overlay on a dental x-ray with personalized output and progress chart...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena21-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 42/50 ── cena21-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena21-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 43/50 ── cena22-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic with a an AI 3D dental-scan analysis running on a chairside monitor subtly integrated into t...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena22-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 44/50 ── cena22-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena22-fim.png  (server=2.16s wall=2.2s vram=32.3GB)
+── 45/50 ── cena23-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: bright modern dental clinic with a junior colleague's notebook open, older mentor's hand gesturing to explain, soft coll...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena23-ini.png  (server=2.16s wall=2.3s vram=32.3GB)
+── 46/50 ── cena23-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, steady capable hands, clean prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena23-fim.png  (server=2.15s wall=2.2s vram=32.3GB)
+── 47/50 ── cena24-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Bright modern bright modern dental clinic space with equipment and tools in soft out-of-focus background, warm-cool grad...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena24-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 48/50 ── cena24-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Heroic cinematic close-up portrait of the same Brazilian woman with warm tan skin, shoulder-length dark brown hair, brig...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena24-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 49/50 ── cena25-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of bright modern dental clinic bathed in golden-hour window light, equipment arranged, sense of lega...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena25-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 50/50 ── cena25-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of the same Brazilian woman with warm tan skin, shoulder-length dark brown hair, bright alert eyes, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/dentista_2026-04-23/imgs/cena25-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+
+[criaprof:dentista] ✅ 50/50 em 110.1s (fails=0)

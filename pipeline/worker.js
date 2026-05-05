@@ -92,6 +92,64 @@ function getRotatingProvider() {
 }
 
 
+/**
+ * Resolve image_reference from payload to an array of absolute image paths.
+ * Handles: img/ vs imgs/, case-insensitive dir names, single file vs folder.
+ * Returns [] if nothing found (caller proceeds without reference).
+ */
+function resolveImageReference(projectDir, imageReference) {
+  if (!imageReference) return [];
+  const raw = String(imageReference).trim();
+  if (!raw) return [];
+
+  // Build candidate paths: try as-is, img→imgs, lowercase, project-relative
+  const candidates = [];
+  const addCandidates = (base) => {
+    candidates.push(path.resolve(PROJECT_ROOT, base));
+    candidates.push(path.resolve(PROJECT_ROOT, projectDir, base));
+  };
+  addCandidates(raw);
+  addCandidates(raw.replace(/^img\//, 'imgs/'));
+  if (projectDir) {
+    addCandidates(raw.replace(/^(prj\/[^/]+\/)?(img|imgs)\//, '$1imgs/'));
+  }
+
+  // Case-insensitive: for each candidate dir, try to find matching folder
+  const imgExts = /\.(jpg|jpeg|png|webp)$/i;
+  for (const cand of candidates) {
+    if (fs.existsSync(cand)) {
+      const stat = fs.statSync(cand);
+      if (stat.isFile() && imgExts.test(cand)) return [cand];
+      if (stat.isDirectory()) {
+        const files = fs.readdirSync(cand)
+          .filter((f) => imgExts.test(f))
+          .sort()
+          .map((f) => path.join(cand, f));
+        if (files.length > 0) return files.slice(0, 3);
+      }
+    }
+    // Try case-insensitive match on parent dir
+    const parent = path.dirname(cand);
+    const target = path.basename(cand).toLowerCase();
+    if (fs.existsSync(parent)) {
+      const match = fs.readdirSync(parent).find((e) => e.toLowerCase() === target);
+      if (match) {
+        const resolved = path.join(parent, match);
+        const stat = fs.statSync(resolved);
+        if (stat.isFile() && imgExts.test(resolved)) return [resolved];
+        if (stat.isDirectory()) {
+          const files = fs.readdirSync(resolved)
+            .filter((f) => imgExts.test(f))
+            .sort()
+            .map((f) => path.join(resolved, f));
+          if (files.length > 0) return files.slice(0, 3);
+        }
+      }
+    }
+  }
+  return [];
+}
+
 // Aliases used throughout file (KIE defaults; overridden per-job via getImageProvider)
 const { buildImagePrompt, readBrandContext, DEFAULT_MODEL } = kieProvider;
 const { generateImage } = kieProvider; // will be shadowed per call when provider differs
@@ -115,6 +173,7 @@ const {
   readBrandContext,
   videoTimestamp,
   backupIfExists,
+  resolveImageReference,
 });
 const handleVideoPro = createWorkerVideoProHandler({
   projectRoot: PROJECT_ROOT,
@@ -136,6 +195,7 @@ const handleVideoPro = createWorkerVideoProHandler({
   readBrandContext,
   videoTimestamp,
   backupIfExists,
+  resolveImageReference,
 });
 const handleAdCreativeDesigner = createAdCreativeHandler({
   projectRoot: PROJECT_ROOT,
@@ -153,6 +213,7 @@ const handleAdCreativeDesigner = createAdCreativeHandler({
   formatAssetList,
   getImageProvider,
   readBrandContext,
+  resolveImageReference,
 });
 const {
   handleDistributionAgent,
@@ -185,7 +246,7 @@ async function waitForFile(filePath, timeoutMs = 1800000, intervalMs = 3000) {
 // ── Agent Handlers ─────────────────────────────────────────────────────────────
 
 async function handleCreativeDirector(job) {
-  const { task_name, task_date, output_dir, project_dir, platform_targets, language, campaign_brief } = job.data;
+  const { task_name, task_date, output_dir, project_dir, platform_targets, language, campaign_brief, image_reference, image_reference_note } = job.data;
   const absCreativeDir = path.resolve(PROJECT_ROOT, output_dir, 'creative');
   fs.mkdirSync(absCreativeDir, { recursive: true });
 
@@ -196,6 +257,9 @@ async function handleCreativeDirector(job) {
   const briefInstruction = campaign_brief
     ? `\nCampaign Brief from user: ${campaign_brief}`
     : '';
+  const refInstruction = image_reference
+    ? `\nImage reference: ${image_reference}${image_reference_note ? ` — ${image_reference_note}` : ''}`
+    : '';
 
   const prompt = `You are the Creative Director. Follow the skill defined in skills/creative-director/SKILL.md exactly.
 
@@ -204,7 +268,7 @@ Date: ${task_date}
 Platforms: ${platform_targets.join(', ')}
 Research input: ${output_dir}/research_results.json
 Output directory: ${output_dir}/creative/
-${langInstruction}${briefInstruction}
+${langInstruction}${briefInstruction}${refInstruction}
 
 Read these files FIRST:
 - ${project_dir}/knowledge/brand_identity.md

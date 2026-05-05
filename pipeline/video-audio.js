@@ -6,6 +6,7 @@ const { hasEnv } = require('../config/env');
 function normalizeTtsProvider(raw) {
   const value = String(raw || '').trim().toLowerCase();
   if (!value || value === 'auto') return null;
+  if (value === 'chatterbox' || value === 'chatterbox_vc') return 'chatterbox-vc';
   if (value === 'openai-tts') return 'openai';
   if (value === 'fish') return 'fish';
   return value;
@@ -13,6 +14,10 @@ function normalizeTtsProvider(raw) {
 
 function hasConfiguredTtsProvider(provider) {
   switch (normalizeTtsProvider(provider)) {
+    case 'chatterbox-vc':
+      return true;
+    case 'local-piper':
+      return true;
     case 'elevenlabs':
       return hasEnv('ELEVENLABS_API_KEY');
     case 'minimax':
@@ -27,7 +32,7 @@ function hasConfiguredTtsProvider(provider) {
 }
 
 function hasAnyTtsProvider() {
-  return ['elevenlabs', 'fish', 'minimax'].some((provider) => hasConfiguredTtsProvider(provider));
+  return ['chatterbox-vc', 'fish', 'elevenlabs', 'minimax'].some((provider) => hasConfiguredTtsProvider(provider));
 }
 
 function canProduceNarration(ttsProvider) {

@@ -1,0 +1,36 @@
+
+=============================================
+=== [farmaceutica] começa em 2026-04-23T05:22:41.704Z
+=== log: /home/nmaldaner/projetos/timesmkt3/logs/profissoes/farmaceutica-batch.log
+=============================================
+
+▶ [farmaceutica:gen-criaprof] node gen-criaprof.js farmaceutica
+✅ [farmaceutica:gen-criaprof] ok
+
+▶ [farmaceutica:gen-nostalgia] node gen-gertran-nostalgia.js farmaceutica
+✅ [farmaceutica:gen-nostalgia] ok
+
+▶ [farmaceutica:tts-criaprof] node pipeline/generate-audio.js /tmp/narr/narr-criaprof-farmaceutica.mp3 Você foi a criança que organizava o armário de remédios. Estudou química, conheceu moléculas, virou farmacêutica. Atendeu no balcão, viu a prescrição virar digital, o atendimento virar remoto. Agora a IA alerta interações em tempo real. Você continua sendo a que cuida do paciente depois da consulta. Continue aprendendo no Inema ponto CLUB. bella
+✅ [farmaceutica:tts-criaprof] ok
+
+▶ [farmaceutica:tts-gertran] node pipeline/generate-audio.js /tmp/narr/narr-gertran-farmaceutica.mp3 Você viu a receita virar digital, o estoque virar sistema, a consulta virar remota. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella
+✅ [farmaceutica:tts-gertran] ok
+
+▶ [farmaceutica:whisper] sh: source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-farmaceutica.mp3 /tmp/narr/whisper-criaprof-farmaceutica.json && python3 transcribe-words.py /tmp/narr/narr-gertran-farmaceutica.mp3 /tmp/narr/whisper-gertran-farmaceutica.json
+✅ [farmaceutica:whisper] ok
+
+▶ [farmaceutica:render-criaprof] node render-criaprof.js farmaceutica
+✅ [farmaceutica:render-criaprof] ok
+
+▶ [farmaceutica:render-gertran] node render-gertran.js farmaceutica
+✅ [farmaceutica:render-gertran] ok
+
+✅ [farmaceutica] COMPLETO em 3.4 min
+
+
+================= BATCH RESUMO =================
+total: 1
+sucessos: 1
+skips: 0
+falhas: 0
+tempo total: 3.4 min

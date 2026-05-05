@@ -1,0 +1,177 @@
+{
+  "image": {
+    "api": [
+      {
+        "value": "kie",
+        "label": "KIE.ai",
+        "models": [
+          "z-image",
+          "z-image-turbo",
+          "flux-kontext-pro",
+          "flux-kontext-max",
+          "gpt-image-1",
+          "seedream",
+          "grok-imagine",
+          "qwen-edit-2511",
+          "ernie",
+          "flux-2",
+          "nano-banana-2"
+        ]
+      },
+      {
+        "value": "pollinations",
+        "label": "Pollinations",
+        "models": [
+          "flux",
+          "flux-2",
+          "turbo",
+          "nano-banana-2",
+          "flux-pro"
+        ]
+      },
+      {
+        "value": "piramyd",
+        "label": "Piramyd",
+        "models": [
+          "flux-2",
+          "flux2-klein",
+          "flux2-dev",
+          "flux-kontext-pro"
+        ]
+      },
+      {
+        "value": "inemaimg",
+        "label": "inemaimg local",
+        "models": [
+          "flux2-klein",
+          "flux-2"
+        ]
+      }
+    ],
+    "free": [
+      {
+        "value": "pexels",
+        "label": "Pexels",
+        "models": []
+      },
+      {
+        "value": "unsplash",
+        "label": "Unsplash",
+        "models": []
+      },
+      {
+        "value": "pixabay",
+        "label": "Pixabay",
+        "models": []
+      }
+    ]
+  },
+  "tts": {
+    "providers": [
+      {
+        "value": "auto",
+        "label": "Auto (Chatterbox → Fish → ElevenLabs → MiniMax)",
+        "voices": [
+          "rachel",
+          "bella",
+          "domi",
+          "antoni",
+          "josh",
+          "arnold"
+        ]
+      },
+      {
+        "value": "chatterbox-vc",
+        "label": "Chatterbox VC local",
+        "voices": [
+          "rachel",
+          "bella"
+        ]
+      },
+      {
+        "value": "fish",
+        "label": "Fish Audio",
+        "voices": [
+          "rachel",
+          "bella",
+          "domi",
+          "antoni",
+          "josh",
+          "arnold"
+        ]
+      },
+      {
+        "value": "elevenlabs",
+        "label": "ElevenLabs",
+        "voices": [
+          "rachel",
+          "bella",
+          "domi",
+          "antoni",
+          "josh",
+          "arnold"
+        ]
+      },
+      {
+        "value": "minimax",
+        "label": "MiniMax",
+        "voices": [
+          "rachel",
+          "bella"
+        ]
+      }
+    ],
+    "voice_labels": {
+      "rachel": "Rachel — calorosa/emocional",
+      "bella": "Bella — clara/storytelling",
+      "domi": "Domi — confiante",
+      "antoni": "Antoni — profissional",
+      "josh": "Josh — grave/caloroso",
+      "arnold": "Arnold — forte/energético"
+    }
+  },
+  "audio_modes": [
+    {
+      "value": "narration",
+      "label": "Narração"
+    },
+    {
+      "value": "both",
+      "label": "Narração + música"
+    },
+    {
+      "value": "none",
+      "label": "Sem narração"
+    }
+  ],
+  "video_templates": [
+    {
+      "value": "auto",
+      "label": "Auto"
+    },
+    {
+      "value": "data_story",
+      "label": "Data story"
+    },
+    {
+      "value": "explainer",
+      "label": "Explainer"
+    },
+    {
+      "value": "narrativo",
+      "label": "Narrativo"
+    },
+    {
+      "value": "brand_film",
+      "label": "Brand film"
+    },
+    {
+      "value": "report",
+      "label": "Report"
+    },
+    {
+      "value": "gatilhos",
+      "label": "Gatilhos"
+    }
+  ]
+}

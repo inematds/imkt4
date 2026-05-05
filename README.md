@@ -279,6 +279,50 @@ Verificar: `npm run media:status`
 
 ---
 
+## Direção Visual dos Ads — Quem Decide o "Formato"
+
+O visual de cada campanha (paleta, mood, tipografia, estilo fotográfico) é decidido em **duas etapas em cadeia**, sem nenhum parâmetro fixo no payload por padrão:
+
+### 1) Creative Director gera o `visual_direction`
+
+`skills/creative-director/SKILL.md` lê o `research_brief.md` e produz `creative/creative_brief.json` contendo o bloco `visual_direction`:
+
+```json
+"visual_direction": {
+  "mood": "íntimo e caloroso",
+  "dominant_colors": ["#F5C47A", "#FF8C5A", "#0099FF"],
+  "accent_colors": ["#FFD700"],
+  "photography_style": "retratos emocionais, close-ups de mãos...",
+  "typography_mood": "serif elegante com hierarquia clara",
+  "key_visual_metaphor": "abraço como ato de cuidado"
+}
+```
+
+Esse bloco **é o que define o formato visual da campanha**. O agente decide pelo tema — por isso campanhas de temas distintos (ex.: `c0093-seis_chapeus` dark+azul vs. `c0098-dias_das_maes` âmbar+coral) saem com identidades muito diferentes.
+
+### 2) Ad Creative Designer renderiza seguindo o brief
+
+`skills/ad-creative-designer/SKILL.md` lê o `creative_brief.json` e produz `ads/layout.json` + HTML/CSS/PNG. Tem liberdade total na estrutura do JSON e no design — por isso até a **shape do `layout.json`** difere entre campanhas (alguns têm `typography`, outros têm `concept`+`accent_color`, etc.).
+
+### Override manual via cockpit (UI v3.4+)
+
+Quando você precisar **forçar consistência visual entre campanhas** (ex.: lote de 90 vídeos que precisam ter a mesma identidade), o Gerador (`/gerador` no cockpit) tem o accordion **"Direção visual (override do Creative Director)"** com os campos:
+
+| Campo no form | Vai para o payload | Efeito |
+|---|---|---|
+| Layout type | `visual_direction_override.ad_layout_type` | `auto` / `product_focus` / `split` / `lifestyle` |
+| Mood / atmosfera | `visual_direction_override.mood` | sobrescreve o mood escolhido pelo agente |
+| Cores dominantes | `visual_direction_override.dominant_colors` (array) | hex separados por vírgula |
+| Cores de acento | `visual_direction_override.accent_colors` (array) | hex separados por vírgula |
+| Photography style | `visual_direction_override.photography_style` | string longa |
+| Typography mood | `visual_direction_override.typography_mood` | string curta |
+
+Vazio = agente decide. Preenchido = vira chave `visual_direction_override` no payload da campanha.
+
+> ⚠️ **Importante:** o `visual_direction_override` hoje é gravado no payload mas o pipeline ainda **não consome esses campos automaticamente**. Para que o override tenha efeito, é preciso ajustar `skills/creative-director/SKILL.md` para mesclar `payload.visual_direction_override` no `creative_brief.visual_direction` como hard constraint (sobrescrevendo a decisão do agente). Esse hook fica do lado do skill — a UI já entrega os dados prontos no payload.
+
+---
+
 ## Supabase
 
 Usado **apenas como Storage** para hospedar midia das campanhas. Sem tabelas no banco.

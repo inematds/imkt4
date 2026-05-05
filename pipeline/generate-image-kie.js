@@ -132,7 +132,7 @@ function getModelProfile(modelId) {
  * Reads model-specific profile from skills/image-generation/model-profiles.json
  * to adjust prompt style, length, and structure per model.
  */
-function buildImagePrompt(brief, brand, format, index, total, sceneType = '', sceneDescription = '', modelId = DEFAULT_MODEL) {
+function buildImagePrompt(brief, brand, format, index, total, sceneType = '', sceneDescription = '', modelId = DEFAULT_MODEL, hasReferenceImages = false) {
   const profile = getModelProfile(modelId);
   const maxLen = profile.max_length || 490;
 
@@ -157,15 +157,21 @@ function buildImagePrompt(brief, brand, format, index, total, sceneType = '', sc
     ? `Colors: ${brand.colors.slice(0, 2).join(', ')}.`
     : '';
 
+  const refPrefix = hasReferenceImages
+    ? 'Based on the reference image, transform and adapt: '
+    : '';
+
   const parts = [
+    refPrefix,
     profile.style_prefix || '',
     visualScene + '.',
     (profile.mood_keywords !== false) ? mood + '.' : '',
     (profile.orientation_in_prompt !== false) ? orientation + '.' : '',
     colorHint,
+    hasReferenceImages ? 'Maintain core visual elements and color palette from reference.' : '',
     profile.style_suffix || 'No text, no watermark.',
     profile.safety_suffix || 'No weapons, no violence, no nudity.',
-    profile.context_suffix || 'Brazilian professionals, diverse, modern environment.',
+    !hasReferenceImages ? (profile.context_suffix || 'Brazilian professionals, diverse, modern environment.') : '',
   ];
 
   const prompt = parts.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();

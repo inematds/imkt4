@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iMKT3</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark">i3</span>
+          <span>
+            <strong>iMKT3</strong>
+            <small class="brand-version">v3.8.0</small>
+          </span>
+        </div>
+
+        <nav class="nav" aria-label="Navegacao principal">
+          <button class="nav-item is-active" data-view="config">Config</button>
+          <button class="nav-item" data-view="inventory">Campanhas</button>
+          <button class="nav-item" data-view="tools">Servicos</button>
+          <button class="nav-item" data-view="batches">Lotes</button>
+          <button class="nav-item" data-view="generator">Gerador</button>
+          <button class="nav-item" data-view="runs">Monitor</button>
+          <button class="nav-item" data-view="queue">Fila</button>
+        </nav>
+
+        <div class="sidebar-status" id="envCompact"></div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Painel operacional</p>
+            <h1 id="viewTitle">Config</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="button ghost" data-action="refresh">Atualizar</button>
+          </div>
+        </header>
+
+        <section class="metric-grid" id="metrics"></section>
+
+        <section class="view is-active" id="configView"></section>
+        <section class="view" id="inventoryView"></section>
+        <section class="view" id="toolsView"></section>
+        <section class="view" id="batchesView"></section>
+        <section class="view" id="generatorView"></section>
+        <section class="view" id="runsView"></section>
+        <section class="view" id="queueView"></section>
+      </main>
+    </div>
+
+    <dialog class="dialog" id="fileDialog">
+      <div class="dialog-head">
+        <strong id="fileDialogTitle">Arquivo</strong>
+        <button class="icon-button" data-action="close-file" aria-label="Fechar">x</button>
+      </div>
+      <pre id="fileDialogBody"></pre>
+    </dialog>
+
+    <dialog class="dialog run-dialog" id="runDialog">
+      <div class="dialog-head">
+        <div class="run-dialog-title-wrap">
+          <span class="run-dialog-eyebrow">Executar script</span>
+          <strong id="runDialogTitle">—</strong>
+        </div>
+        <button class="icon-button" data-action="close-run-dialog" aria-label="Fechar">x</button>
+      </div>
+      <div class="run-dialog-body" id="runDialogBody"></div>
+    </dialog>
+
+    <dialog class="dialog image-dialog" id="imageDialog">
+      <div class="dialog-head image-dialog-head">
+        <div class="image-dialog-title-wrap">
+          <span class="image-dialog-eyebrow" id="imageDialogGroup">—</span>
+          <strong id="imageDialogName">—</strong>
+          <span class="image-dialog-counter" id="imageDialogCounter">0/0</span>
+        </div>
+        <div class="image-dialog-actions">
+          <a class="icon-button" id="imageDialogDownload" download title="Baixar">↓</a>
+          <button class="icon-button" data-action="close-image" aria-label="Fechar">x</button>
+        </div>
+      </div>
+      <div class="image-dialog-body">
+        <button class="image-nav prev" data-action="image-prev" aria-label="Anterior">‹</button>
+        <img id="imageDialogImg" alt="">
+        <button class="image-nav next" data-action="image-next" aria-label="Próxima">›</button>
+      </div>
+    </dialog>
+
+    <dialog class="dialog params-dialog" id="paramsDialog">
+      <div class="dialog-head">
+        <div class="params-dialog-title-wrap">
+          <span class="params-dialog-eyebrow">Parâmetros utilizados</span>
+          <strong id="paramsDialogTitle">Etapa</strong>
+        </div>
+        <button class="icon-button" data-action="close-params" aria-label="Fechar">x</button>
+      </div>
+      <div class="params-dialog-body" id="paramsDialogBody"></div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

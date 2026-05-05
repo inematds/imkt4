@@ -1,0 +1,745 @@
+
+=== 2026-04-23T07:50:49.354Z node gen-criaprof.js coordenador-escolar ===
+
+[criaprof:coordenador-escolar] 50 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs
+
+── 1/50 ── cena01-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cozy 1980s Brazilian home with a home dining table where parents discuss school challenges, warm afternoon light spillin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena01-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 2/50 ── cena01-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 6 years o...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena01-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 3/50 ── cena02-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian bedroom with a toy school bell and a notebook for "records" sitting on a bedspread, old wooden toy shelf...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena02-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 4/50 ── cena02-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 7 years o...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena02-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 5/50 ── cena03-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian public school classroom with wooden desks, chalkboard with a chalkboard listing the week's school activi...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena03-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 6/50 ── cena03-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 9 years o...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena03-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 7/50 ── cena04-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Warm family living room 1980s with a an old school-administration book on a crochet tablecloth, old TV tube in backgroun...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena04-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 8/50 ── cena04-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 10 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena04-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 9/50 ── cena05-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 1990s brazilian home scene with a classmate having trouble with a teacher conflict, muted afternoon light, familia...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena05-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 10/50 ── cena05-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 12 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena05-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 11/50 ── cena06-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1990s brazilian classroom with a school organizational chart poster on the wall, a notebook open on a wooden desk, after...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena06-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 12/50 ── cena06-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 14 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena06-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 13/50 ── cena07-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian teen bedroom with meeting notes, agenda, colored pens, school calendar, posters on wall, boombox st...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena07-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 14/50 ── cena07-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 16 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena07-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 15/50 ── cena08-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian dining table with a pedagogy and educational management brochure (course catalog, vestibular books)...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena08-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 16/50 ── cena08-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 18 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena08-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 17/50 ── cena09-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s brazilian educational management specialization hallway with bulletin board, backpacks on the floor, natural...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena09-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 18/50 ── cena09-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 20 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena09-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/50 ── cena10-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: University study room with school administration textbooks and labor law books, notebooks piled, coffee cup, clean dayli...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena10-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 20/50 ── cena10-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 22 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena10-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 21/50 ── cena11-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Small small school coordination office with a school coordination office with student files, soft neutral daylight, earl...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena11-ini.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 22/50 ── cena11-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 24 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena11-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 23/50 ── cena12-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s graduation scene, empty graduation cap and diploma on a table, family photograph nearby, soft warm light, ci...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena12-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 24/50 ── cena12-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 26 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena12-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 25/50 ── cena13-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office in 2000s with printed student reports and agenda books on a work surface, warm prof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena13-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 26/50 ── cena13-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 28 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena13-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 27/50 ── cena14-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Well-organized brazilian school coordination office with organized student-file cabinets and a school calendar wall, sof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena14-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 28/50 ── cena14-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 30 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena14-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 29/50 ── cena15-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office set up for a staff meeting, chairs or bed positioned, natural light, cinematic, sha...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena15-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 30/50 ── cena15-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 32 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena15-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 31/50 ── cena16-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office in 2010s with a desktop monitor showing school management software, cables visible,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena16-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 32/50 ── cena16-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 34 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena16-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 33/50 ── cena17-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up on a smartphone running a school-parent communication mobile app next to printed student reports and agenda boo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena17-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 34/50 ── cena17-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 36 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena17-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 35/50 ── cena18-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office with a tripod smartphone set up for school-leadership tip video, ring light visible...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena18-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 36/50 ── cena18-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 38 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena18-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 37/50 ── cena19-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Home office with a laptop showing a video-call remote school council meeting, soft daylight, 2020-era improvised workspa...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena19-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 38/50 ── cena19-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 40 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena19-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 39/50 ── cena20-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a monitor showing a school-wide performance and engagement dashboard, modern clinical/professional UI, teal ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena20-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 40/50 ── cena20-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 42 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena20-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 41/50 ── cena21-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Clean modern screen showing an AI school-analytics assistant with personalized output and progress charts, soft teal UI ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena21-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 42/50 ── cena21-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 44 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena21-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 43/50 ── cena22-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office with a an AI early-dropout detection tool on a laptop subtly integrated into the wo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena22-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 44/50 ── cena22-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 46 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena22-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 45/50 ── cena23-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: brazilian school coordination office with a junior colleague's notebook open, older mentor's hand gesturing to explain, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena23-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 46/50 ── cena23-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured diplomatic presence, about 48 years ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena23-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 47/50 ── cena24-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Bright modern brazilian school coordination office space with equipment and tools in soft out-of-focus background, warm-...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena24-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 48/50 ── cena24-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Heroic cinematic close-up portrait of the same Brazilian man with warm medium skin, short dark hair, calm organized eyes...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena24-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 49/50 ── cena25-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of brazilian school coordination office bathed in golden-hour window light, equipment arranged, sens...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena25-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 50/50 ── cena25-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of the same Brazilian man with warm medium skin, short dark hair, calm organized eyes, measured dipl...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena25-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+
+[criaprof:coordenador-escolar] ✅ 50/50 em 110.2s (fails=0)
+
+=== 2026-04-23T07:52:39.586Z node gen-gertran-nostalgia.js coordenador-escolar ===
+
+[gertran-nostalgia:coordenador-escolar] 20 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs
+
+── 1/20 ── nost01.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of 1980s brazilian school coordinator's desk with paper reports and agenda book, shot on 35mm film, cinematic g...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost01.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 2/20 ── nost02.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage school office with wooden filing cabinets and a school flag on the wall, shot on 35mm film, cinematic grading, w...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost02.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 3/20 ── nost03.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s school office with a desktop computer running school management software, cinematic, shallow depth of field,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost03.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 4/20 ── nost04.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a smartphone showing a school-parent communication app with notifications, cinematic, shallow depth of field...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost04.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 5/20 ── nost05.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a remote school council meeting during 2020s, cinematic, shallow depth of field, natural light, editori...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost05.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 6/20 ── nost06.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern monitor displaying AI school-analytics dashboard with student risk heatmap, neo-noir clinical lighting, soft glas...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost06.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 7/20 ── nost07.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Coordinator reviewing AI early-dropout detection tool on a laptop with warm expression, neo-noir clinical lighting, soft...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost07.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 8/20 ── nost08.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern school coordination office integrating tradition and AI, neo-noir clinical lighting, sof...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost08.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 9/20 ── nost09.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern brazilian school coordination office integrating classic expertise and AI technology, ne...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost09.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 10/20 ── nost10.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian brazilian school coordination office with analog tools and warm afternoon light, shot on 35mm ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost10.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 11/20 ── nost11.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost11.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 12/20 ── nost12.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage printed student reports and agenda books on a wooden surface, 1980s domestic warmth, shot on 35mm film, cinemati...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost12.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 13/20 ── nost13.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s brazilian school coordination office with a desktop computer showing school management software, cinematic, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost13.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/20 ── nost14.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a smartphone running a school-parent communication mobile app next to printed student reports and agenda boo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost14.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/20 ── nost15.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a remote school council meeting session, 2020-era improvised home workspace, cinematic, shallow depth o...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost15.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 16/20 ── nost16.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern monitor showing a school-wide performance and engagement dashboard with teal UI accents, neo-noir clinical lighti...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost16.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 17/20 ── nost17.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of an AI early-dropout detection tool on a laptop running on a tablet, professional hand swiping, neo-noir clin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost17.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 18/20 ── nost18.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern brazilian school coordination office integrating classic expertise and AI technology, ne...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost18.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/20 ── nost19.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian brazilian school coordination office with analog tools and warm afternoon light, shot on 35mm ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost19.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 20/20 ── nost20.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost20.png  (server=2.12s wall=2.2s vram=32.3GB)
+
+[gertran-nostalgia:coordenador-escolar] ✅ 20/20 em 44.1s (fails=0)
+
+=== 2026-04-23T07:53:23.673Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-coordenador-escolar.mp3 Você foi a criança que mediava as brigas do recreio. Estudou gestão, virou coordenador, segurou escolas inteiras. Viu a ficha virar sistema, o bilhete virar app, a reunião virar vídeo. Agora a IA prevê evasão antes de acontecer. Você continua sendo o que enxerga a escola inteira. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-coordenador-escolar.mp3 (voice rachel, 321 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-coordenador-escolar.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T07:53:27.881Z node pipeline/generate-audio.js /tmp/narr/narr-gertran-coordenador-escolar.mp3 Você viu a ficha virar sistema, o bilhete virar app, a reunião virar remota. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-gertran-coordenador-escolar.mp3 (voice rachel, 240 chars)
+✅ Audio saved: /tmp/narr/narr-gertran-coordenador-escolar.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T07:53:31.663Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-coordenador-escolar.mp3 /tmp/narr/whisper-criaprof-coordenador-escolar.json && python3 transcribe-words.py /tmp/narr/narr-gertran-coordenador-escolar.mp3 /tmp/narr/whisper-gertran-coordenador-escolar.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2220 [00:00<?, ?frames/s]100%|██████████| 2220/2220 [00:04<00:00, 457.93frames/s]100%|██████████| 2220/2220 [00:04<00:00, 457.92frames/s]
+[whisper] 53 palavras -> 14 chunks -> /tmp/narr/whisper-criaprof-coordenador-escolar.json
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/1616 [00:00<?, ?frames/s]100%|██████████| 1616/1616 [00:03<00:00, 416.63frames/s]100%|██████████| 1616/1616 [00:03<00:00, 416.61frames/s]
+[whisper] 40 palavras -> 10 chunks -> /tmp/narr/whisper-gertran-coordenador-escolar.json
+
+=== 2026-04-23T07:54:01.008Z node render-criaprof.js coordenador-escolar ===
+[coordenador-escolar] detectou N_SCENES=25
+[coordenador-escolar] 14 captions via whisper (offset +0.8s)
+[coordenador-escolar] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/video/coordenador-escolar-criaprof.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #50:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #51, mp3, from '/tmp/narr/narr-criaprof-coordenador-escolar.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:22.25, start: 0.046042, bitrate: 128 kb/s
+  Stream #51:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> zoompan:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (mp3float) -> atrim:default
+  Stream #51:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xb92f831923e0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xb92f831923e0] profile High, level 3.2, 4:2:0, 8-bit
+[libx264 @ 0xb92f831923e0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/coordenador-escolar_2026-04-23/video/coordenador-escolar-criaprof.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:01.41 bitrate=   0.3kbits/s speed=1.73x    frame=  131 fps= 99 q=26.0 size=    1280kB time=00:00:06.71 bitrate=1562.6kbits/s speed=5.09x    frame=  296 fps=162 q=23.0 size=    3328kB time=00:00:12.21 bitrate=2232.2kbits/s speed=6.67x    frame=  478 fps=205 q=26.0 size=    4864kB time=00:00:18.32 bitrate=2175.0kbits/s speed=7.86x    frame=  662 fps=234 q=26.0 size=    6400kB time=00:00:24.45 bitrate=2144.3kbits/s speed=8.63x    frame=  819 fps=246 q=26.0 size=    7424kB time=00:00:29.67 bitrate=2049.5kbits/s speed= 8.9x    frame=  986 fps=257 q=26.0 size=    8704kB time=00:00:35.27 bitrate=2021.6kbits/s speed=9.19x    frame= 1131 fps=261 q=26.0 size=    9728kB time=00:00:40.10 bitrate=1987.3kbits/s speed=9.24x    [mp4 @ 0xb92f831913e0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb92f83191270] video:10350kB audio:1079kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.430128%
+frame= 1350 fps=263 q=-1.0 Lsize=   11478kB time=00:00:44.97 bitrate=2090.6kbits/s speed=8.76x    
+[libx264 @ 0xb92f831923e0] frame I:33    Avg QP:15.36  size:113455
+[libx264 @ 0xb92f831923e0] frame P:348   Avg QP:19.55  size: 12043
+[libx264 @ 0xb92f831923e0] frame B:969   Avg QP:23.28  size:  2748
+[libx264 @ 0xb92f831923e0] consecutive B-frames:  3.0%  3.9%  0.4% 92.7%
+[libx264 @ 0xb92f831923e0] mb I  I16..4:  7.4% 80.9% 11.6%
+[libx264 @ 0xb92f831923e0] mb P  I16..4:  0.7%  4.4%  0.6%  P16..4: 36.8%  9.2%  4.7%  0.0%  0.0%    skip:43.6%
+[libx264 @ 0xb92f831923e0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 37.2%  0.7%  0.1%  direct: 0.7%  skip:61.2%  L0:55.2% L1:44.2% BI: 0.7%
+[libx264 @ 0xb92f831923e0] 8x8 transform intra:79.5% inter:93.7%
+[libx264 @ 0xb92f831923e0] coded y,uvDC,uvAC intra: 85.6% 82.8% 63.3% inter: 4.2% 8.9% 0.7%
+[libx264 @ 0xb92f831923e0] i16 v,h,dc,p: 37% 13%  3% 47%
+[libx264 @ 0xb92f831923e0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 21% 17%  5%  6%  6%  7%  7%  9%
+[libx264 @ 0xb92f831923e0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 21% 11%  5%  9%  8%  8%  5%  6%
+[libx264 @ 0xb92f831923e0] i8c dc,h,v,p: 40% 26% 26%  9%
+[libx264 @ 0xb92f831923e0] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0xb92f831923e0] ref P L0: 76.6%  8.2%  8.7%  6.5%
+[libx264 @ 0xb92f831923e0] ref B L0: 91.0%  7.7%  1.3%
+[libx264 @ 0xb92f831923e0] ref B L1: 96.4%  3.6%
+[libx264 @ 0xb92f831923e0] kb/s:1884.06
+[aac @ 0xb92f83193d50] Qavg: 552.178
+[coordenador-escolar] ✅ 11.2 MB em 5.6s
+
+=== 2026-04-23T07:54:06.639Z node render-gertran.js coordenador-escolar ===
+[gertran coordenador-escolar] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/coordenador-escolar_2026-04-23/video/gertran-coordenador-escolar-31s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost01.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost02.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost03.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost04.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost05.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost06.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost07.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost08.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost09.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost10.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost11.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost12.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost13.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost14.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost15.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost16.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost17.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost18.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost19.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/coordenador-escolar_2026-04-23/imgs/nost20.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #20, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #20:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #21, mp3, from '/tmp/narr/narr-gertran-coordenador-escolar.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:16.22, start: 0.046042, bitrate: 128 kb/s
+  Stream #21:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> scale:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> scale:default
+  Stream #4:0 (png) -> scale:default
+  Stream #5:0 (png) -> scale:default
+  Stream #6:0 (png) -> scale:default
+  Stream #7:0 (png) -> scale:default
+  Stream #8:0 (png) -> scale:default
+  Stream #9:0 (png) -> scale:default
+  Stream #10:0 (png) -> scale:default
+  Stream #11:0 (png) -> scale:default
+  Stream #12:0 (png) -> scale:default
+  Stream #13:0 (png) -> scale:default
+  Stream #14:0 (png) -> scale:default
+  Stream #15:0 (png) -> scale:default
+  Stream #16:0 (png) -> scale:default
+  Stream #17:0 (png) -> scale:default
+  Stream #18:0 (png) -> scale:default
+  Stream #19:0 (png) -> scale:default
+  Stream #20:0 (mp3float) -> atrim:default
+  Stream #21:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xc10f8bc38270] using SAR=1/1
+[libx264 @ 0xc10f8bc38270] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xc10f8bc38270] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xc10f8bc38270] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/coordenador-escolar_2026-04-23/video/gertran-coordenador-escolar-31s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   35 fps= 28 q=26.0 size=       0kB time=00:00:03.52 bitrate=   0.1kbits/s speed=2.81x    frame=  183 fps=104 q=26.0 size=     768kB time=00:00:08.45 bitrate= 744.4kbits/s speed=4.82x    frame=  326 fps=145 q=26.0 size=    1536kB time=00:00:13.25 bitrate= 949.1kbits/s speed=5.88x    frame=  476 fps=173 q=26.0 size=    2304kB time=00:00:18.22 bitrate=1035.5kbits/s speed=6.61x    frame=  626 fps=189 q=26.0 size=    3072kB time=00:00:23.24 bitrate=1082.7kbits/s speed=7.03x    frame=  776 fps=203 q=26.0 size=    3584kB time=00:00:28.25 bitrate=1039.0kbits/s speed= 7.4x    [mp4 @ 0xc10f8bc37290] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc10f8bc37120] video:3772kB audio:744kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.753720%
+frame=  930 fps=226 q=-1.0 Lsize=    4550kB time=00:00:30.99 bitrate=1202.4kbits/s speed=7.54x    
+[libx264 @ 0xc10f8bc38270] frame I:4     Avg QP:10.58  size:132502
+[libx264 @ 0xc10f8bc38270] frame P:244   Avg QP:13.97  size: 13236
+[libx264 @ 0xc10f8bc38270] frame B:682   Avg QP:12.88  size:   149
+[libx264 @ 0xc10f8bc38270] consecutive B-frames:  0.5%  1.7% 10.0% 87.7%
+[libx264 @ 0xc10f8bc38270] mb I  I16..4: 38.8% 48.5% 12.7%
+[libx264 @ 0xc10f8bc38270] mb P  I16..4:  4.9%  5.1%  0.7%  P16..4:  1.5%  0.2%  0.2%  0.0%  0.0%    skip:87.4%
+[libx264 @ 0xc10f8bc38270] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.5%  0.0%  0.0%  direct: 0.2%  skip:99.3%  L0:30.0% L1:69.3% BI: 0.7%
+[libx264 @ 0xc10f8bc38270] 8x8 transform intra:47.7% inter:77.4%
+[libx264 @ 0xc10f8bc38270] coded y,uvDC,uvAC intra: 41.4% 42.2% 37.8% inter: 0.2% 0.4% 0.0%
+[libx264 @ 0xc10f8bc38270] i16 v,h,dc,p: 89%  6%  1%  4%
+[libx264 @ 0xc10f8bc38270] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 31% 23%  4%  5%  4%  6%  4%  7%
+[libx264 @ 0xc10f8bc38270] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 27% 14%  4%  8%  6%  7%  4%  5%
+[libx264 @ 0xc10f8bc38270] i8c dc,h,v,p: 71% 14% 10%  4%
+[libx264 @ 0xc10f8bc38270] Weighted P-Frames: Y:1.2% UV:0.8%
+[libx264 @ 0xc10f8bc38270] ref P L0: 81.0%  1.6% 16.0%  1.4%  0.0%
+[libx264 @ 0xc10f8bc38270] ref B L0: 71.9% 27.8%  0.3%
+[libx264 @ 0xc10f8bc38270] ref B L1: 94.7%  5.3%
+[libx264 @ 0xc10f8bc38270] kb/s:996.48
+[aac @ 0xc10f8bc39bb0] Qavg: 592.796
+[gertran coordenador-escolar] ✅ 4.4 MB em 4.4s

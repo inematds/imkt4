@@ -61,33 +61,7 @@ Save to `{output_dir}/creative/`:
     "typography_mood": "bold and impactful / elegant and spacious / raw and direct",
     "key_visual_metaphor": "the central visual concept that anchors all imagery"
   },
-  "carousel_structure": {
-    "slide_1": {
-      "tema": "hook",
-      "conceito_visual": "UNIQUE visual description for slide 1 — different scene, angle, subject. English. Max 200 chars.",
-      "mensagem": "key message for this slide"
-    },
-    "slide_2": {
-      "tema": "benefit",
-      "conceito_visual": "UNIQUE visual description for slide 2 — different from slide 1. English.",
-      "mensagem": "key message"
-    },
-    "slide_3": {
-      "tema": "benefit",
-      "conceito_visual": "UNIQUE visual description for slide 3 — different scene/angle.",
-      "mensagem": "key message"
-    },
-    "slide_4": {
-      "tema": "proof",
-      "conceito_visual": "UNIQUE visual description for slide 4 — social proof, community, results.",
-      "mensagem": "key message"
-    },
-    "slide_5": {
-      "tema": "cta",
-      "conceito_visual": "UNIQUE visual description for slide 5 — brand identity, call to action.",
-      "mensagem": "CTA message"
-    }
-  },
+  "narrative_arc": ["hook phrase", "tension phrase", "solution phrase", "proof phrase", "cta phrase"],
   "key_messages": {
     "instagram": ["hook message", "benefit message", "cta message"],
     "youtube": ["narrative hook", "problem-solution arc", "cta"],
@@ -140,5 +114,6 @@ After saving both files, print exactly:
 - The brief must be actionable — a designer reading it knows exactly what to create without asking questions
 - Written in pt-BR (except `conceito_visual` in carousel_structure — MUST be in English for image generation API)
 - Grounded in the research data — cite specific insights that justify the angle choice
-- **carousel_structure is MANDATORY** — each slide must have a UNIQUE `conceito_visual` describing a DIFFERENT visual scene. Never repeat the same description. Think like a photographer planning 5 different shots for a magazine spread.
-- `conceito_visual` must be specific and varied: different subjects, angles, environments, lighting. Example: slide 1 = "executive conducting holographic AI orchestra, low angle, dramatic blue lighting", slide 2 = "close-up hands on tablet, AI workflow visible on screen, warm side lighting", etc.
+- **visual_direction is MANDATORY** — mood, dominant_colors, photography_style, typography_mood, and key_visual_metaphor must all be filled. These guide the Ad Creative Designer who will create the actual image prompts.
+- **narrative_arc is MANDATORY** — 5 phrases that tell the emotional progression of the campaign: hook → tension → solution → proof → CTA. The Ad Creative Designer will expand these into N image prompts.
+- Do NOT create individual slide descriptions or carousel_structure — image prompt creation is the Ad Creative Designer's job.

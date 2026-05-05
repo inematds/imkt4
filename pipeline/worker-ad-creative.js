@@ -21,8 +21,9 @@ function createAdCreativeHandler({
   formatAssetList,
   getImageProvider,
   readBrandContext,
+  resolveImageReference,
 }) {
-  async function generateApiImages(outputDir, projectDir, model = defaultModel, count = 5, formats = ['carousel_1080x1080'], brief = '', useBrandOverlay = true, scenePurposes = [], sceneDescriptions = [], provider = imageProviderName) {
+  async function generateApiImages(outputDir, projectDir, model = defaultModel, count = 5, formats = ['carousel_1080x1080'], brief = '', useBrandOverlay = true, scenePurposes = [], sceneDescriptions = [], provider = imageProviderName, referenceImages = [], forceRegenerate = false) {
     const imageProvider = getImageProvider(provider);
     const genImage = imageProvider.generateImage;
     const absImgsDir = path.resolve(projectRoot, outputDir, 'imgs');
@@ -46,16 +47,30 @@ function createAdCreativeHandler({
     const formatList = [];
     for (let i = 0; i < count; i++) formatList.push(formats[i % formats.length]);
 
+    // When force-regenerating, find highest existing index to continue from
+    const taskPrefix = path.basename(outputDir);
+    let startIndex = 1;
+    if (forceRegenerate && fs.existsSync(absImgsDir)) {
+      const existingIndices = fs.readdirSync(absImgsDir)
+        .map((f) => f.match(new RegExp(`^${taskPrefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}_generated_(\\d+)_`)))
+        .filter(Boolean)
+        .map((m) => parseInt(m[1], 10));
+      if (existingIndices.length > 0) {
+        startIndex = Math.max(...existingIndices) + 1;
+        log(outputDir, 'api_image_gen', `Continuing from index ${startIndex} (${existingIndices.length} existing images kept)`);
+      }
+    }
+
     const allPrompts = [];
     for (let pi = 0; pi < formatList.length; pi++) {
       const fmt = formatList[pi];
       const ratio = formatToRatio[fmt] || '1:1';
-      const taskPrefix = path.basename(outputDir);
-      const filename = `${taskPrefix}_generated_${String(pi + 1).padStart(2, '0')}_${fmt}.jpg`;
+      const idx = startIndex + pi;
+      const filename = `${taskPrefix}_generated_${String(idx).padStart(2, '0')}_${fmt}.jpg`;
       const sceneType = scenePurposes[pi] || defaultSceneOrder[pi % defaultSceneOrder.length];
       const sceneDesc = sceneDescriptions[pi] || '';
-      const prompt = buildImagePrompt(brief, brand, fmt, pi + 1, count, sceneType, sceneDesc, model);
-      allPrompts.push({ index: pi + 1, filename, format: fmt, ratio, sceneType, prompt });
+      const prompt = buildImagePrompt(brief, brand, fmt, pi + 1, count, sceneType, sceneDesc, model, referenceImages.length > 0);
+      allPrompts.push({ index: idx, filename, format: fmt, ratio, sceneType, prompt });
       const promptTxtPath = path.join(absImgsDir, filename.replace(/\.[^.]+$/, '_prompt.txt'));
       fs.writeFileSync(promptTxtPath, prompt);
     }
@@ -63,20 +78,20 @@ function createAdCreativeHandler({
 
     for (const fmt of formatList) {
       const ratio = formatToRatio[fmt] || '1:1';
-      const taskPrefix = path.basename(outputDir);
-      const filename = `${taskPrefix}_generated_${String(imgIndex).padStart(2, '0')}_${fmt}.jpg`;
+      const filename = `${taskPrefix}_generated_${String(imgIndex + startIndex - 1).padStart(2, '0')}_${fmt}.jpg`;
       const outputPath = path.join(absImgsDir, filename);
       const sceneType = scenePurposes[imgIndex - 1] || defaultSceneOrder[(imgIndex - 1) % defaultSceneOrder.length];
 
-      if (fs.existsSync(outputPath)) {
+      if (!forceRegenerate && fs.existsSync(outputPath)) {
         log(outputDir, 'api_image_gen', `Already exists, skipping: ${filename}`);
       } else {
         const prompt = allPrompts[imgIndex - 1].prompt;
-        log(outputDir, 'api_image_gen', `Generating ${imgIndex}/${count}: ${filename} [${sceneType}] (${provider}/${model}, ${ratio})`);
+        const refLabel = referenceImages.length > 0 ? ` refs=${referenceImages.length}` : '';
+        log(outputDir, 'api_image_gen', `Generating ${imgIndex}/${count}: ${filename} [${sceneType}] (${provider}/${model}, ${ratio}${refLabel})`);
         log(outputDir, 'api_image_gen', `Prompt: ${prompt.slice(0, 200)}`);
 
         try {
-          await genImage(outputPath, prompt, model, ratio);
+          await genImage(outputPath, prompt, model, ratio, referenceImages);
           process.stdout.write(`[STAGE2_IMAGE_READY] ${outputDir} ${outputPath}\n`);
         } catch (err) {
           log(outputDir, 'api_image_gen', `Failed image ${imgIndex}: ${err.message}`);
@@ -210,12 +225,32 @@ Each story has one bold key message with large text.`;
       const model = job.data.image_model || providerModule.DEFAULT_MODEL || getEnv('KIE_DEFAULT_MODEL', defaultModel);
       const useBrand = job.data.use_brand_overlay !== false;
 
+      // ── Phase 1: Claude generates visual prompts from the creative brief ──
       let scenePurposes = [];
       let sceneDescriptions = [];
       const briefPath = path.resolve(projectRoot, output_dir, 'creative', 'creative_brief.json');
+      const promptsPath = path.resolve(projectRoot, output_dir, 'imgs', 'visual_prompts.json');
+      const absImgsDir = path.resolve(projectRoot, output_dir, 'imgs');
+      fs.mkdirSync(absImgsDir, { recursive: true });
+
+      // Read brief for context
+      let briefContext = '';
       if (fs.existsSync(briefPath)) {
         try {
           const brief = JSON.parse(fs.readFileSync(briefPath, 'utf-8'));
+          const vd = brief.visual_direction || {};
+          briefContext = [
+            `Campaign angle: ${brief.campaign_angle || ''}`,
+            `Emotional hook: ${brief.emotional_hook || ''}`,
+            `Visual mood: ${vd.mood || ''}`,
+            `Colors: ${(vd.dominant_colors || []).join(', ')}`,
+            `Photography style: ${vd.photography_style || ''}`,
+            `Key visual metaphor: ${vd.key_visual_metaphor || ''}`,
+            `Narrative arc: ${JSON.stringify(brief.narrative_arc || [])}`,
+            brief.avoid ? `Avoid: ${brief.avoid.join(', ')}` : '',
+          ].filter(Boolean).join('\n');
+
+          // Backward compat: if brief still has carousel_structure, use it
           if (brief.carousel_structure) {
             const slideKeys = Object.keys(brief.carousel_structure)
               .filter(k => k.startsWith('slide_'))
@@ -228,37 +263,150 @@ Each story has one bold key message with large text.`;
               return 'solution';
             });
           }
-          if (sceneDescriptions.filter(Boolean).length === 0) {
-            const metaphor = brief.visual_direction?.key_visual_metaphor || '';
-            const mood = brief.visual_direction?.mood || '';
-            const slideTemplates = [
-              { purpose: 'hook', desc: `${metaphor || 'leader commanding technology'}. low angle dramatic shot, strong silhouette, dark futuristic background, blue accent lighting, cinematic wide` },
-              { purpose: 'solution', desc: 'close-up hands on tablet with AI workflow on screen, warm side lighting, shallow depth of field, modern office, professional atmosphere' },
-              { purpose: 'solution', desc: `diverse team collaborating around holographic display, aerial view, ${mood || 'premium dark'} environment, multiple screens, dynamic composition` },
-              { purpose: 'social_proof', desc: 'community gathering in modern auditorium, faces lit by screens, warm golden hour light, sense of belonging, wide shot with depth' },
-              { purpose: 'cta', desc: 'clean minimalist composition, brand logo space, premium dark background with subtle gradient, inviting atmosphere, centered framing' },
-            ];
-
-            sceneDescriptions = [];
-            scenePurposes = [];
-            for (let si = 0; si < image_count; si++) {
-              const tmpl = slideTemplates[si % slideTemplates.length];
-              sceneDescriptions.push(tmpl.desc.slice(0, 250));
-              scenePurposes.push(tmpl.purpose);
-            }
-            log(output_dir, 'ad_creative_designer', `Fallback: generated ${sceneDescriptions.length} varied English descriptions`);
-          }
-          log(output_dir, 'ad_creative_designer', `Creative brief loaded: ${sceneDescriptions.length} visual descriptions`);
         } catch (e) {
           log(output_dir, 'ad_creative_designer', `Could not parse creative_brief.json: ${e.message}`);
         }
       }
 
-      log(output_dir, 'ad_creative_designer', `Generating ${image_count} images via ${providerName} (${model}, brand=${useBrand})...`);
+      // If not enough descriptions from brief, have Claude generate them
+      if (sceneDescriptions.filter(Boolean).length < image_count) {
+
+        // ── Phase 0: Analyze reference image if present ──
+        const refImages = resolveImageReference ? resolveImageReference(project_dir, job.data.image_reference) : [];
+        let refAnalysis = '';
+        if (refImages.length > 0) {
+          log(output_dir, 'ad_creative_designer', `Analyzing reference image: ${path.basename(refImages[0])}...`);
+          const refAnalysisPath = path.resolve(projectRoot, output_dir, 'imgs', 'reference_analysis.json');
+          const analyzePrompt = `You are a visual analyst. Look at the reference image at ${refImages[0]} and describe it in detail.
+
+Read the image file, then save a JSON to ${output_dir}/imgs/reference_analysis.json:
+{
+  "description": "Detailed description of what's in the image: subjects, objects, architecture, characters, creatures, colors, lighting, composition, text/branding visible, mood, style",
+  "key_elements": ["element1", "element2", "element3"],
+  "dominant_colors": ["color1", "color2"],
+  "style": "photorealistic / illustration / 3D render / etc",
+  "brand_elements": "any logos, text, or brand identifiers visible"
+}
+
+Be specific and thorough — this description will be used to guide AI image generation that must maintain visual consistency with this reference.
+After saving, print: [ANALYSIS_DONE]`;
+
+          try {
+            await runClaude(analyzePrompt, 'ref_analysis', output_dir, 60000);
+            if (fs.existsSync(refAnalysisPath)) {
+              const analysis = JSON.parse(fs.readFileSync(refAnalysisPath, 'utf-8'));
+              refAnalysis = [
+                `\nREFERENCE IMAGE ANALYSIS:`,
+                `Description: ${analysis.description || ''}`,
+                `Key elements: ${(analysis.key_elements || []).join(', ')}`,
+                `Colors: ${(analysis.dominant_colors || []).join(', ')}`,
+                `Style: ${analysis.style || ''}`,
+                `Brand elements: ${analysis.brand_elements || 'none'}`,
+              ].join('\n');
+              log(output_dir, 'ad_creative_designer', `Reference analyzed: ${(analysis.key_elements || []).slice(0, 3).join(', ')}`);
+            }
+          } catch (e) {
+            log(output_dir, 'ad_creative_designer', `Reference analysis failed: ${e.message.slice(0, 80)}`);
+          }
+        }
+
+        // ── Phase 1: Claude generates visual prompts ──
+        log(output_dir, 'ad_creative_designer', `Generating ${image_count} visual prompts via Claude...`);
+
+        const refNote = job.data.image_reference_note || '';
+        const hasRef = refImages.length > 0;
+        const refInfo = hasRef
+          ? `\nReference image path: ${refImages[0]}${refNote ? `\nUser note: ${refNote}` : ''}${refAnalysis}`
+          : '';
+
+        const modelBehavior = hasRef
+          ? `\nIMPORTANT — REFERENCE IMAGE MODE:
+The image model (${model}) will receive the reference image alongside each prompt.
+It works like "image-guided generation": the model uses the reference as visual inspiration and transforms/adapts it according to the prompt.
+Your prompts should DESCRIBE TRANSFORMATIONS of the reference, not ignore it:
+- "Transform the golden castle: add [X], change [Y], keep [Z]"
+- "Same architectural style as reference, but now [new scene]"
+- "Maintain the golden tones and dramatic sky from reference, add [element]"
+DO NOT write prompts that completely ignore the reference (e.g. "a person at a desk") — the model will try to merge the reference with the prompt, creating inconsistent results.
+Every prompt must acknowledge and build upon the reference image's core visual elements.`
+          : '';
+
+        const promptGenPrompt = `You are a visual prompt engineer for AI image generation.
+
+Read the creative brief context below and generate exactly ${image_count} image prompts for a marketing carousel campaign.
+
+CREATIVE BRIEF:
+${briefContext}
+
+Campaign brief from user: ${campaign_brief || 'N/A'}${refInfo}${modelBehavior}
+
+RULES:
+- Write ${image_count} prompts in ENGLISH (image models work best in English)
+- Each prompt: 1-3 sentences describing the visual scene, max 300 characters
+- Every prompt must be UNIQUE: different subject, angle, lighting, composition
+- First prompt = hook (dramatic, attention-grabbing)
+- Last prompt = CTA (brand-forward, inviting)
+- Middle prompts = mix of benefits, proof, solution, emotion
+- Include mood, lighting, and composition direction
+- Reference the visual metaphor and brand colors naturally
+- NO text in images — end each prompt with "no text, no words, no watermark"
+- Think like a photographer planning ${image_count} different magazine shots${hasRef ? '\n- Every prompt MUST reference/transform elements from the reference image' : ''}
+
+OUTPUT: Save a JSON file to ${output_dir}/imgs/visual_prompts.json with this exact format:
+[
+  {"purpose": "hook", "prompt": "description..."},
+  {"purpose": "benefit", "prompt": "description..."},
+  ...
+]
+
+After saving, print: [PROMPTS_DONE]`;
+
+        try {
+          await runClaude(promptGenPrompt, 'ad_prompt_gen', output_dir, 120000);
+        } catch (e) {
+          log(output_dir, 'ad_creative_designer', `Claude prompt generation failed: ${e.message.slice(0, 100)}`);
+        }
+
+        // Read generated prompts
+        if (fs.existsSync(promptsPath)) {
+          try {
+            const prompts = JSON.parse(fs.readFileSync(promptsPath, 'utf-8'));
+            if (Array.isArray(prompts) && prompts.length > 0) {
+              sceneDescriptions = prompts.map(p => p.prompt || '');
+              scenePurposes = prompts.map(p => p.purpose || 'solution');
+              log(output_dir, 'ad_creative_designer', `Claude generated ${sceneDescriptions.length} visual prompts`);
+            }
+          } catch (e) {
+            log(output_dir, 'ad_creative_designer', `Could not parse visual_prompts.json: ${e.message}`);
+          }
+        }
+
+        // Final fallback if Claude failed
+        if (sceneDescriptions.filter(Boolean).length === 0) {
+          const fallbackDesc = briefContext.includes('metaphor') ? 'professional cinematic scene' : 'modern tech workspace, dramatic lighting';
+          for (let si = 0; si < image_count; si++) {
+            const purposes = ['hook', 'solution', 'solution', 'social_proof', 'cta'];
+            scenePurposes.push(purposes[si % purposes.length]);
+            sceneDescriptions.push(`${fallbackDesc}, no text, no watermark`);
+          }
+          log(output_dir, 'ad_creative_designer', `Fallback: ${image_count} generic descriptions`);
+        }
+      } else {
+        log(output_dir, 'ad_creative_designer', `Creative brief loaded: ${sceneDescriptions.length} visual descriptions (from carousel_structure)`);
+      }
+
+      // ── Phase 2: Generate images via API ──
+      const refImages = resolveImageReference ? resolveImageReference(project_dir, job.data.image_reference) : [];
+      if (refImages.length > 0) {
+        log(output_dir, 'ad_creative_designer', `Reference images: ${refImages.map((r) => path.basename(r)).join(', ')}`);
+      }
+
+      log(output_dir, 'ad_creative_designer', `Generating ${image_count} images via ${providerName} (${model}, brand=${useBrand}${refImages.length ? `, refs=${refImages.length}` : ''})...`);
       try {
+        const forceRegen = job.data.skip_completed === false;
         apiGeneratedAssets = await generateApiImages(
           output_dir, project_dir, model, image_count, image_formats, campaign_brief, useBrand,
-          scenePurposes, sceneDescriptions, providerName
+          scenePurposes, sceneDescriptions, providerName, refImages, forceRegen
         );
         log(output_dir, 'ad_creative_designer', `Generated ${apiGeneratedAssets.length} images → ${output_dir}/imgs/`);
       } catch (err) {
@@ -304,7 +452,7 @@ STEP 2 — Image source: CSS-only (API generation failed or unavailable)
 - No <img> tags — pure HTML/CSS visual design`;
       }
     } else if (image_source === 'free') {
-      const freeProvider = getFreeImageProvider();
+      const freeProvider = getFreeImageProvider(job.data.free_image_provider);
       if (freeProvider) {
         const authNote = freeProvider.authHeader
           ? `Header: ${freeProvider.authHeader}: ${freeProvider.key}`
@@ -428,12 +576,20 @@ STEP 4 — Save ALL files to ${output_dir}/ads/:
 - All HTML source files
 - All PNG renders (via Playwright)
 
-CRITICAL RENDER: Use Playwright (chromium) to render EVERY HTML to PNG:
+CRITICAL RENDER: Use Playwright (chromium) to render EVERY HTML to PNG.
+MUST wait for ALL <img> tags to fully decode before screenshot (otherwise file:// imgs
+may render as broken-icon placeholders under load — happened in c0097, 10/15 ads broken):
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.setViewportSize({ width: 1080, height: 1080 }); // 1920 for stories
-  await page.goto('file://' + path.resolve(htmlFilePath));
-  await page.waitForTimeout(600); // let CSS animations settle
+  await page.goto('file://' + path.resolve(htmlFilePath), { waitUntil: 'networkidle' });
+  // Wait for every <img> to be fully loaded AND decoded (naturalWidth > 0).
+  await page.evaluate(() => Promise.all(
+    [...document.images].map(img => (img.complete && img.naturalWidth > 0)
+      ? null
+      : new Promise(r => { img.onload = img.onerror = r; }))
+  ));
+  await page.waitForTimeout(200); // small buffer for CSS animations
   await page.screenshot({ path: pngOutputPath });
   await browser.close();
 

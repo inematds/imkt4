@@ -1,0 +1,588 @@
+
+=== 2026-05-03T20:25:30.445Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3 A consultoria financeira mudou. E agora? Você foi a criança que cuidava da mesada. Estudou juros, virou consultor, planejou milhares de vidas. Viu a carta da corretora virar home broker, o boleto virar PIX, a planilha virar dashboard. Agora a IA otimiza portfólio em segundos. Você continua sendo o que explica com paciência. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3 (voice rachel, 366 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3
+Provider: chatterbox-vc
+
+=== 2026-05-03T20:25:37.792Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3 /tmp/narr/whisper-criaprof-cta-prof-consultor-financeiro.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2572 [00:00<?, ?frames/s]100%|██████████| 2572/2572 [00:05<00:00, 468.68frames/s]100%|██████████| 2572/2572 [00:05<00:00, 468.67frames/s]
+[whisper] 60 palavras -> 17 chunks -> /tmp/narr/whisper-criaprof-cta-prof-consultor-financeiro.json
+
+=== 2026-05-03T20:25:53.656Z node render-criaprof-cta-916.js consultor-financeiro prof ===
+[criaprof-cta-916 consultor-financeiro/prof] hook="FINANÇAS" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/consultor-financeiro_2026-05-03/video/consultor-financeiro-cta-prof-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/outputs/c0075-contadores_ia_automacao/audio/freesound_569920_Atmospheric_Ambient_Pad_128bpm_mp3.mp3':
+  Duration: 00:01:07.58, start: 0.025057, bitrate: 182 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 182 kb/s
+    Metadata:
+      encoder         : LAME3.99r
+    Side data:
+      replaygain: track gain - -6.800000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-prof-consultor-financeiro.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:25.78, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xbadc0a8cc1e0] using SAR=1/1
+[libx264 @ 0xbadc0a8cc1e0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xbadc0a8cc1e0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xbadc0a8cc1e0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/consultor-financeiro_2026-05-03/video/consultor-financeiro-cta-prof-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   61 fps= 52 q=26.0 size=       0kB time=00:00:04.38 bitrate=   0.1kbits/s speed=3.72x    frame=  180 fps=107 q=26.0 size=    1024kB time=00:00:08.35 bitrate=1003.6kbits/s speed=4.97x    frame=  325 fps=149 q=26.0 size=    3072kB time=00:00:13.18 bitrate=1908.1kbits/s speed=6.05x    frame=  480 fps=179 q=26.0 size=    4352kB time=00:00:18.36 bitrate=1941.1kbits/s speed=6.85x    frame=  623 fps=196 q=26.0 size=    5376kB time=00:00:23.17 bitrate=1900.5kbits/s speed=7.28x    frame=  766 fps=208 q=26.0 size=    6400kB time=00:00:27.93 bitrate=1876.9kbits/s speed=7.58x    frame=  908 fps=216 q=23.0 size=    7424kB time=00:00:32.64 bitrate=1862.9kbits/s speed=7.78x    [mp4 @ 0xbadc0a8cb270] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xbadc0a8cb100] video:7506kB audio:877kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.484507%
+frame= 1110 fps=232 q=-1.0 Lsize=    8423kB time=00:00:36.98 bitrate=1865.4kbits/s speed=7.74x    
+[libx264 @ 0xbadc0a8cc1e0] frame I:6     Avg QP:11.65  size:126534
+[libx264 @ 0xbadc0a8cc1e0] frame P:280   Avg QP:15.77  size: 17830
+[libx264 @ 0xbadc0a8cc1e0] frame B:824   Avg QP:19.10  size:  2346
+[libx264 @ 0xbadc0a8cc1e0] consecutive B-frames:  0.8%  0.4%  0.8% 98.0%
+[libx264 @ 0xbadc0a8cc1e0] mb I  I16..4: 44.7% 46.7%  8.6%
+[libx264 @ 0xbadc0a8cc1e0] mb P  I16..4:  1.9%  6.9%  1.3%  P16..4: 15.1%  3.4%  2.0%  0.0%  0.0%    skip:69.5%
+[libx264 @ 0xbadc0a8cc1e0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.2%  0.4%  0.0%  direct: 0.3%  skip:81.0%  L0:53.2% L1:46.3% BI: 0.5%
+[libx264 @ 0xbadc0a8cc1e0] 8x8 transform intra:64.6% inter:95.2%
+[libx264 @ 0xbadc0a8cc1e0] coded y,uvDC,uvAC intra: 64.4% 63.9% 42.0% inter: 1.6% 4.1% 0.3%
+[libx264 @ 0xbadc0a8cc1e0] i16 v,h,dc,p: 62% 16%  2% 20%
+[libx264 @ 0xbadc0a8cc1e0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 21% 16%  5%  6%  6%  8%  6%  9%
+[libx264 @ 0xbadc0a8cc1e0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 24% 13%  5%  8%  7%  8%  5%  4%
+[libx264 @ 0xbadc0a8cc1e0] i8c dc,h,v,p: 47% 25% 21%  7%
+[libx264 @ 0xbadc0a8cc1e0] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xbadc0a8cc1e0] ref P L0: 79.9%  7.6%  8.2%  4.3%
+[libx264 @ 0xbadc0a8cc1e0] ref B L0: 91.0%  7.5%  1.5%
+[libx264 @ 0xbadc0a8cc1e0] ref B L1: 95.7%  4.3%
+[libx264 @ 0xbadc0a8cc1e0] kb/s:1661.61
+[aac @ 0xbadc0a8cdb50] Qavg: 2603.830
+[criaprof-cta-916 consultor-financeiro/prof] ✅ 8.2 MB em 5.3s
+
+=== 2026-05-03T20:25:58.981Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3 A sua profissão mudou. E agora? Você foi a criança que cuidava da mesada. Estudou juros, virou consultor, planejou milhares de vidas. Viu a carta da corretora virar home broker, o boleto virar PIX, a planilha virar dashboard. Agora a IA otimiza portfólio em segundos. Você continua sendo o que explica com paciência. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3 (voice rachel, 357 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3
+Provider: chatterbox-vc
+
+=== 2026-05-03T20:26:04.037Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3 /tmp/narr/whisper-criaprof-cta-generic-consultor-financeiro.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2524 [00:00<?, ?frames/s]100%|██████████| 2524/2524 [00:05<00:00, 464.42frames/s]100%|██████████| 2524/2524 [00:05<00:00, 464.41frames/s]
+[whisper] 60 palavras -> 17 chunks -> /tmp/narr/whisper-criaprof-cta-generic-consultor-financeiro.json
+
+=== 2026-05-03T20:26:19.671Z node render-criaprof-cta-916.js consultor-financeiro generic ===
+[criaprof-cta-916 consultor-financeiro/generic] hook="SUA PROFISSÃO" -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/consultor-financeiro_2026-05-03/video/consultor-financeiro-cta-generic-37s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/old/criaprof/consultor-financeiro_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #51, lavfi, from 'color=black:size=1080x1920:rate=30':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #51:0: Video: wrapped_avframe, yuv420p, 1080x1920 [SAR 1:1 DAR 9:16], 30 fps, 30 tbr, 30 tbn
+Input #52, mp3, from '/home/nmaldaner/projetos/timesmkt3/remotion-ad/public/audio/bgm_v1.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:22.05, start: 0.025057, bitrate: 128 kb/s
+  Stream #52:0: Audio: mp3, 44100 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavf
+Input #53, mp3, from '/tmp/narr/narr-criaprof-cta-generic-consultor-financeiro.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:25.30, start: 0.046042, bitrate: 128 kb/s
+  Stream #53:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (wrapped_avframe) -> format:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (png) -> zoompan:default
+  Stream #51:0 (wrapped_avframe) -> format:default
+  Stream #52:0 (mp3float) -> aloop:default
+  Stream #53:0 (mp3float) -> volume:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xb9d9649c04c0] using SAR=1/1
+[libx264 @ 0xb9d9649c04c0] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xb9d9649c04c0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xb9d9649c04c0] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof-cta-916/consultor-financeiro_2026-05-03/video/consultor-financeiro-cta-generic-37s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   54 fps= 44 q=26.0 size=       0kB time=00:00:04.17 bitrate=   0.1kbits/s speed=3.37x    frame=  189 fps=108 q=26.0 size=    1280kB time=00:00:08.66 bitrate=1210.7kbits/s speed=4.97x    frame=  336 fps=150 q=26.0 size=    3072kB time=00:00:13.56 bitrate=1855.9kbits/s speed=6.04x    frame=  490 fps=179 q=26.0 size=    4352kB time=00:00:18.69 bitrate=1907.3kbits/s speed=6.81x    frame=  623 fps=192 q=26.0 size=    5376kB time=00:00:23.15 bitrate=1902.4kbits/s speed=7.13x    frame=  768 fps=205 q=26.0 size=    6400kB time=00:00:27.98 bitrate=1873.8kbits/s speed=7.47x    frame=  913 fps=215 q=26.0 size=    7424kB time=00:00:32.80 bitrate=1853.6kbits/s speed=7.72x    [mp4 @ 0xb9d9649bf550] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb9d9649bf3e0] video:7513kB audio:875kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.484173%
+frame= 1110 fps=229 q=-1.0 Lsize=    8429kB time=00:00:36.98 bitrate=1866.7kbits/s speed=7.63x    
+[libx264 @ 0xb9d9649c04c0] frame I:6     Avg QP:11.68  size:127635
+[libx264 @ 0xb9d9649c04c0] frame P:280   Avg QP:15.64  size: 17828
+[libx264 @ 0xb9d9649c04c0] frame B:824   Avg QP:18.96  size:  2348
+[libx264 @ 0xb9d9649c04c0] consecutive B-frames:  0.8%  0.4%  0.8% 98.0%
+[libx264 @ 0xb9d9649c04c0] mb I  I16..4: 44.5% 46.7%  8.8%
+[libx264 @ 0xb9d9649c04c0] mb P  I16..4:  1.9%  6.9%  1.3%  P16..4: 15.1%  3.4%  2.0%  0.0%  0.0%    skip:69.5%
+[libx264 @ 0xb9d9649c04c0] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 18.2%  0.4%  0.0%  direct: 0.3%  skip:81.0%  L0:53.2% L1:46.3% BI: 0.5%
+[libx264 @ 0xb9d9649c04c0] 8x8 transform intra:64.5% inter:95.2%
+[libx264 @ 0xb9d9649c04c0] coded y,uvDC,uvAC intra: 64.4% 63.9% 42.1% inter: 1.6% 4.1% 0.3%
+[libx264 @ 0xb9d9649c04c0] i16 v,h,dc,p: 62% 16%  2% 20%
+[libx264 @ 0xb9d9649c04c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 21% 16%  5%  6%  6%  8%  6%  9%
+[libx264 @ 0xb9d9649c04c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 24% 13%  5%  8%  7%  8%  5%  5%
+[libx264 @ 0xb9d9649c04c0] i8c dc,h,v,p: 47% 25% 21%  7%
+[libx264 @ 0xb9d9649c04c0] Weighted P-Frames: Y:0.4% UV:0.0%
+[libx264 @ 0xb9d9649c04c0] ref P L0: 79.9%  7.5%  8.2%  4.3%
+[libx264 @ 0xb9d9649c04c0] ref B L0: 91.1%  7.4%  1.5%
+[libx264 @ 0xb9d9649c04c0] ref B L1: 95.7%  4.3%
+[libx264 @ 0xb9d9649c04c0] kb/s:1663.22
+[aac @ 0xb9d9649c1e30] Qavg: 2100.672
+[criaprof-cta-916 consultor-financeiro/generic] ✅ 8.2 MB em 5.3s

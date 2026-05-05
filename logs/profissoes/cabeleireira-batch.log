@@ -1,0 +1,745 @@
+
+=== 2026-04-23T06:31:38.677Z node gen-criaprof.js cabeleireira ===
+
+[criaprof:cabeleireira] 50 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs
+
+── 1/50 ── cena01-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cozy 1980s Brazilian home with a home bathroom mirror where a mother styles her child's hair, warm afternoon light spill...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena01-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 2/50 ── cena01-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 6 ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena01-fim.png  (server=2.14s wall=2.2s vram=32.3GB)
+── 3/50 ── cena02-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian bedroom with a toy hairdresser set with plastic scissors and brushes sitting on a bedspread, old wooden ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena02-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 4/50 ── cena02-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 7 ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena02-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 5/50 ── cena03-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1980s brazilian public school classroom with wooden desks, chalkboard with a chalkboard with drawings of different hairs...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena03-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 6/50 ── cena03-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 9 ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena03-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 7/50 ── cena04-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Warm family living room 1980s with a an old fashion magazine with celebrity hairstyles on a crochet tablecloth, old TV t...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena04-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 8/50 ── cena04-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 10...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena04-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 9/50 ── cena05-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 1990s brazilian home scene with a friend's bad haircut before a school party, muted afternoon light, familiar hous...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena05-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 10/50 ── cena05-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 12...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena05-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 11/50 ── cena06-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: 1990s brazilian classroom with a poster of hair cut styles on the wall, a notebook open on a wooden desk, afternoon sunl...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena06-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 12/50 ── cena06-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 14...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena06-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 13/50 ── cena07-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian teen bedroom with scissors, rollers, hair dryers and magazines, posters on wall, boombox stereo, wa...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena07-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/50 ── cena07-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 16...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena07-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 15/50 ── cena08-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Late 1990s brazilian dining table with a hair-styling technical school pamphlet (course catalog, vestibular books), fami...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena08-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 16/50 ── cena08-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 18...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena08-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 17/50 ── cena09-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s brazilian beauty technical school hallway with bulletin board, backpacks on the floor, natural daylight thro...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena09-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 18/50 ── cena09-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 20...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena09-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 19/50 ── cena10-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: University study room with hair chemistry books and color-theory references, notebooks piled, coffee cup, clean daylight...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena10-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 20/50 ── cena10-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 22...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena10-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 21/50 ── cena11-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Small small neighborhood beauty salon with a salon chair with mirror, scissors, hair dryer, rollers, soft neutral daylig...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena11-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 22/50 ── cena11-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 24...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena11-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 23/50 ── cena12-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s graduation scene, empty graduation cap and diploma on a table, family photograph nearby, soft warm light, ci...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena12-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 24/50 ── cena12-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 26...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena12-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 25/50 ── cena13-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon in 2000s with scissors, combs and hair rollers on a work surface, warm professional ambient lig...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena13-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 26/50 ── cena13-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 28...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena13-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 27/50 ── cena14-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Well-organized warm modern beauty salon with organized station with tools, hair-color swatches and magazines, soft morni...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena14-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 28/50 ── cena14-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 30...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena14-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 29/50 ── cena15-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon set up for a hair service, chairs or bed positioned, natural light, cinematic, shallow depth of...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena15-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 30/50 ── cena15-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 32...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena15-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 31/50 ── cena16-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon in 2010s with a desktop monitor showing salon booking software, cables visible, mix of old and ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena16-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 32/50 ── cena16-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 34...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena16-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 33/50 ── cena17-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up on a smartphone running a client booking and portfolio mobile app next to scissors, combs and hair rollers, war...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena17-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 34/50 ── cena17-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 36...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena17-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 35/50 ── cena18-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon with a tripod smartphone set up for hair-tutorial short video for Instagram, ring light visible...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena18-ini.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 36/50 ── cena18-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 38...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena18-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 37/50 ── cena19-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Home office with a laptop showing a video-call video consultation about a new hair color, soft daylight, 2020-era improv...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena19-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 38/50 ── cena19-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 40...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena19-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 39/50 ── cena20-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a monitor showing a salon client-analytics dashboard, modern clinical/professional UI, teal accents, soft am...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena20-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 40/50 ── cena20-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 42...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena20-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 41/50 ── cena21-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Clean modern screen showing an AI hair-color simulator with personalized output and progress charts, soft teal UI accent...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena21-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 42/50 ── cena21-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 44...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena21-fim.png  (server=2.11s wall=2.2s vram=32.3GB)
+── 43/50 ── cena22-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon with a an AI virtual try-on tool on a salon tablet subtly integrated into the workflow, modern ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena22-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 44/50 ── cena22-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 46...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena22-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 45/50 ── cena23-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: warm modern beauty salon with a junior colleague's notebook open, older mentor's hand gesturing to explain, soft collabo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena23-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 46/50 ── cena23-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, creative warm presence, about 48...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena23-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 47/50 ── cena24-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Bright modern warm modern beauty salon space with equipment and tools in soft out-of-focus background, warm-cool gradien...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena24-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 48/50 ── cena24-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Heroic cinematic close-up portrait of the same Brazilian woman with warm medium skin, stylish short dyed hair, bright ex...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena24-fim.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 49/50 ── cena25-ini.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of warm modern beauty salon bathed in golden-hour window light, equipment arranged, sense of legacy ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena25-ini.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 50/50 ── cena25-fim.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Wide cinematic shot of the same Brazilian woman with warm medium skin, stylish short dyed hair, bright expressive eyes, ...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena25-fim.png  (server=2.13s wall=2.2s vram=32.3GB)
+
+[criaprof:cabeleireira] ✅ 50/50 em 109.8s (fails=0)
+
+=== 2026-04-23T06:33:28.549Z node gen-gertran-nostalgia.js cabeleireira ===
+
+[gertran-nostalgia:cabeleireira] 20 imagens em /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs
+
+── 1/20 ── nost01.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of 1980s brazilian beauty salon with pink hair rollers and bubble hair dryer chair, shot on 35mm film, cinemati...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost01.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 2/20 ── nost02.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage fashion magazine open to a celebrity hairstyles page on a salon counter, shot on 35mm film, cinematic grading, w...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost02.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 3/20 ── nost03.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Old metal scissors and comb on a folded towel in a 1980s salon station, shot on 35mm film, cinematic grading, warm tungs...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost03.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 4/20 ── nost04.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s beauty salon with a desktop computer running booking software, cinematic, shallow depth of field, natural li...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost04.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 5/20 ── nost05.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A smartphone showing Instagram hair tutorials next to styling tools, cinematic, shallow depth of field, natural light, e...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost05.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 6/20 ── nost06.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a video hair-color consultation during 2020s, cinematic, shallow depth of field, natural light, editori...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost06.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 7/20 ── nost07.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern tablet showing AI hair-color simulator with before/after on client photo, neo-noir clinical lighting, soft glassm...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost07.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 8/20 ── nost08.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Hairstylist using AI virtual try-on tool on a tablet with a client by a mirror, neo-noir clinical lighting, soft glassmo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost08.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 9/20 ── nost09.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern beauty salon integrating warm style and AI tools, neo-noir clinical lighting, soft glass...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost09.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 10/20 ── nost10.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian warm modern beauty salon with analog tools and warm afternoon light, shot on 35mm film, cinema...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost10.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 11/20 ── nost11.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost11.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 12/20 ── nost12.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Vintage scissors, combs and hair rollers on a wooden surface, 1980s domestic warmth, shot on 35mm film, cinematic gradin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost12.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 13/20 ── nost13.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Early 2000s warm modern beauty salon with a desktop computer showing salon booking software, cinematic, shallow depth of...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost13.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 14/20 ── nost14.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a smartphone running a client booking and portfolio mobile app next to scissors, combs and hair rollers, cin...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost14.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 15/20 ── nost15.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: A laptop showing a video consultation about a new hair color session, 2020-era improvised home workspace, cinematic, sha...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost15.png  (server=2.13s wall=2.2s vram=32.3GB)
+── 16/20 ── nost16.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Modern monitor showing a salon client-analytics dashboard with teal UI accents, neo-noir clinical lighting, soft glassmo...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost16.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 17/20 ── nost17.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of an AI virtual try-on tool on a salon tablet running on a tablet, professional hand swiping, neo-noir clinica...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost17.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 18/20 ── nost18.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Cinematic wide shot of a modern warm modern beauty salon integrating classic expertise and AI technology, neo-noir clini...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost18.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 19/20 ── nost19.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Nostalgic 1980s brazilian warm modern beauty salon with analog tools and warm afternoon light, shot on 35mm film, cinema...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost19.png  (server=2.12s wall=2.2s vram=32.3GB)
+── 20/20 ── nost20.png
+[inemaimg] model=flux2-klein quality=fast ratio=1:1 (512x512) steps=4
+[inemaimg] prompt: Close-up of a hand-written note from the 1980s with blue ink, shot on 35mm film, cinematic grading, warm tungsten light,...
+[inemaimg] ✅ saved: /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost20.png  (server=2.12s wall=2.2s vram=32.3GB)
+
+[gertran-nostalgia:cabeleireira] ✅ 20/20 em 43.9s (fails=0)
+
+=== 2026-04-23T06:34:12.467Z node pipeline/generate-audio.js /tmp/narr/narr-criaprof-cabeleireira.mp3 Você foi a criança que mudava o cabelo da boneca todo dia. Aprendeu cada tesoura, cada cor, virou cabeleireira. Viu a revista virar Instagram, o corte virar tutorial. Agora a IA simula a cor antes de pintar. Você continua sendo a que escuta o que a cliente realmente quer. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-criaprof-cabeleireira.mp3 (voice rachel, 313 chars)
+✅ Audio saved: /tmp/narr/narr-criaprof-cabeleireira.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T06:34:16.588Z node pipeline/generate-audio.js /tmp/narr/narr-gertran-cabeleireira.mp3 Você viu o catálogo virar Instagram, a cor virar simulada, a cliente virar seguidora. Você se adaptou sempre. Agora chegou a inteligência artificial. E você sabe o que fazer. Você é da geração que transforma. Continue aprendendo no Inema ponto CLUB. bella ===
+  ✅ Chatterbox VC saved: /tmp/narr/narr-gertran-cabeleireira.mp3 (voice rachel, 249 chars)
+✅ Audio saved: /tmp/narr/narr-gertran-cabeleireira.mp3
+Provider: chatterbox-vc
+
+=== 2026-04-23T06:34:22.102Z source /home/nmaldaner/miniconda3/etc/profile.d/conda.sh && conda activate chatterbox && python3 transcribe-words.py /tmp/narr/narr-criaprof-cabeleireira.mp3 /tmp/narr/whisper-criaprof-cabeleireira.json && python3 transcribe-words.py /tmp/narr/narr-gertran-cabeleireira.mp3 /tmp/narr/whisper-gertran-cabeleireira.json ===
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/2112 [00:00<?, ?frames/s]100%|██████████| 2112/2112 [00:04<00:00, 445.40frames/s]100%|██████████| 2112/2112 [00:04<00:00, 445.38frames/s]
+[whisper] 55 palavras -> 14 chunks -> /tmp/narr/whisper-criaprof-cabeleireira.json
+[whisper] device=cuda loading large-v3...
+/home/nmaldaner/miniconda3/envs/chatterbox/lib/python3.11/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+  0%|          | 0/1664 [00:00<?, ?frames/s]100%|██████████| 1664/1664 [00:04<00:00, 403.91frames/s]100%|██████████| 1664/1664 [00:04<00:00, 403.89frames/s]
+[whisper] 40 palavras -> 10 chunks -> /tmp/narr/whisper-gertran-cabeleireira.json
+
+=== 2026-04-23T06:34:53.327Z node render-criaprof.js cabeleireira ===
+[cabeleireira] detectou N_SCENES=25
+[cabeleireira] 14 captions via whisper (offset +0.8s)
+[cabeleireira] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/video/cabeleireira-criaprof.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena01-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena01-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena02-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena02-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena03-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena03-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena04-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena04-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena05-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena05-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena06-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena06-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena07-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena07-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena08-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena08-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena09-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena09-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena10-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena10-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #20, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena11-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #21, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena11-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #22, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena12-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #23, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena12-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #24, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena13-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #25, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena13-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #26, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena14-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #27, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena14-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #28, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena15-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #29, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena15-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #30, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena16-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #31, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena16-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #32, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena17-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #33, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena17-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #34, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena18-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #35, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena18-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #36, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena19-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #37, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena19-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #38, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena20-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #39, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena20-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #40, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena21-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #41, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena21-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #42, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena22-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #43, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena22-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #44, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena23-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #45, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena23-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #46, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena24-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #47, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena24-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #48, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena25-ini.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #49, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/imgs/cena25-fim.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 1 fps, 1 tbr, 1 tbn
+Input #50, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #50:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #51, mp3, from '/tmp/narr/narr-criaprof-cabeleireira.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:21.17, start: 0.046042, bitrate: 128 kb/s
+  Stream #51:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> zoompan:default
+  Stream #1:0 (png) -> zoompan:default
+  Stream #2:0 (png) -> zoompan:default
+  Stream #3:0 (png) -> zoompan:default
+  Stream #4:0 (png) -> zoompan:default
+  Stream #5:0 (png) -> zoompan:default
+  Stream #6:0 (png) -> zoompan:default
+  Stream #7:0 (png) -> zoompan:default
+  Stream #8:0 (png) -> zoompan:default
+  Stream #9:0 (png) -> zoompan:default
+  Stream #10:0 (png) -> zoompan:default
+  Stream #11:0 (png) -> zoompan:default
+  Stream #12:0 (png) -> zoompan:default
+  Stream #13:0 (png) -> zoompan:default
+  Stream #14:0 (png) -> zoompan:default
+  Stream #15:0 (png) -> zoompan:default
+  Stream #16:0 (png) -> zoompan:default
+  Stream #17:0 (png) -> zoompan:default
+  Stream #18:0 (png) -> zoompan:default
+  Stream #19:0 (png) -> zoompan:default
+  Stream #20:0 (png) -> zoompan:default
+  Stream #21:0 (png) -> zoompan:default
+  Stream #22:0 (png) -> zoompan:default
+  Stream #23:0 (png) -> zoompan:default
+  Stream #24:0 (png) -> zoompan:default
+  Stream #25:0 (png) -> zoompan:default
+  Stream #26:0 (png) -> zoompan:default
+  Stream #27:0 (png) -> zoompan:default
+  Stream #28:0 (png) -> zoompan:default
+  Stream #29:0 (png) -> zoompan:default
+  Stream #30:0 (png) -> zoompan:default
+  Stream #31:0 (png) -> zoompan:default
+  Stream #32:0 (png) -> zoompan:default
+  Stream #33:0 (png) -> zoompan:default
+  Stream #34:0 (png) -> zoompan:default
+  Stream #35:0 (png) -> zoompan:default
+  Stream #36:0 (png) -> zoompan:default
+  Stream #37:0 (png) -> zoompan:default
+  Stream #38:0 (png) -> zoompan:default
+  Stream #39:0 (png) -> zoompan:default
+  Stream #40:0 (png) -> zoompan:default
+  Stream #41:0 (png) -> zoompan:default
+  Stream #42:0 (png) -> zoompan:default
+  Stream #43:0 (png) -> zoompan:default
+  Stream #44:0 (png) -> zoompan:default
+  Stream #45:0 (png) -> zoompan:default
+  Stream #46:0 (png) -> zoompan:default
+  Stream #47:0 (png) -> zoompan:default
+  Stream #48:0 (png) -> zoompan:default
+  Stream #49:0 (png) -> zoompan:default
+  Stream #50:0 (mp3float) -> atrim:default
+  Stream #51:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xb84ff0a44b10] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xb84ff0a44b10] profile High, level 3.2, 4:2:0, 8-bit
+[libx264 @ 0xb84ff0a44b10] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/criaprof/cabeleireira_2026-04-23/video/cabeleireira-criaprof.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:01.11 bitrate=   0.3kbits/s speed=1.39x    frame=  114 fps= 88 q=26.0 size=    1280kB time=00:00:06.19 bitrate=1691.4kbits/s speed=4.77x    frame=  289 fps=160 q=26.0 size=    3328kB time=00:00:11.98 bitrate=2275.5kbits/s speed=6.65x    frame=  441 fps=192 q=26.0 size=    4864kB time=00:00:17.06 bitrate=2334.7kbits/s speed=7.42x    frame=  618 fps=219 q=26.0 size=    6144kB time=00:00:22.98 bitrate=2189.5kbits/s speed=8.13x    frame=  784 fps=236 q=26.0 size=    7424kB time=00:00:28.51 bitrate=2132.9kbits/s speed=8.57x    frame=  942 fps=245 q=26.0 size=    8704kB time=00:00:33.78 bitrate=2110.5kbits/s speed=8.78x    frame= 1108 fps=255 q=26.0 size=    9728kB time=00:00:39.31 bitrate=2027.2kbits/s speed=9.04x    frame= 1266 fps=260 q=26.0 size=   11008kB time=00:00:44.58 bitrate=2022.7kbits/s speed=9.17x    [mp4 @ 0xb84ff0a43b20] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb84ff0a439b0] video:10647kB audio:1081kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.419280%
+frame= 1350 fps=259 q=-1.0 Lsize=   11777kB time=00:00:44.97 bitrate=2145.1kbits/s speed=8.62x    
+[libx264 @ 0xb84ff0a44b10] frame I:37    Avg QP:15.50  size:113670
+[libx264 @ 0xb84ff0a44b10] frame P:348   Avg QP:19.77  size: 11456
+[libx264 @ 0xb84ff0a44b10] frame B:965   Avg QP:23.60  size:  2808
+[libx264 @ 0xb84ff0a44b10] consecutive B-frames:  3.2%  4.3%  0.7% 91.9%
+[libx264 @ 0xb84ff0a44b10] mb I  I16..4:  9.1% 77.9% 13.0%
+[libx264 @ 0xb84ff0a44b10] mb P  I16..4:  0.5%  3.6%  0.5%  P16..4: 37.2%  9.4%  4.8%  0.0%  0.0%    skip:44.0%
+[libx264 @ 0xb84ff0a44b10] mb B  I16..4:  0.0%  0.1%  0.0%  B16..8: 37.0%  0.7%  0.1%  direct: 0.9%  skip:61.2%  L0:55.0% L1:44.3% BI: 0.7%
+[libx264 @ 0xb84ff0a44b10] 8x8 transform intra:77.8% inter:94.0%
+[libx264 @ 0xb84ff0a44b10] coded y,uvDC,uvAC intra: 85.1% 82.9% 64.1% inter: 4.1% 9.5% 0.8%
+[libx264 @ 0xb84ff0a44b10] i16 v,h,dc,p: 38% 15%  2% 45%
+[libx264 @ 0xb84ff0a44b10] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 19% 16%  5%  7%  7%  7%  8%  9%
+[libx264 @ 0xb84ff0a44b10] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 20% 11%  5% 10%  8%  8%  6%  5%
+[libx264 @ 0xb84ff0a44b10] i8c dc,h,v,p: 39% 24% 27% 10%
+[libx264 @ 0xb84ff0a44b10] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0xb84ff0a44b10] ref P L0: 76.3%  8.3%  9.0%  6.4%
+[libx264 @ 0xb84ff0a44b10] ref B L0: 90.8%  7.9%  1.2%
+[libx264 @ 0xb84ff0a44b10] ref B L1: 96.7%  3.3%
+[libx264 @ 0xb84ff0a44b10] kb/s:1938.11
+[aac @ 0xb84ff0a46480] Qavg: 551.196
+[cabeleireira] ✅ 11.5 MB em 5.8s
+
+=== 2026-04-23T06:34:59.115Z node render-gertran.js cabeleireira ===
+[gertran cabeleireira] render -> /home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/cabeleireira_2026-04-23/video/gertran-cabeleireira-31s.mp4
+ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/aarch64-linux-gnu --incdir=/usr/include/aarch64-linux-gnu --arch=arm64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+Input #0, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost01.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost02.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #2, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost03.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #3, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost04.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #4, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost05.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #5, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost06.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #6, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost07.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #7, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost08.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #8, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost09.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #9, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost10.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #10, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost11.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #11, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost12.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #12, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost13.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #13, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost14.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #14, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost15.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #15, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost16.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #16, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost17.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #17, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost18.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #18, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost19.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #19, png_pipe, from '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran-nostalgia/cabeleireira_2026-04-23/imgs/nost20.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 512x512, 30 fps, 30 tbr, 30 tbn
+Input #20, mp3, from '/tmp/musica_video/mulheres/freesound_719036_Melancholy_Background_Piano__-_bpm_112_l.mp3':
+  Duration: 00:01:08.60, start: 0.025057, bitrate: 191 kb/s
+  Stream #20:0: Audio: mp3, 44100 Hz, stereo, fltp, 191 kb/s
+    Metadata:
+      encoder         : LAME3.100
+    Side data:
+      replaygain: track gain - -5.600000, track peak - unknown, album gain - unknown, album peak - unknown, 
+Input #21, mp3, from '/tmp/narr/narr-gertran-cabeleireira.mp3':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:16.70, start: 0.046042, bitrate: 128 kb/s
+  Stream #21:0: Audio: mp3, 24000 Hz, mono, fltp, 128 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> scale:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> scale:default
+  Stream #4:0 (png) -> scale:default
+  Stream #5:0 (png) -> scale:default
+  Stream #6:0 (png) -> scale:default
+  Stream #7:0 (png) -> scale:default
+  Stream #8:0 (png) -> scale:default
+  Stream #9:0 (png) -> scale:default
+  Stream #10:0 (png) -> scale:default
+  Stream #11:0 (png) -> scale:default
+  Stream #12:0 (png) -> scale:default
+  Stream #13:0 (png) -> scale:default
+  Stream #14:0 (png) -> scale:default
+  Stream #15:0 (png) -> scale:default
+  Stream #16:0 (png) -> scale:default
+  Stream #17:0 (png) -> scale:default
+  Stream #18:0 (png) -> scale:default
+  Stream #19:0 (png) -> scale:default
+  Stream #20:0 (mp3float) -> atrim:default
+  Stream #21:0 (mp3float) -> adelay:default
+  drawtext:default -> Stream #0:0 (libx264)
+  asetpts:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 0xb93c5b4a0e10] using SAR=1/1
+[libx264 @ 0xb93c5b4a0e10] using cpu capabilities: ARMv8 NEON
+[libx264 @ 0xb93c5b4a0e10] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0xb93c5b4a0e10] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=30 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/nmaldaner/projetos/timesmkt3/prj/inema/videos/gertran/cabeleireira_2026-04-23/video/gertran-cabeleireira-31s.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+frame=    0 fps=0.0 q=0.0 size=       0kB time=N/A bitrate=N/A speed=N/A    frame=   26 fps= 20 q=26.0 size=       0kB time=00:00:03.27 bitrate=   0.1kbits/s speed=2.56x    frame=  168 fps= 94 q=26.0 size=     512kB time=00:00:07.96 bitrate= 526.7kbits/s speed=4.44x    frame=  311 fps=136 q=26.0 size=    1536kB time=00:00:12.72 bitrate= 988.9kbits/s speed=5.54x    frame=  447 fps=160 q=26.0 size=    2048kB time=00:00:17.27 bitrate= 971.2kbits/s speed=6.18x    frame=  590 fps=179 q=26.0 size=    3328kB time=00:00:22.03 bitrate=1237.2kbits/s speed=6.68x    frame=  738 fps=193 q=26.0 size=    3840kB time=00:00:26.98 bitrate=1165.9kbits/s speed=7.06x    [mp4 @ 0xb93c5b49fe80] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xb93c5b49fdb0] video:4296kB audio:741kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.676359%
+frame=  930 fps=218 q=-1.0 Lsize=    5071kB time=00:00:30.99 bitrate=1340.2kbits/s speed=7.28x    
+[libx264 @ 0xb93c5b4a0e10] frame I:4     Avg QP:10.55  size:169460
+[libx264 @ 0xb93c5b4a0e10] frame P:244   Avg QP:14.34  size: 14826
+[libx264 @ 0xb93c5b4a0e10] frame B:682   Avg QP:12.52  size:   151
+[libx264 @ 0xb93c5b4a0e10] consecutive B-frames:  0.5%  2.2%  8.7% 88.6%
+[libx264 @ 0xb93c5b4a0e10] mb I  I16..4: 38.4% 48.0% 13.5%
+[libx264 @ 0xb93c5b4a0e10] mb P  I16..4:  5.6%  4.9%  0.7%  P16..4:  1.7%  0.3%  0.2%  0.0%  0.0%    skip:86.5%
+[libx264 @ 0xb93c5b4a0e10] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.5%  0.0%  0.0%  direct: 0.2%  skip:99.2%  L0:30.2% L1:68.9% BI: 0.9%
+[libx264 @ 0xb93c5b4a0e10] 8x8 transform intra:44.1% inter:80.1%
+[libx264 @ 0xb93c5b4a0e10] coded y,uvDC,uvAC intra: 41.3% 41.2% 36.6% inter: 0.3% 0.5% 0.1%
+[libx264 @ 0xb93c5b4a0e10] i16 v,h,dc,p: 91%  5%  1%  4%
+[libx264 @ 0xb93c5b4a0e10] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 27% 18%  5%  7%  5%  7%  5%  8%
+[libx264 @ 0xb93c5b4a0e10] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 24% 13%  5%  8%  7%  8%  5%  5%
+[libx264 @ 0xb93c5b4a0e10] i8c dc,h,v,p: 73% 13% 10%  5%
+[libx264 @ 0xb93c5b4a0e10] Weighted P-Frames: Y:2.0% UV:2.0%
+[libx264 @ 0xb93c5b4a0e10] ref P L0: 78.0%  1.8% 18.6%  1.6%  0.1%
+[libx264 @ 0xb93c5b4a0e10] ref B L0: 70.8% 29.0%  0.3%
+[libx264 @ 0xb93c5b4a0e10] ref B L1: 95.9%  4.1%
+[libx264 @ 0xb93c5b4a0e10] kb/s:1135.00
+[aac @ 0xb93c5b4a2750] Qavg: 573.033
+[gertran cabeleireira] ✅ 5.0 MB em 4.6s
