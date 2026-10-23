@@ -1,0 +1,36 @@
+# Infra local do imkt4 (recriado em 23/10/2026 a partir dos containers em uso).
+# Senhas ficam no .env (fora do git): IMKT4_POSTGRES_PASSWORD, IMKT4_MINIO_ROOT_PASSWORD.
+# O imkt5 usa este postgres na porta 5432.
+# Antes de atualizar: pg_dumpall + tar do volume do minio + docker tag <img>:pre-update.
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: imkt4
+      POSTGRES_USER: imkt4
+      POSTGRES_PASSWORD: ${IMKT4_POSTGRES_PASSWORD:?defina no .env}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  minio:
+    # minio/minio saiu do Docker Hub; a imagem local é a última publicada + lista de
+    # certificados nova por camada (ver docker/minio-seguranca.Dockerfile).
+    image: minio/minio:latest
+    pull_policy: never
+    restart: unless-stopped
+    command: ["server", "/data", "--console-address", ":9001"]
+    environment:
+      MINIO_ROOT_USER: ${IMKT4_MINIO_ROOT_USER:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${IMKT4_MINIO_ROOT_PASSWORD:?defina no .env}
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+volumes:
+  postgres_data:
+  minio_data:
