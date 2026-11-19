@@ -53,8 +53,6 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 // Piramyd API keys — multiple keys for higher throughput
 const PIRAMYD_KEYS = [
   getEnv('PIRAMYD_API_KEY', ''),
-  'sk-150ad0f5c9ac42eb9928f44039cfc143',
-  'sk-574a5cb6547f4968b6fc435903ca97ac',
 ].filter(Boolean);
 // Remove duplicates
 const uniquePiramydKeys = [...new Set(PIRAMYD_KEYS)];
